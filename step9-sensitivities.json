@@ -1,0 +1,237 @@
+{
+  "rows": [
+    {
+      "driver": "Sales growth",
+      "key": "sales_growth",
+      "range_set": "primary",
+      "change": -0.01,
+      "change_percentage_points": -1.0,
+      "EBIT_change_m": -56.66502399999081,
+      "FCFF_change_m": -61.560435411422986,
+      "value_change_per_share": -1.4460646107216064,
+      "absolute_value_change": 1.4460646107216064,
+      "state_valid": true
+    },
+    {
+      "driver": "Sales growth",
+      "key": "sales_growth",
+      "range_set": "primary",
+      "change": 0.01,
+      "change_percentage_points": 1.0,
+      "EBIT_change_m": 56.66502399998899,
+      "FCFF_change_m": 61.56043541141935,
+      "value_change_per_share": 1.446064610721379,
+      "absolute_value_change": 1.446064610721379,
+      "state_valid": true
+    },
+    {
+      "driver": "Sales growth",
+      "key": "sales_growth",
+      "range_set": "alternative justified asymmetry",
+      "change": -0.02,
+      "change_percentage_points": -2.0,
+      "EBIT_change_m": -113.33004799999435,
+      "FCFF_change_m": -123.1208708228528,
+      "value_change_per_share": -2.892129221443085,
+      "absolute_value_change": 2.892129221443085,
+      "state_valid": true
+    },
+    {
+      "driver": "Sales growth",
+      "key": "sales_growth",
+      "range_set": "alternative justified asymmetry",
+      "change": 0.02,
+      "change_percentage_points": 2.0,
+      "EBIT_change_m": 113.33004799999253,
+      "FCFF_change_m": 123.12087082284961,
+      "value_change_per_share": 2.8921292214429144,
+      "absolute_value_change": 2.8921292214429144,
+      "state_valid": true
+    },
+    {
+      "driver": "Cost / sales",
+      "key": "cost_ex_da_rate",
+      "range_set": "primary",
+      "change": -0.01,
+      "change_percentage_points": -1.0,
+      "EBIT_change_m": 1122.4033600000112,
+      "FCFF_change_m": 849.9430278857244,
+      "value_change_per_share": 1.6910532340179287,
+      "absolute_value_change": 1.6910532340179287,
+      "state_valid": true
+    },
+    {
+      "driver": "Cost / sales",
+      "key": "cost_ex_da_rate",
+      "range_set": "primary",
+      "change": 0.01,
+      "change_percentage_points": 1.0,
+      "EBIT_change_m": -1122.4033599999966,
+      "FCFF_change_m": -849.9430278857114,
+      "value_change_per_share": -1.691053234017943,
+      "absolute_value_change": 1.691053234017943,
+      "state_valid": true
+    },
+    {
+      "driver": "Cost / sales",
+      "key": "cost_ex_da_rate",
+      "range_set": "alternative justified asymmetry",
+      "change": -0.005,
+      "change_percentage_points": -0.5,
+      "EBIT_change_m": 561.2016800000129,
+      "FCFF_change_m": 424.9715139428654,
+      "value_change_per_share": 0.8455266170089715,
+      "absolute_value_change": 0.8455266170089715,
+      "state_valid": true
+    },
+    {
+      "driver": "Cost / sales",
+      "key": "cost_ex_da_rate",
+      "range_set": "alternative justified asymmetry",
+      "change": 0.005,
+      "change_percentage_points": 0.5,
+      "EBIT_change_m": -561.2016799999983,
+      "FCFF_change_m": -424.9715139428581,
+      "value_change_per_share": -0.8455266170089573,
+      "absolute_value_change": 0.8455266170089573,
+      "state_valid": true
+    },
+    {
+      "driver": "SG&A / sales",
+      "key": "sga_rate",
+      "range_set": "primary",
+      "change": -0.005,
+      "change_percentage_points": -0.5,
+      "EBIT_change_m": 561.2016799999983,
+      "FCFF_change_m": 426.5132767999976,
+      "value_change_per_share": 0.845759161754799,
+      "absolute_value_change": 0.845759161754799,
+      "state_valid": true
+    },
+    {
+      "driver": "SG&A / sales",
+      "key": "sga_rate",
+      "range_set": "primary",
+      "change": 0.005,
+      "change_percentage_points": 0.5,
+      "EBIT_change_m": -561.2016800000019,
+      "FCFF_change_m": -426.51327680000213,
+      "value_change_per_share": -0.8457591617548417,
+      "absolute_value_change": 0.8457591617548417,
+      "state_valid": true
+    },
+    {
+      "driver": "SG&A / sales",
+      "key": "sga_rate",
+      "range_set": "alternative justified asymmetry",
+      "change": -0.01,
+      "change_percentage_points": -1.0,
+      "EBIT_change_m": 1122.4033600000002,
+      "FCFF_change_m": 853.0265535999997,
+      "value_change_per_share": 1.6915183235096265,
+      "absolute_value_change": 1.6915183235096265,
+      "state_valid": true
+    },
+    {
+      "driver": "SG&A / sales",
+      "key": "sga_rate",
+      "range_set": "alternative justified asymmetry",
+      "change": 0.01,
+      "change_percentage_points": 1.0,
+      "EBIT_change_m": -1122.4033600000039,
+      "FCFF_change_m": -853.0265536000031,
+      "value_change_per_share": -1.6915183235096407,
+      "absolute_value_change": 1.6915183235096407,
+      "state_valid": true
+    },
+    {
+      "driver": "Capex / sales",
+      "key": "capex_rate",
+      "range_set": "primary",
+      "change": -0.01,
+      "change_percentage_points": -1.0,
+      "EBIT_change_m": 0.0,
+      "FCFF_change_m": 1122.4033600000002,
+      "value_change_per_share": 2.2256820046179655,
+      "absolute_value_change": 2.2256820046179655,
+      "state_valid": true
+    },
+    {
+      "driver": "Capex / sales",
+      "key": "capex_rate",
+      "range_set": "primary",
+      "change": 0.01,
+      "change_percentage_points": 1.0,
+      "EBIT_change_m": 0.0,
+      "FCFF_change_m": -1122.40336,
+      "value_change_per_share": -2.2256820046179655,
+      "absolute_value_change": 2.2256820046179655,
+      "state_valid": true
+    },
+    {
+      "driver": "Capex / sales",
+      "key": "capex_rate",
+      "range_set": "alternative justified asymmetry",
+      "change": -0.005,
+      "change_percentage_points": -0.5,
+      "EBIT_change_m": 0.0,
+      "FCFF_change_m": 561.2016799999992,
+      "value_change_per_share": 1.1128410023089685,
+      "absolute_value_change": 1.1128410023089685,
+      "state_valid": true
+    },
+    {
+      "driver": "Capex / sales",
+      "key": "capex_rate",
+      "range_set": "alternative justified asymmetry",
+      "change": 0.005,
+      "change_percentage_points": 0.5,
+      "EBIT_change_m": 0.0,
+      "FCFF_change_m": -561.2016800000001,
+      "value_change_per_share": -1.1128410023089685,
+      "absolute_value_change": 1.1128410023089685,
+      "state_valid": true
+    }
+  ],
+  "rankings": {
+    "primary": [
+      [
+        "Capex / sales",
+        2.2256820046179655
+      ],
+      [
+        "Cost / sales",
+        1.691053234017943
+      ],
+      [
+        "Sales growth",
+        1.4460646107216064
+      ],
+      [
+        "SG&A / sales",
+        0.8457591617548417
+      ]
+    ],
+    "alternative justified asymmetry": [
+      [
+        "Sales growth",
+        2.892129221443085
+      ],
+      [
+        "SG&A / sales",
+        1.6915183235096407
+      ],
+      [
+        "Capex / sales",
+        1.1128410023089685
+      ],
+      [
+        "Cost / sales",
+        0.8455266170089715
+      ]
+    ]
+  },
+  "ranking_metric": "maximum absolute per-share effect across each symmetric low/high range; depends on economic shock width",
+  "range_basis": "Sales +/-1pp then +/-2pp tests demand uncertainty; merchandise cost +/-1pp then +/-0.5pp tests margin; SG&A +/-0.5pp then +/-1pp tests wage/fulfillment pressure; capex +/-1pp then +/-0.5pp tests investment policy. These are explicit stress assumptions, not statistical intervals.",
+  "interpretation": "Changing relative range widths can change rankings; simply halving every shock is not an independent range-robustness argument."
+}
