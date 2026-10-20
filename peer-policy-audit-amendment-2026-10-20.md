@@ -1,0 +1,13 @@
+# Dated peer-policy implementation amendment - October 20, 2026
+
+The original October 19 peer policy and its preserved original remain unchanged. This amendment is written before retrieving and calculating the peer prices and multiples for this audit. Target's previous standalone P/E and unreconciled EV/EBITDA proxy have already been seen. Walmart and Costco were already classified as contextual candidates; no core-peer promotion is made after seeing prices.
+
+Use **EV/EBIT** for the enterprise comparison instead of an unreconciled EV/EBITDA proxy. EBIT is the consistent reported operating-profit denominator. This avoids asserting that all cash-flow-statement D&A belongs to operating EBITDA. Operating rent remains in EBIT and operating lease liabilities remain excluded from enterprise value for all companies. Finance leases remain in interest-bearing debt once. Show the same price, balance-date, cash, claims and equity-bridge definitions across firms.
+
+Use **P/E** based on TTM net income attributable to common and a reconciled TTM weighted-average diluted share denominator, calculated from annual plus current interim minus corresponding prior interim share-time exposure when those periods are available. Do not add EPS amounts with inconsistent share bases. If only a full-year filing is available by cutoff, retain and disclose the actual earnings period instead of calling it current TTM.
+
+Walmart and Costco are **contextual trading comparisons**, given differences in grocery mix, international exposure, membership income, scale and capital intensity. Their numeric comparisons are evidence about method disagreement and growth/return expectations; they do not create a core Target fair-value range or justify mechanically averaging a peer indication with DCF. Include/exclude rules cannot be changed to obtain a desired result. If a denominator or claim cannot be reconciled, that affected multiple remains unavailable.
+
+Market convention for this audit: provider-reported daily Close for October 19, 2026, on the corresponding split basis, with provider, retrieval date, timestamp, adjustment definition, corporate actions and any source conflict disclosed. This amends the self-imposed requirement for an official auction feed; it is not an assertion of instructor or student approval. The student's price-convention and policy decisions remain pending. Distinguish conditional analysis from acceptance.
+
+All financial statements must have been filed or publicly released by October 19, 2026, at 4:00 p.m. Eastern. Do not use subsequently published results or a current market snapshot. Transaction evidence is used only if the original control/synergy/time requirements are satisfied; a documented exclusion is permitted.
