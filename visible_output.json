@@ -1,0 +1,4848 @@
+{
+  "status": "CONDITIONAL ANALYSIS; watch/defer and conditional policies confirmed; protected validation pending",
+  "as_of": "2026-10-19T16:00:00-04:00",
+  "run_time": "2026-10-20T02:24:42.075724-04:00",
+  "units": "USD millions; shares millions; per-share USD",
+  "material_inputs": {
+    "statements": {
+      "status": "Conditional estimates accepted for use by student; economic estimation risks and protected validation remain",
+      "units": "financial values USD millions; share counts millions; rates decimals; time calendar days",
+      "as_of": "2026-10-19T16:00:00-04:00",
+      "source": "data/historical-reported.json; docs/step-6-model-notes.md",
+      "drivers": {
+        "sales_growth": {
+          "value": [
+            0.04,
+            0.03,
+            0.03,
+            0.025,
+            0.025,
+            0.025
+          ],
+          "unit": "annual growth, 52-week equivalent",
+          "source": "Step 5; FY2028 revised to 52-week-equivalent growth",
+          "status": "provisional"
+        },
+        "cost_ex_da_rate": {
+          "value": [
+            0.716,
+            0.713,
+            0.712,
+            0.711,
+            0.71,
+            0.71
+          ],
+          "unit": "share of sales",
+          "source": "Step 5 assumption",
+          "status": "provisional"
+        },
+        "sga_rate": {
+          "value": [
+            0.206,
+            0.205,
+            0.204,
+            0.203,
+            0.203,
+            0.203
+          ],
+          "unit": "share of sales",
+          "source": "Step 5; FY2025 adjusted 10-K p.33",
+          "status": "provisional"
+        },
+        "capex_rate": {
+          "value": [
+            0.045,
+            0.045,
+            0.04,
+            0.04,
+            0.0375,
+            0.0375
+          ],
+          "unit": "share of sales",
+          "source": "Step 5",
+          "status": "provisional"
+        },
+        "da_rate": {
+          "value": [
+            0.03,
+            0.03,
+            0.03,
+            0.03,
+            0.03,
+            0.03
+          ],
+          "unit": "share of sales",
+          "source": "Step 5; FY2025 cash-flow D&A",
+          "status": "provisional proxy"
+        },
+        "da_in_cost_fraction": {
+          "value": 0.165,
+          "unit": "fraction of total depreciation",
+          "source": "Step 5; difference not verified as allocation",
+          "status": "unverified proxy"
+        },
+        "tax_rate": {
+          "value": 0.24,
+          "unit": "fraction of positive pretax earnings",
+          "source": "Step 5",
+          "status": "provisional; no immediate loss benefit"
+        },
+        "inventory_days": {
+          "value": 61,
+          "unit": "days of annualized cost of sales",
+          "source": "Step 5",
+          "status": "provisional"
+        },
+        "payable_days": {
+          "value": 62,
+          "unit": "days of annualized cost of sales",
+          "source": "Step 5",
+          "status": "provisional"
+        },
+        "other_operating_assets_rate": {
+          "value": 0.015,
+          "unit": "share of 52-week-equivalent sales",
+          "source": "Step 5; classification unresolved",
+          "status": "provisional proxy"
+        },
+        "operating_accruals_rate": {
+          "value": 0.045,
+          "unit": "share of 52-week-equivalent sales",
+          "source": "Step 5; classification unresolved",
+          "status": "provisional proxy"
+        },
+        "elapsed_sales_share_remaining_year": {
+          "value": 0.3936918742295337,
+          "unit": "share of FY2026 sales after reported H1",
+          "source": "Prior FY2025 Q3 sales / H2 sales, scaled 79/91 through quarter; audit-2026-10-20 facts-TGT.json",
+          "status": "seasonal proxy; not current reported interval"
+        },
+        "elapsed_other_flow_share": {
+          "value": 0.4340659340659341,
+          "unit": "share of unreported FY2026 flow after H1",
+          "source": "79 calendar days elapsed out of 182 unreported days; D&A/capex timing proxy",
+          "status": "forecast allocation assumption"
+        },
+        "minimum_cash": {
+          "value": 1000,
+          "unit": "USD millions",
+          "source": "Step 5",
+          "status": "provisional, not established requirement"
+        },
+        "revolver_capacity": {
+          "value": 4000,
+          "unit": "USD millions",
+          "source": "Q2 FY2026 10-Q liquidity; expires August 2031",
+          "status": "limit sourced; actual available capacity at cutoff unverified"
+        },
+        "new_borrowing_rate": {
+          "value": 0.05,
+          "unit": "annual rate on drawn new borrowing only",
+          "source": "Step 5",
+          "status": "provisional"
+        },
+        "quarterly_dividend": {
+          "value": 1.16,
+          "unit": "USD per share per quarter",
+          "source": "September 23 2026 declaration for December; later quarters assumed",
+          "status": "one declared, future continuation provisional"
+        },
+        "other_oca_operating_aug": {
+          "value": 1700,
+          "unit": "USD millions",
+          "source": "Step 6 split of August total; not published breakdown",
+          "status": "estimate"
+        },
+        "operating_accrual_aug": {
+          "value": 4000,
+          "unit": "USD millions",
+          "source": "Step 6 split of August total informed by FY2025 note 15; not August reported detail",
+          "status": "estimate"
+        },
+        "income_tax_payable_aug": {
+          "value": 440,
+          "unit": "USD millions",
+          "source": "FY2025 note 15 held as placeholder for undisclosed August value",
+          "status": "estimate"
+        },
+        "dividend_payable_aug": {
+          "value": 516,
+          "unit": "USD millions",
+          "source": "FY2025 note 15 held as placeholder for undisclosed August value",
+          "status": "estimate"
+        },
+        "interest_payable_aug": {
+          "value": 138,
+          "unit": "USD millions",
+          "source": "FY2025 note 15 held as placeholder for undisclosed August value",
+          "status": "estimate"
+        },
+        "forward_contract_aug": {
+          "value": 25,
+          "unit": "USD millions",
+          "source": "Q2 FY2026 10-Q note 5",
+          "status": "reported fact"
+        }
+      },
+      "maturities_nominal": {
+        "values": [
+          1000,
+          97,
+          581,
+          1000,
+          1230,
+          0
+        ],
+        "unit": "USD millions FY2026 to FY2031",
+        "source": "FY2025 10-K note 17; FY2026 remainder after $1000 April 2026 repayment in Q2 10-Q note 8; maturity timing allocation assumption",
+        "status": "nominal schedule; exact intra-year dates and FY2031 thereafter amount unresolved"
+      },
+      "shares_outstanding": {
+        "value": 454.296736,
+        "unit": "million basic shares",
+        "as_of": "2026-08-21",
+        "source": "Q2 FY2026 10-Q cover, filed August 28",
+        "status": "latest reported cover count; cutoff changes assumed zero, not exact October count"
+      },
+      "cutoff_seasonality": {
+        "inventory_factor": 1.135803564496989,
+        "payables_factor": 1.1280637159662037,
+        "basis": "Prior FY2025 Q2-to-Q3 balance ratios; interpolate 79/91 days into analogous quarter; an estimated seasonal pattern, not observed October balances",
+        "prior_inventory": [
+          12881.0,
+          14896.0
+        ],
+        "prior_payables": [
+          12019.0,
+          13792.0
+        ],
+        "source": "SEC companyfacts, FY2025 Q3 10-Q accession 0000027419-25-000126"
+      },
+      "finance_lease_principal": {
+        "annual_value": 136,
+        "unit": "USD millions",
+        "source": "August current debt 1136 less remaining 1000 bond cohort; recurring annual lease principal approximation, not a contractual schedule",
+        "status": "forecast policy; annual 136 held constant, no new finance leases"
+      }
+    },
+    "valuation": {
+      "status": "Conditional estimates accepted for use by student; economic estimation risks and protected validation remain",
+      "as_of": "2026-10-19T16:00:00-04:00",
+      "risk_free": {
+        "value": 0.0509,
+        "unit": "annual decimal yield",
+        "source_id": "W01",
+        "status": "prior-business-day Treasury par-yield proxy"
+      },
+      "equity_risk_premium": {
+        "value": 0.042,
+        "unit": "annual decimal",
+        "source_id": "W02",
+        "status": "October 1 estimate; cutoff publication time not archived"
+      },
+      "equity_beta": {
+        "value": 0.9008291102522065,
+        "unit": "levered beta",
+        "source_id": "data/audit-2026-10-20/beta-regression.json",
+        "status": "OLS on 260 weekly dividend/split-adjusted returns versus SPY; five-year window through October 16"
+      },
+      "new_debt_cost": {
+        "value": 0.06,
+        "unit": "annual pretax decimal yield",
+        "source_id": "W04",
+        "status": "assumed marginal borrowing cost, not observed yield"
+      },
+      "tax_shield_rate": {
+        "value": 0.24,
+        "unit": "decimal",
+        "source_id": "W05",
+        "status": "provisional full deductibility assumption"
+      },
+      "equity_weight": {
+        "value": 0.8193212209822804,
+        "unit": "fraction",
+        "source_id": "W06",
+        "status": "provider Close times latest reported basic shares; debt carrying-value proxy"
+      },
+      "debt_weight": {
+        "value": 0.18067877901771956,
+        "unit": "fraction",
+        "source_id": "W06",
+        "status": "August total interest-bearing debt including finance leases / proxy capitalization"
+      },
+      "terminal_growth": {
+        "value": 0.02,
+        "unit": "annual decimal",
+        "source_id": "W07",
+        "status": "provisional"
+      },
+      "terminal_incremental_roic": {
+        "value": 0.12,
+        "unit": "after-tax annual return on incremental capital",
+        "source_id": "W08",
+        "status": "provisional; not a measured historical ROIC"
+      },
+      "incremental_dilution": {
+        "value": 2.2,
+        "unit": "million shares",
+        "source_id": "W09",
+        "status": "Q2 EPS weighted-average difference used only as provisional proxy"
+      },
+      "other_claims_and_nonoperating_assets": {
+        "value": -306,
+        "unit": "USD millions",
+        "source_id": "docs/audit-financial-conventions.md",
+        "status": "itemized conditional carrying-value bridge; estimates require student review"
+      },
+      "market_price": {
+        "value": 153.29,
+        "unit": "USD per share",
+        "source_url": "https://query1.finance.yahoo.com/v8/finance/chart/TGT",
+        "definition": "provider-reported daily Close; split basis checked; not official auction verification",
+        "timestamp": "2026-10-19T16:00:00-04:00",
+        "accepted_by_student": true,
+        "calculation_basis": "conditional_provider_close",
+        "status": "Accepted for conditional class-model use under student-approved assumptions; provider daily Close, not official auction verification"
+      },
+      "bridge_claim_items": [
+        {
+          "name": "Company-owned life insurance",
+          "signed_amount": 600,
+          "unit": "USD millions",
+          "source": "https://www.sec.gov/Archives/edgar/data/27419/000002741926000016/tgt-20260131.htm",
+          "locator": "FY2025 10-K Note 13",
+          "classification": "reported historical amount; cutoff carrying estimate",
+          "judgment": "January carrying value used as cutoff estimate; operating forecast excludes its investment returns"
+        },
+        {
+          "name": "Prepaid forward asset",
+          "signed_amount": 25,
+          "unit": "USD millions",
+          "source": "https://www.sec.gov/Archives/edgar/data/27419/000002741926000042/tgt-20260801.htm",
+          "locator": "Q2 FY2026 10-Q Note 5",
+          "classification": "reported historical amount; cutoff carrying estimate",
+          "judgment": "August fair-value asset; financing-linked deferred-compensation hedge"
+        },
+        {
+          "name": "Deferred compensation",
+          "signed_amount": -650,
+          "unit": "USD millions",
+          "source": "https://www.sec.gov/Archives/edgar/data/27419/000002741926000016/tgt-20260131.htm",
+          "locator": "FY2025 10-K Notes 21 and 24",
+          "classification": "reported historical amount; cutoff carrying estimate",
+          "judgment": "January claim estimate; cash settlement of opening earned compensation not separately forecast"
+        },
+        {
+          "name": "Unfunded nonqualified/international pensions",
+          "signed_amount": -37,
+          "unit": "USD millions",
+          "source": "https://www.sec.gov/Archives/edgar/data/27419/000002741926000016/tgt-20260131.htm",
+          "locator": "FY2025 10-K Note 25",
+          "classification": "reported historical amount; cutoff carrying estimate",
+          "judgment": "January shortfall, pretax carrying proxy; full deduction conservative to assumed tax shield"
+        },
+        {
+          "name": "Net interest-rate swap liability",
+          "signed_amount": -106,
+          "unit": "USD millions",
+          "source": "https://www.sec.gov/Archives/edgar/data/27419/000002741926000042/tgt-20260801.htm",
+          "locator": "Q2 FY2026 10-Q Notes 5 and 8",
+          "classification": "reported historical amount; cutoff carrying estimate",
+          "judgment": "August derivative liability separate from carrying debt; no duplicate derivative cash flow in FCFF"
+        },
+        {
+          "name": "Accrued interest",
+          "signed_amount": -138,
+          "unit": "USD millions",
+          "source": "https://www.sec.gov/Archives/edgar/data/27419/000002741926000016/tgt-20260131.htm",
+          "locator": "FY2025 10-K Note 15",
+          "classification": "reported historical amount; cutoff carrying estimate",
+          "judgment": "January estimate for opening accrued financing interest; future interest excluded from FCFF"
+        }
+      ],
+      "bridge_classification_notes": [
+        "Goodwill, PP&E and residual operating assets remain in operating enterprise value; not added again.",
+        "Operating leases remain in EBIT and FCFF; operating lease assets/liabilities are not separately bridged. Finance leases are included in debt once.",
+        "Qualified pension surplus of 231 is not treated as freely distributable excess cash; no separate addition under restricted-surplus convention.",
+        "Operating payables, employee/insurance reserves, deferred occupancy and operating deferred taxes remain embedded in continuing operating economics; not an extra financing deduction.",
+        "Dividends payable are distributions to the same common owners; not an additional non-common claim in this cum-distribution equity value.",
+        "No preferred equity or noncontrolling interest is shown in Target consolidated statements; zero separate claim is an evidenced classification, not an unexplained missing value.",
+        "The bridge is specified under explicit carrying-value/classification assumptions; unreported cutoff balances, award dilution and fair-value differences remain estimation risks.",
+        "Current/noncurrent income-tax accruals are treated as continuing operating tax float under the constant-balance/cash-operating-tax convention. Do not deduct them again as financing debt. A separate 780 immediate-settlement stress can test cessation of that float; it is not the base convention."
+      ]
+    }
+  },
+  "statements": {
+    "status": "PROVISIONAL: arithmetic does not establish evidence quality or approval",
+    "units": "USD millions except days and rates",
+    "valuation_timestamp": "2026-10-19T16:00:00-04:00",
+    "periods": [
+      {
+        "period": "elapsed estimate",
+        "start": "2026-08-02",
+        "end": "2026-10-19",
+        "days": 79,
+        "classification": "elapsed unreported estimate",
+        "income_statement": {
+          "sales": 22436.184958841743,
+          "cost_of_sales_including_allocated_da": 16508.71329311189,
+          "sga": 4394.415156244003,
+          "separate_da": 606.0574243956044,
+          "operating_income": 926.999085090245,
+          "operating_margin": 0.04131714401493777,
+          "interest": 136.9706951398011,
+          "tax": 189.60681358810652,
+          "net_income": 600.4215763623373
+        },
+        "cash_flow_statement": {
+          "net_income": 600.4215763623373,
+          "da_addback": 725.8172747252747,
+          "working_capital_cash_change": 325.4233017026204,
+          "operating_cash_flow": 1651.6621527902325,
+          "capex": -1085.0363516483515,
+          "investing_cash_flow": -1085.0363516483515,
+          "new_borrowing": 0.0,
+          "debt_repayment": -29.435616438356163,
+          "finance_lease_principal": -29.435616438356163,
+          "facility_expiry_repayment": 0,
+          "dividends_paid": -526.98421376,
+          "financing_cash_flow": -556.4198301983562,
+          "cash_change": 10.205970943524903
+        },
+        "balance_sheet": {
+          "cash": 5421.205970943524,
+          "inventory": 15048.261426020608,
+          "op_other_assets": 1671.5981978021978,
+          "other_current_unclassified": 543.0,
+          "forward_contract": 25,
+          "ppe": 35126.21907692307,
+          "lease_asset": 3587.0,
+          "other_noncurrent_asset": 1953.0,
+          "payables": 15010.015804646306,
+          "op_accrual": 4392.267120879121,
+          "tax_payable": 440,
+          "dividend_payable": 516,
+          "interest_payable": 138,
+          "other_accrual_unclassified": 1243.0,
+          "lease_current": 401.0,
+          "lease_noncurrent": 3332.0,
+          "deferred_tax": 2504.0,
+          "other_noncurrent_liabilities": 2155.0,
+          "equity": 17916.437362602337,
+          "retained_earnings": 10963.437362602337,
+          "other_equity": 6953.0,
+          "debt_total": 15327.564383561643,
+          "total_assets": 63375.284671689406,
+          "total_liabilities": 45458.84730908707,
+          "balance_difference": 0.0
+        },
+        "schedules": {
+          "opening_cash": 5411.0,
+          "opening_ppe": 34767.0,
+          "total_da": 725.8172747252747,
+          "da_in_cost": 119.75985032967034,
+          "opening_equity": 17843.0,
+          "opening_debt": 15357.0,
+          "basic_shares_millions": 454.296736,
+          "facility_balance": 0.0,
+          "sales_52_week_equivalent": 108971.2,
+          "minimum_cash_shortfall": 0
+        }
+      },
+      {
+        "period": "FY2026 future stub",
+        "start": "2026-10-20",
+        "end": "2027-01-30",
+        "days": 103,
+        "classification": "future provisional forecast",
+        "income_statement": {
+          "sales": 34553.01504115826,
+          "cost_of_sales_including_allocated_da": 25396.073346888104,
+          "sga": 6767.652043755996,
+          "separate_da": 790.1761356043955,
+          "operating_income": 1599.1135149097624,
+          "operating_margin": 0.046279999386593565,
+          "interest": 174.10753537249013,
+          "tax": 342.0014350889453,
+          "net_income": 1083.004544448327
+        },
+        "cash_flow_statement": {
+          "net_income": 1083.004544448327,
+          "da_addback": 946.3187252747252,
+          "working_capital_cash_change": 802.544529725951,
+          "operating_cash_flow": 2831.867799449003,
+          "capex": -1414.6676483516483,
+          "investing_cash_flow": -1414.6676483516483,
+          "new_borrowing": 0.0,
+          "debt_repayment": -1038.3780821917808,
+          "finance_lease_principal": -38.37808219178082,
+          "facility_expiry_repayment": 0,
+          "dividends_paid": -526.98421376,
+          "financing_cash_flow": -1565.3622959517807,
+          "cash_change": -148.16214485442583
+        },
+        "balance_sheet": {
+          "cash": 5273.043826089097,
+          "inventory": 13165.741717142855,
+          "op_other_assets": 1634.568,
+          "other_current_unclassified": 543.0,
+          "forward_contract": 25,
+          "ppe": 35594.568,
+          "lease_asset": 3587.0,
+          "other_noncurrent_asset": 1953.0,
+          "payables": 13381.573548571427,
+          "op_accrual": 4903.704,
+          "tax_payable": 440,
+          "dividend_payable": 516,
+          "interest_payable": 138,
+          "other_accrual_unclassified": 1243.0,
+          "lease_current": 401.0,
+          "lease_noncurrent": 3332.0,
+          "deferred_tax": 2504.0,
+          "other_noncurrent_liabilities": 2155.0,
+          "equity": 18472.457693290664,
+          "retained_earnings": 11519.457693290664,
+          "other_equity": 6953.0,
+          "debt_total": 14289.186301369864,
+          "total_assets": 61775.921543231954,
+          "total_liabilities": 43303.46384994129,
+          "balance_difference": 0.0
+        },
+        "schedules": {
+          "opening_cash": 5421.205970943524,
+          "opening_ppe": 35126.21907692307,
+          "total_da": 946.3187252747252,
+          "da_in_cost": 156.14258967032967,
+          "opening_equity": 17916.437362602337,
+          "opening_debt": 15327.564383561643,
+          "basic_shares_millions": 454.296736,
+          "facility_balance": 0.0,
+          "sales_52_week_equivalent": 108971.2,
+          "minimum_cash_shortfall": 0
+        }
+      },
+      {
+        "period": "FY2027",
+        "start": "2027-01-31",
+        "end": "2028-01-29",
+        "days": 364,
+        "classification": "future provisional forecast",
+        "income_statement": {
+          "sales": 112240.336,
+          "cost_of_sales_including_allocated_da": 80582.9492312,
+          "sga": 23009.268879999996,
+          "separate_da": 2811.6204168,
+          "operating_income": 5836.497472000006,
+          "operating_margin": 0.05200000000000006,
+          "interest": 595.9591536873709,
+          "tax": 1257.7291963950327,
+          "net_income": 3982.809121917603
+        },
+        "cash_flow_statement": {
+          "net_income": 3982.809121917603,
+          "da_addback": 3367.21008,
+          "working_capital_cash_change": 103.623977228571,
+          "operating_cash_flow": 7453.643179146174,
+          "capex": -5050.815119999999,
+          "investing_cash_flow": -5050.815119999999,
+          "new_borrowing": 0.0,
+          "debt_repayment": -232.62739726027397,
+          "finance_lease_principal": -135.62739726027397,
+          "facility_expiry_repayment": 0,
+          "dividends_paid": -2107.93685504,
+          "financing_cash_flow": -2340.564252300274,
+          "cash_change": 62.26380684590049
+        },
+        "balance_sheet": {
+          "cash": 5335.307632935001,
+          "inventory": 13504.285448085713,
+          "op_other_assets": 1683.60504,
+          "other_current_unclassified": 543.0,
+          "forward_contract": 25,
+          "ppe": 37278.17304,
+          "lease_asset": 3587.0,
+          "other_noncurrent_asset": 1953.0,
+          "payables": 13725.667176742856,
+          "op_accrual": 5050.815119999999,
+          "tax_payable": 440,
+          "dividend_payable": 516,
+          "interest_payable": 138,
+          "other_accrual_unclassified": 1243.0,
+          "lease_current": 401.0,
+          "lease_noncurrent": 3332.0,
+          "deferred_tax": 2504.0,
+          "other_noncurrent_liabilities": 2155.0,
+          "equity": 20347.329960168267,
+          "retained_earnings": 13394.329960168267,
+          "other_equity": 6953.0,
+          "debt_total": 14056.558904109588,
+          "total_assets": 63909.37116102072,
+          "total_liabilities": 43562.04120085244,
+          "balance_difference": 7.275957614183426e-12
+        },
+        "schedules": {
+          "opening_cash": 5273.043826089097,
+          "opening_ppe": 35594.568,
+          "total_da": 3367.21008,
+          "da_in_cost": 555.5896632,
+          "opening_equity": 18472.457693290664,
+          "opening_debt": 14289.186301369864,
+          "basic_shares_millions": 454.296736,
+          "facility_balance": 0.0,
+          "sales_52_week_equivalent": 112240.336,
+          "minimum_cash_shortfall": 0
+        }
+      },
+      {
+        "period": "FY2028",
+        "start": "2028-01-30",
+        "end": "2029-02-03",
+        "days": 371,
+        "classification": "future provisional forecast",
+        "income_statement": {
+          "sales": 117830.76812,
+          "cost_of_sales_including_allocated_da": 84478.76920363399,
+          "sga": 24037.476696479996,
+          "separate_da": 2951.6607414059995,
+          "operating_income": 6362.86147848001,
+          "operating_margin": 0.05400000000000009,
+          "interest": 591.8600037342841,
+          "tax": 1385.0403539389742,
+          "net_income": 4385.961120806752
+        },
+        "cash_flow_statement": {
+          "net_income": 4385.961120806752,
+          "da_addback": 3534.9230436,
+          "working_capital_cash_change": 107.340151111144,
+          "operating_cash_flow": 8028.224315517896,
+          "capex": -4713.2307248,
+          "investing_cash_flow": -4713.2307248,
+          "new_borrowing": 0.0,
+          "debt_repayment": -719.2356164383561,
+          "finance_lease_principal": -138.23561643835617,
+          "facility_expiry_repayment": 0,
+          "dividends_paid": -2107.93685504,
+          "financing_cash_flow": -2827.172471478356,
+          "cash_change": 487.82111923954017
+        },
+        "balance_sheet": {
+          "cash": 5823.12875217454,
+          "inventory": 13890.040219465425,
+          "op_other_assets": 1734.1131911999998,
+          "other_current_unclassified": 543.0,
+          "forward_contract": 25,
+          "ppe": 38456.4807212,
+          "lease_asset": 3587.0,
+          "other_noncurrent_asset": 1953.0,
+          "payables": 14117.745796833711,
+          "op_accrual": 5202.3395736,
+          "tax_payable": 440,
+          "dividend_payable": 516,
+          "interest_payable": 138,
+          "other_accrual_unclassified": 1243.0,
+          "lease_current": 401.0,
+          "lease_noncurrent": 3332.0,
+          "deferred_tax": 2504.0,
+          "other_noncurrent_liabilities": 2155.0,
+          "equity": 22625.354225935018,
+          "retained_earnings": 15672.354225935018,
+          "other_equity": 6953.0,
+          "debt_total": 13337.323287671234,
+          "total_assets": 66011.76288403997,
+          "total_liabilities": 43386.40865810495,
+          "balance_difference": 3.637978807091713e-12
+        },
+        "schedules": {
+          "opening_cash": 5335.307632935001,
+          "opening_ppe": 37278.17304,
+          "total_da": 3534.9230436,
+          "da_in_cost": 583.262302194,
+          "opening_equity": 20347.329960168267,
+          "opening_debt": 14056.558904109588,
+          "basic_shares_millions": 454.296736,
+          "facility_balance": 0.0,
+          "sales_52_week_equivalent": 115607.54608,
+          "minimum_cash_shortfall": 0
+        }
+      },
+      {
+        "period": "FY2029",
+        "start": "2029-02-04",
+        "end": "2030-02-02",
+        "days": 364,
+        "classification": "future provisional forecast",
+        "income_statement": {
+          "sales": 118497.73473199998,
+          "cost_of_sales_including_allocated_da": 84838.45318137539,
+          "sga": 24055.040150596,
+          "separate_da": 2968.3682550365993,
+          "operating_income": 6635.873144991998,
+          "operating_margin": 0.05599999999999999,
+          "interest": 552.368886620379,
+          "tax": 1460.0410220091885,
+          "net_income": 4623.46323636243
+        },
+        "cash_flow_statement": {
+          "net_income": 4623.46323636243,
+          "da_addback": 3554.9320419599994,
+          "working_capital_cash_change": 92.07275576692018,
+          "operating_cash_flow": 8270.468034089348,
+          "capex": -4739.909389279999,
+          "investing_cash_flow": -4739.909389279999,
+          "new_borrowing": 0.0,
+          "debt_repayment": -1135.627397260274,
+          "finance_lease_principal": -135.62739726027397,
+          "facility_expiry_repayment": 0,
+          "dividends_paid": -2107.93685504,
+          "financing_cash_flow": -3243.564252300274,
+          "cash_change": 286.99439250907517
+        },
+        "balance_sheet": {
+          "cash": 6110.1231446836155,
+          "inventory": 14217.433088087633,
+          "op_other_assets": 1777.4660209799997,
+          "other_current_unclassified": 543.0,
+          "forward_contract": 25,
+          "ppe": 39641.458068520005,
+          "lease_asset": 3587.0,
+          "other_noncurrent_asset": 1953.0,
+          "payables": 14450.50576166284,
+          "op_accrual": 5332.398062939999,
+          "tax_payable": 440,
+          "dividend_payable": 516,
+          "interest_payable": 138,
+          "other_accrual_unclassified": 1243.0,
+          "lease_current": 401.0,
+          "lease_noncurrent": 3332.0,
+          "deferred_tax": 2504.0,
+          "other_noncurrent_liabilities": 2155.0,
+          "equity": 25140.880607257448,
+          "retained_earnings": 18187.880607257448,
+          "other_equity": 6953.0,
+          "debt_total": 12201.69589041096,
+          "total_assets": 67854.48032227125,
+          "total_liabilities": 42713.5997150138,
+          "balance_difference": 3.637978807091713e-12
+        },
+        "schedules": {
+          "opening_cash": 5823.12875217454,
+          "opening_ppe": 38456.4807212,
+          "total_da": 3554.9320419599994,
+          "da_in_cost": 586.5637869233999,
+          "opening_equity": 22625.354225935018,
+          "opening_debt": 13337.323287671234,
+          "basic_shares_millions": 454.296736,
+          "facility_balance": 0.0,
+          "sales_52_week_equivalent": 118497.73473199998,
+          "minimum_cash_shortfall": 0
+        }
+      },
+      {
+        "period": "FY2030",
+        "start": "2030-02-03",
+        "end": "2031-02-01",
+        "days": 364,
+        "classification": "future provisional forecast",
+        "income_statement": {
+          "sales": 121460.17810029998,
+          "cost_of_sales_including_allocated_da": 86837.95433280946,
+          "sga": 24656.416154360897,
+          "separate_da": 3042.577461412514,
+          "operating_income": 6923.230151717108,
+          "operating_margin": 0.05700000000000008,
+          "interest": 514.7122430474761,
+          "tax": 1538.0442980807115,
+          "net_income": 4870.473610588921
+        },
+        "cash_flow_statement": {
+          "net_income": 4870.473610588921,
+          "da_addback": 3643.805343008999,
+          "working_capital_cash_change": 94.36643608041231,
+          "operating_cash_flow": 8608.645389678331,
+          "capex": -4554.756678761249,
+          "investing_cash_flow": -4554.756678761249,
+          "new_borrowing": 0.0,
+          "debt_repayment": -1365.627397260274,
+          "finance_lease_principal": -135.62739726027397,
+          "facility_expiry_repayment": 0,
+          "dividends_paid": -2107.93685504,
+          "financing_cash_flow": -3473.564252300274,
+          "cash_change": 580.3244586168089
+        },
+        "balance_sheet": {
+          "cash": 6690.447603300425,
+          "inventory": 14552.514325003782,
+          "op_other_assets": 1821.9026715044995,
+          "other_current_unclassified": 543.0,
+          "forward_contract": 25,
+          "ppe": 40552.40940427225,
+          "lease_asset": 3587.0,
+          "other_noncurrent_asset": 1953.0,
+          "payables": 14791.080133610401,
+          "op_accrual": 5465.708014513499,
+          "tax_payable": 440,
+          "dividend_payable": 516,
+          "interest_payable": 138,
+          "other_accrual_unclassified": 1243.0,
+          "lease_current": 401.0,
+          "lease_noncurrent": 3332.0,
+          "deferred_tax": 2504.0,
+          "other_noncurrent_liabilities": 2155.0,
+          "equity": 27903.41736280637,
+          "retained_earnings": 20950.41736280637,
+          "other_equity": 6953.0,
+          "debt_total": 10836.068493150686,
+          "total_assets": 69725.27400408096,
+          "total_liabilities": 41821.856641274586,
+          "balance_difference": 3.637978807091713e-12
+        },
+        "schedules": {
+          "opening_cash": 6110.1231446836155,
+          "opening_ppe": 39641.458068520005,
+          "total_da": 3643.805343008999,
+          "da_in_cost": 601.2278815964848,
+          "opening_equity": 25140.880607257448,
+          "opening_debt": 12201.69589041096,
+          "basic_shares_millions": 454.296736,
+          "facility_balance": 0.0,
+          "sales_52_week_equivalent": 121460.17810029998,
+          "minimum_cash_shortfall": 0
+        }
+      },
+      {
+        "period": "FY2031",
+        "start": "2031-02-02",
+        "end": "2032-01-31",
+        "days": 364,
+        "classification": "future provisional forecast",
+        "income_statement": {
+          "sales": 124496.68255280747,
+          "cost_of_sales_including_allocated_da": 89008.90319112969,
+          "sga": 25272.826558219916,
+          "separate_da": 3118.6418979478267,
+          "operating_income": 7096.310905510035,
+          "operating_margin": 0.05700000000000007,
+          "interest": 491.5158734471758,
+          "tax": 1585.150807695086,
+          "net_income": 5019.644224367773
+        },
+        "cash_flow_statement": {
+          "net_income": 5019.644224367773,
+          "da_addback": 3734.9004765842237,
+          "working_capital_cash_change": 97.05927879038904,
+          "operating_cash_flow": 8851.603979742385,
+          "capex": -4668.62559573028,
+          "investing_cash_flow": -4668.62559573028,
+          "new_borrowing": 0.0,
+          "debt_repayment": -135.62739726027397,
+          "finance_lease_principal": -135.62739726027397,
+          "facility_expiry_repayment": -0.0,
+          "dividends_paid": -2107.93685504,
+          "financing_cash_flow": -2243.564252300274,
+          "cash_change": 1939.4141317118315
+        },
+        "balance_sheet": {
+          "cash": 8629.861735012259,
+          "inventory": 14916.327183128877,
+          "op_other_assets": 1867.4502382921119,
+          "other_current_unclassified": 543.0,
+          "forward_contract": 25,
+          "ppe": 41486.1345234183,
+          "lease_asset": 3587.0,
+          "other_noncurrent_asset": 1953.0,
+          "payables": 15160.85713695066,
+          "op_accrual": 5602.350714876336,
+          "tax_payable": 440,
+          "dividend_payable": 516,
+          "interest_payable": 138,
+          "other_accrual_unclassified": 1243.0,
+          "lease_current": 401.0,
+          "lease_noncurrent": 3332.0,
+          "deferred_tax": 2504.0,
+          "other_noncurrent_liabilities": 2155.0,
+          "equity": 30815.124732134143,
+          "retained_earnings": 23862.124732134143,
+          "other_equity": 6953.0,
+          "debt_total": 10700.441095890412,
+          "total_assets": 73007.77367985155,
+          "total_liabilities": 42192.648947717404,
+          "balance_difference": 7.275957614183426e-12
+        },
+        "schedules": {
+          "opening_cash": 6690.447603300425,
+          "opening_ppe": 40552.40940427225,
+          "total_da": 3734.9004765842237,
+          "da_in_cost": 616.2585786363969,
+          "opening_equity": 27903.41736280637,
+          "opening_debt": 10836.068493150686,
+          "basic_shares_millions": 454.296736,
+          "facility_balance": 0.0,
+          "sales_52_week_equivalent": 124496.68255280747,
+          "minimum_cash_shortfall": 0
+        }
+      }
+    ],
+    "checks": [
+      {
+        "name": "Input unit definitions",
+        "difference": 0,
+        "tolerance": 0,
+        "status": "pass"
+      },
+      {
+        "name": "August reported balance",
+        "difference": 0.0,
+        "tolerance": 1e-06,
+        "status": "pass"
+      },
+      {
+        "name": "August other assets classification",
+        "difference": 0.0,
+        "tolerance": 1e-06,
+        "status": "pass"
+      },
+      {
+        "name": "August accrual classification",
+        "difference": 0.0,
+        "tolerance": 1e-06,
+        "status": "pass"
+      },
+      {
+        "name": "FY2025 normalization rounded bridge",
+        "difference": -1,
+        "tolerance": 1.0,
+        "status": "pass"
+      },
+      {
+        "name": "Prior 56 historical checks",
+        "difference": 0,
+        "tolerance": 0,
+        "status": "pass"
+      },
+      {
+        "name": "elapsed estimate balance sheet",
+        "difference": 0.0,
+        "tolerance": 1e-06,
+        "status": "pass"
+      },
+      {
+        "name": "elapsed estimate cash movement",
+        "difference": -5.684341886080801e-13,
+        "tolerance": 1e-06,
+        "status": "pass"
+      },
+      {
+        "name": "elapsed estimate PPE roll-forward",
+        "difference": -3.865352482534945e-12,
+        "tolerance": 1e-06,
+        "status": "pass"
+      },
+      {
+        "name": "elapsed estimate debt roll-forward",
+        "difference": -9.379164112033322e-13,
+        "tolerance": 1e-06,
+        "status": "pass"
+      },
+      {
+        "name": "elapsed estimate retained earnings roll-forward",
+        "difference": -2.2737367544323206e-13,
+        "tolerance": 1e-06,
+        "status": "pass"
+      },
+      {
+        "name": "elapsed estimate equity components",
+        "difference": 0.0,
+        "tolerance": 1e-06,
+        "status": "pass"
+      },
+      {
+        "name": "elapsed estimate depreciation allocated once",
+        "difference": -1.8189894035458565e-12,
+        "tolerance": 1e-06,
+        "status": "pass"
+      },
+      {
+        "name": "elapsed estimate asset feasibility",
+        "status": "pass",
+        "difference": 725.8172747252747,
+        "tolerance": 0
+      },
+      {
+        "name": "elapsed estimate funding capacity and minimum cash",
+        "status": "pass",
+        "difference": 4421.205970943524,
+        "tolerance": 1e-06
+      },
+      {
+        "name": "elapsed estimate fiscal period length",
+        "status": "pass",
+        "difference": 79,
+        "tolerance": 0
+      },
+      {
+        "name": "elapsed estimate sales and expense signs",
+        "status": "pass",
+        "difference": 136.9706951398011,
+        "tolerance": 0
+      },
+      {
+        "name": "FY2026 future stub balance sheet",
+        "difference": 0.0,
+        "tolerance": 1e-06,
+        "status": "pass"
+      },
+      {
+        "name": "FY2026 future stub cash movement",
+        "difference": -1.5916157281026244e-12,
+        "tolerance": 1e-06,
+        "status": "pass"
+      },
+      {
+        "name": "FY2026 future stub PPE roll-forward",
+        "difference": 3.410605131648481e-12,
+        "tolerance": 1e-06,
+        "status": "pass"
+      },
+      {
+        "name": "FY2026 future stub debt roll-forward",
+        "difference": 1.8616219676914625e-12,
+        "tolerance": 1e-06,
+        "status": "pass"
+      },
+      {
+        "name": "FY2026 future stub retained earnings roll-forward",
+        "difference": -1.1368683772161603e-13,
+        "tolerance": 1e-06,
+        "status": "pass"
+      },
+      {
+        "name": "FY2026 future stub equity components",
+        "difference": 0.0,
+        "tolerance": 1e-06,
+        "status": "pass"
+      },
+      {
+        "name": "FY2026 future stub depreciation allocated once",
+        "difference": -2.2737367544323206e-13,
+        "tolerance": 1e-06,
+        "status": "pass"
+      },
+      {
+        "name": "FY2026 future stub asset feasibility",
+        "status": "pass",
+        "difference": 946.3187252747252,
+        "tolerance": 0
+      },
+      {
+        "name": "FY2026 future stub funding capacity and minimum cash",
+        "status": "pass",
+        "difference": 4273.043826089097,
+        "tolerance": 1e-06
+      },
+      {
+        "name": "FY2026 future stub fiscal period length",
+        "status": "pass",
+        "difference": 103,
+        "tolerance": 0
+      },
+      {
+        "name": "FY2026 future stub sales and expense signs",
+        "status": "pass",
+        "difference": 174.10753537249013,
+        "tolerance": 0
+      },
+      {
+        "name": "FY2027 balance sheet",
+        "difference": 7.275957614183426e-12,
+        "tolerance": 1e-06,
+        "status": "pass"
+      },
+      {
+        "name": "FY2027 cash movement",
+        "difference": 3.183231456205249e-12,
+        "tolerance": 1e-06,
+        "status": "pass"
+      },
+      {
+        "name": "FY2027 PPE roll-forward",
+        "difference": 2.7284841053187847e-12,
+        "tolerance": 1e-06,
+        "status": "pass"
+      },
+      {
+        "name": "FY2027 debt roll-forward",
+        "difference": -1.7905676941154525e-12,
+        "tolerance": 1e-06,
+        "status": "pass"
+      },
+      {
+        "name": "FY2027 retained earnings roll-forward",
+        "difference": -4.547473508864641e-13,
+        "tolerance": 1e-06,
+        "status": "pass"
+      },
+      {
+        "name": "FY2027 equity components",
+        "difference": 0.0,
+        "tolerance": 1e-06,
+        "status": "pass"
+      },
+      {
+        "name": "FY2027 depreciation allocated once",
+        "difference": -6.821210263296962e-12,
+        "tolerance": 1e-06,
+        "status": "pass"
+      },
+      {
+        "name": "FY2027 asset feasibility",
+        "status": "pass",
+        "difference": 3367.21008,
+        "tolerance": 0
+      },
+      {
+        "name": "FY2027 funding capacity and minimum cash",
+        "status": "pass",
+        "difference": 4335.307632935001,
+        "tolerance": 1e-06
+      },
+      {
+        "name": "FY2027 fiscal period length",
+        "status": "pass",
+        "difference": 364,
+        "tolerance": 0
+      },
+      {
+        "name": "FY2027 sales and expense signs",
+        "status": "pass",
+        "difference": 595.9591536873709,
+        "tolerance": 0
+      },
+      {
+        "name": "FY2028 balance sheet",
+        "difference": 3.637978807091713e-12,
+        "tolerance": 1e-06,
+        "status": "pass"
+      },
+      {
+        "name": "FY2028 cash movement",
+        "difference": -9.094947017729282e-13,
+        "tolerance": 1e-06,
+        "status": "pass"
+      },
+      {
+        "name": "FY2028 PPE roll-forward",
+        "difference": 0.0,
+        "tolerance": 1e-06,
+        "status": "pass"
+      },
+      {
+        "name": "FY2028 debt roll-forward",
+        "difference": 1.6200374375330284e-12,
+        "tolerance": 1e-06,
+        "status": "pass"
+      },
+      {
+        "name": "FY2028 retained earnings roll-forward",
+        "difference": -4.547473508864641e-13,
+        "tolerance": 1e-06,
+        "status": "pass"
+      },
+      {
+        "name": "FY2028 equity components",
+        "difference": 0.0,
+        "tolerance": 1e-06,
+        "status": "pass"
+      },
+      {
+        "name": "FY2028 depreciation allocated once",
+        "difference": -5.9117155615240335e-12,
+        "tolerance": 1e-06,
+        "status": "pass"
+      },
+      {
+        "name": "FY2028 asset feasibility",
+        "status": "pass",
+        "difference": 3534.9230436,
+        "tolerance": 0
+      },
+      {
+        "name": "FY2028 funding capacity and minimum cash",
+        "status": "pass",
+        "difference": 4823.12875217454,
+        "tolerance": 1e-06
+      },
+      {
+        "name": "FY2028 fiscal period length",
+        "status": "pass",
+        "difference": 371,
+        "tolerance": 0
+      },
+      {
+        "name": "FY2028 sales and expense signs",
+        "status": "pass",
+        "difference": 591.8600037342841,
+        "tolerance": 0
+      },
+      {
+        "name": "FY2029 balance sheet",
+        "difference": 3.637978807091713e-12,
+        "tolerance": 1e-06,
+        "status": "pass"
+      },
+      {
+        "name": "FY2029 cash movement",
+        "difference": 4.547473508864641e-13,
+        "tolerance": 1e-06,
+        "status": "pass"
+      },
+      {
+        "name": "FY2029 PPE roll-forward",
+        "difference": 4.092726157978177e-12,
+        "tolerance": 1e-06,
+        "status": "pass"
+      },
+      {
+        "name": "FY2029 debt roll-forward",
+        "difference": 2.842170943040401e-14,
+        "tolerance": 1e-06,
+        "status": "pass"
+      },
+      {
+        "name": "FY2029 retained earnings roll-forward",
+        "difference": 4.547473508864641e-13,
+        "tolerance": 1e-06,
+        "status": "pass"
+      },
+      {
+        "name": "FY2029 equity components",
+        "difference": 0.0,
+        "tolerance": 1e-06,
+        "status": "pass"
+      },
+      {
+        "name": "FY2029 depreciation allocated once",
+        "difference": 5.002220859751105e-12,
+        "tolerance": 1e-06,
+        "status": "pass"
+      },
+      {
+        "name": "FY2029 asset feasibility",
+        "status": "pass",
+        "difference": 3554.9320419599994,
+        "tolerance": 0
+      },
+      {
+        "name": "FY2029 funding capacity and minimum cash",
+        "status": "pass",
+        "difference": 5110.1231446836155,
+        "tolerance": 1e-06
+      },
+      {
+        "name": "FY2029 fiscal period length",
+        "status": "pass",
+        "difference": 364,
+        "tolerance": 0
+      },
+      {
+        "name": "FY2029 sales and expense signs",
+        "status": "pass",
+        "difference": 552.368886620379,
+        "tolerance": 0
+      },
+      {
+        "name": "FY2030 balance sheet",
+        "difference": 3.637978807091713e-12,
+        "tolerance": 1e-06,
+        "status": "pass"
+      },
+      {
+        "name": "FY2030 cash movement",
+        "difference": 4.547473508864641e-13,
+        "tolerance": 1e-06,
+        "status": "pass"
+      },
+      {
+        "name": "FY2030 PPE roll-forward",
+        "difference": -5.002220859751105e-12,
+        "tolerance": 1e-06,
+        "status": "pass"
+      },
+      {
+        "name": "FY2030 debt roll-forward",
+        "difference": 2.842170943040401e-14,
+        "tolerance": 1e-06,
+        "status": "pass"
+      },
+      {
+        "name": "FY2030 retained earnings roll-forward",
+        "difference": 4.547473508864641e-13,
+        "tolerance": 1e-06,
+        "status": "pass"
+      },
+      {
+        "name": "FY2030 equity components",
+        "difference": 0.0,
+        "tolerance": 1e-06,
+        "status": "pass"
+      },
+      {
+        "name": "FY2030 depreciation allocated once",
+        "difference": -3.183231456205249e-12,
+        "tolerance": 1e-06,
+        "status": "pass"
+      },
+      {
+        "name": "FY2030 asset feasibility",
+        "status": "pass",
+        "difference": 3643.805343008999,
+        "tolerance": 0
+      },
+      {
+        "name": "FY2030 funding capacity and minimum cash",
+        "status": "pass",
+        "difference": 5690.447603300425,
+        "tolerance": 1e-06
+      },
+      {
+        "name": "FY2030 fiscal period length",
+        "status": "pass",
+        "difference": 364,
+        "tolerance": 0
+      },
+      {
+        "name": "FY2030 sales and expense signs",
+        "status": "pass",
+        "difference": 514.7122430474761,
+        "tolerance": 0
+      },
+      {
+        "name": "FY2031 balance sheet",
+        "difference": 7.275957614183426e-12,
+        "tolerance": 1e-06,
+        "status": "pass"
+      },
+      {
+        "name": "FY2031 cash movement",
+        "difference": 2.2737367544323206e-12,
+        "tolerance": 1e-06,
+        "status": "pass"
+      },
+      {
+        "name": "FY2031 PPE roll-forward",
+        "difference": -3.637978807091713e-12,
+        "tolerance": 1e-06,
+        "status": "pass"
+      },
+      {
+        "name": "FY2031 debt roll-forward",
+        "difference": 2.842170943040401e-14,
+        "tolerance": 1e-06,
+        "status": "pass"
+      },
+      {
+        "name": "FY2031 retained earnings roll-forward",
+        "difference": 1.3642420526593924e-12,
+        "tolerance": 1e-06,
+        "status": "pass"
+      },
+      {
+        "name": "FY2031 equity components",
+        "difference": 0.0,
+        "tolerance": 1e-06,
+        "status": "pass"
+      },
+      {
+        "name": "FY2031 depreciation allocated once",
+        "difference": -4.547473508864641e-12,
+        "tolerance": 1e-06,
+        "status": "pass"
+      },
+      {
+        "name": "FY2031 asset feasibility",
+        "status": "pass",
+        "difference": 3734.9004765842237,
+        "tolerance": 0
+      },
+      {
+        "name": "FY2031 funding capacity and minimum cash",
+        "status": "pass",
+        "difference": 7629.861735012259,
+        "tolerance": 1e-06
+      },
+      {
+        "name": "FY2031 fiscal period length",
+        "status": "pass",
+        "difference": 364,
+        "tolerance": 0
+      },
+      {
+        "name": "FY2031 sales and expense signs",
+        "status": "pass",
+        "difference": 491.5158734471758,
+        "tolerance": 0
+      }
+    ],
+    "evidence_warnings": [
+      "Market comparison uses a documented provider daily Close conditionally; student convention review is pending.",
+      "August current-balance components are estimated; unclassified remainders held constant.",
+      "August-to-October values are estimated, not reported.",
+      "Depreciation allocation and sales-based proxy are unverified.",
+      "Debt cohorts and maturity timing are approximations; finance-lease principal is a sourced 136 annual proxy; FY2031 bond maturity is an explicit zero assumption, not a reported fact.",
+      "Operating lease balances, tax balances, noncurrent assets and liabilities and unclassified current balances are held constant.",
+      "Repurchases, share compensation, issuance, net other income, impairment and disposal assumed zero for draft, not verified absence.",
+      "Dividend continuation and fixed dividend payable are approximations.",
+      "Student source check and assumption approval remain pending."
+    ]
+  },
+  "valuation": {
+    "status": "CONDITIONAL MODEL ESTIMATE; assumptions accepted for use; protected validation pending",
+    "as_of": "2026-10-19T16:00:00-04:00",
+    "units": "USD millions and million shares; per-share values USD",
+    "valuation_inputs": {
+      "status": "Conditional estimates accepted for use by student; economic estimation risks and protected validation remain",
+      "as_of": "2026-10-19T16:00:00-04:00",
+      "risk_free": {
+        "value": 0.0509,
+        "unit": "annual decimal yield",
+        "source_id": "W01",
+        "status": "prior-business-day Treasury par-yield proxy"
+      },
+      "equity_risk_premium": {
+        "value": 0.042,
+        "unit": "annual decimal",
+        "source_id": "W02",
+        "status": "October 1 estimate; cutoff publication time not archived"
+      },
+      "equity_beta": {
+        "value": 0.9008291102522065,
+        "unit": "levered beta",
+        "source_id": "data/audit-2026-10-20/beta-regression.json",
+        "status": "OLS on 260 weekly dividend/split-adjusted returns versus SPY; five-year window through October 16"
+      },
+      "new_debt_cost": {
+        "value": 0.06,
+        "unit": "annual pretax decimal yield",
+        "source_id": "W04",
+        "status": "assumed marginal borrowing cost, not observed yield"
+      },
+      "tax_shield_rate": {
+        "value": 0.24,
+        "unit": "decimal",
+        "source_id": "W05",
+        "status": "provisional full deductibility assumption"
+      },
+      "equity_weight": {
+        "value": 0.8193212209822804,
+        "unit": "fraction",
+        "source_id": "W06",
+        "status": "provider Close times latest reported basic shares; debt carrying-value proxy"
+      },
+      "debt_weight": {
+        "value": 0.18067877901771956,
+        "unit": "fraction",
+        "source_id": "W06",
+        "status": "August total interest-bearing debt including finance leases / proxy capitalization"
+      },
+      "terminal_growth": {
+        "value": 0.02,
+        "unit": "annual decimal",
+        "source_id": "W07",
+        "status": "provisional"
+      },
+      "terminal_incremental_roic": {
+        "value": 0.12,
+        "unit": "after-tax annual return on incremental capital",
+        "source_id": "W08",
+        "status": "provisional; not a measured historical ROIC"
+      },
+      "incremental_dilution": {
+        "value": 2.2,
+        "unit": "million shares",
+        "source_id": "W09",
+        "status": "Q2 EPS weighted-average difference used only as provisional proxy"
+      },
+      "other_claims_and_nonoperating_assets": {
+        "value": -306,
+        "unit": "USD millions",
+        "source_id": "docs/audit-financial-conventions.md",
+        "status": "itemized conditional carrying-value bridge; estimates require student review"
+      },
+      "market_price": {
+        "value": 153.29,
+        "unit": "USD per share",
+        "source_url": "https://query1.finance.yahoo.com/v8/finance/chart/TGT",
+        "definition": "provider-reported daily Close; split basis checked; not official auction verification",
+        "timestamp": "2026-10-19T16:00:00-04:00",
+        "accepted_by_student": true,
+        "calculation_basis": "conditional_provider_close",
+        "status": "Accepted for conditional class-model use under student-approved assumptions; provider daily Close, not official auction verification"
+      },
+      "bridge_claim_items": [
+        {
+          "name": "Company-owned life insurance",
+          "signed_amount": 600,
+          "unit": "USD millions",
+          "source": "https://www.sec.gov/Archives/edgar/data/27419/000002741926000016/tgt-20260131.htm",
+          "locator": "FY2025 10-K Note 13",
+          "classification": "reported historical amount; cutoff carrying estimate",
+          "judgment": "January carrying value used as cutoff estimate; operating forecast excludes its investment returns"
+        },
+        {
+          "name": "Prepaid forward asset",
+          "signed_amount": 25,
+          "unit": "USD millions",
+          "source": "https://www.sec.gov/Archives/edgar/data/27419/000002741926000042/tgt-20260801.htm",
+          "locator": "Q2 FY2026 10-Q Note 5",
+          "classification": "reported historical amount; cutoff carrying estimate",
+          "judgment": "August fair-value asset; financing-linked deferred-compensation hedge"
+        },
+        {
+          "name": "Deferred compensation",
+          "signed_amount": -650,
+          "unit": "USD millions",
+          "source": "https://www.sec.gov/Archives/edgar/data/27419/000002741926000016/tgt-20260131.htm",
+          "locator": "FY2025 10-K Notes 21 and 24",
+          "classification": "reported historical amount; cutoff carrying estimate",
+          "judgment": "January claim estimate; cash settlement of opening earned compensation not separately forecast"
+        },
+        {
+          "name": "Unfunded nonqualified/international pensions",
+          "signed_amount": -37,
+          "unit": "USD millions",
+          "source": "https://www.sec.gov/Archives/edgar/data/27419/000002741926000016/tgt-20260131.htm",
+          "locator": "FY2025 10-K Note 25",
+          "classification": "reported historical amount; cutoff carrying estimate",
+          "judgment": "January shortfall, pretax carrying proxy; full deduction conservative to assumed tax shield"
+        },
+        {
+          "name": "Net interest-rate swap liability",
+          "signed_amount": -106,
+          "unit": "USD millions",
+          "source": "https://www.sec.gov/Archives/edgar/data/27419/000002741926000042/tgt-20260801.htm",
+          "locator": "Q2 FY2026 10-Q Notes 5 and 8",
+          "classification": "reported historical amount; cutoff carrying estimate",
+          "judgment": "August derivative liability separate from carrying debt; no duplicate derivative cash flow in FCFF"
+        },
+        {
+          "name": "Accrued interest",
+          "signed_amount": -138,
+          "unit": "USD millions",
+          "source": "https://www.sec.gov/Archives/edgar/data/27419/000002741926000016/tgt-20260131.htm",
+          "locator": "FY2025 10-K Note 15",
+          "classification": "reported historical amount; cutoff carrying estimate",
+          "judgment": "January estimate for opening accrued financing interest; future interest excluded from FCFF"
+        }
+      ],
+      "bridge_classification_notes": [
+        "Goodwill, PP&E and residual operating assets remain in operating enterprise value; not added again.",
+        "Operating leases remain in EBIT and FCFF; operating lease assets/liabilities are not separately bridged. Finance leases are included in debt once.",
+        "Qualified pension surplus of 231 is not treated as freely distributable excess cash; no separate addition under restricted-surplus convention.",
+        "Operating payables, employee/insurance reserves, deferred occupancy and operating deferred taxes remain embedded in continuing operating economics; not an extra financing deduction.",
+        "Dividends payable are distributions to the same common owners; not an additional non-common claim in this cum-distribution equity value.",
+        "No preferred equity or noncontrolling interest is shown in Target consolidated statements; zero separate claim is an evidenced classification, not an unexplained missing value.",
+        "The bridge is specified under explicit carrying-value/classification assumptions; unreported cutoff balances, award dilution and fair-value differences remain estimation risks.",
+        "Current/noncurrent income-tax accruals are treated as continuing operating tax float under the constant-balance/cash-operating-tax convention. Do not deduct them again as financing debt. A separate 780 immediate-settlement stress can test cessation of that float; it is not the base convention."
+      ]
+    },
+    "statement_input_reference": "data/model-inputs-step6.json",
+    "wacc_components": {
+      "risk_free": 0.0509,
+      "erp": 0.042,
+      "beta": 0.9008291102522065,
+      "equity_cost": 0.08873482263059268,
+      "debt_cost_pretax": 0.06,
+      "tax_shield_rate": 0.24,
+      "equity_weight": 0.8193212209822804,
+      "debt_weight": 0.18067877901771956,
+      "wacc": 0.0809412755445513
+    },
+    "scenarios": {
+      "low": {
+        "input_changes_from_base": {
+          "FY2027_FY2031_sales_growth_shift": -0.01,
+          "FY2027_FY2031_cost_rate_shift": 0.008,
+          "FY2027_FY2031_sga_rate_shift": 0.003,
+          "FY2027_FY2031_capex_rate_shift": 0,
+          "common_cutoff_and_FY2026_stub": true
+        },
+        "fcff": [
+          {
+            "period": "FY2026 future stub",
+            "period_end": "2027-01-30",
+            "ebit": 1599.1135149097624,
+            "operating_tax": 383.78724357834295,
+            "nopat": 1215.3262713314195,
+            "total_da": 946.3187252747252,
+            "capex": 1414.6676483516483,
+            "increase_operating_working_capital": -802.544529725951,
+            "fcff": 1549.5218779804472,
+            "cash_flow_statement_reconciliation": 1549.5218779804475,
+            "reconciliation_difference": -2.2737367544323206e-13
+          },
+          {
+            "period": "FY2027",
+            "period_end": "2028-01-29",
+            "ebit": 4557.175584000019,
+            "operating_tax": 1093.7221401600045,
+            "nopat": 3463.453443840014,
+            "total_da": 3334.5187199999996,
+            "capex": 5001.77808,
+            "increase_operating_working_capital": -71.22615091428543,
+            "fcff": 1867.4202347542987,
+            "cash_flow_statement_reconciliation": 1867.4202347542996,
+            "reconciliation_difference": -9.094947017729282e-13
+          },
+          {
+            "period": "FY2028",
+            "period_end": "2029-02-03",
+            "ebit": 4968.8176449599905,
+            "operating_tax": 1192.5162347903977,
+            "nopat": 3776.3014101695926,
+            "total_da": 3466.6169615999997,
+            "capex": 4622.1559488,
+            "increase_operating_working_capital": -70.81241361257025,
+            "fcff": 2691.5748365821623,
+            "cash_flow_statement_reconciliation": 2691.574836582161,
+            "reconciliation_difference": 1.3642420526593924e-12
+          },
+          {
+            "period": "FY2029",
+            "period_end": "2030-02-02",
+            "ebit": 5178.340846223993,
+            "operating_tax": 1242.8018030937583,
+            "nopat": 3935.539043130235,
+            "total_da": 3452.2272308159995,
+            "capex": 4602.969641088,
+            "increase_operating_working_capital": -54.08895791453324,
+            "fcff": 2838.8855907727675,
+            "cash_flow_statement_reconciliation": 2838.8855907727675,
+            "reconciliation_difference": 0.0
+          },
+          {
+            "period": "FY2030",
+            "period_end": "2031-02-01",
+            "ebit": 5372.81631355997,
+            "operating_tax": 1289.4759152543927,
+            "nopat": 4083.340398305577,
+            "total_da": 3504.010639278239,
+            "capex": 4380.013299097799,
+            "increase_operating_working_capital": -54.8955502128772,
+            "fcff": 3262.2332886988943,
+            "cash_flow_statement_reconciliation": 3262.2332886988934,
+            "reconciliation_difference": 9.094947017729282e-13
+          },
+          {
+            "period": "FY2031",
+            "period_end": "2032-01-31",
+            "ebit": 5453.408558263355,
+            "operating_tax": 1308.8180539832051,
+            "nopat": 4144.59050428015,
+            "total_da": 3556.570798867412,
+            "capex": 4445.713498584265,
+            "increase_operating_working_capital": -56.03986356124278,
+            "fcff": 3311.4876681245396,
+            "cash_flow_statement_reconciliation": 3311.4876681245414,
+            "reconciliation_difference": -1.8189894035458565e-12
+          }
+        ],
+        "dcf": {
+          "discounted_periods": [
+            {
+              "period": "FY2026 future stub",
+              "end": "2027-01-30",
+              "actual_days": 103,
+              "years_actual_365": 0.2821917808219178,
+              "fcff": 1549.5218779804472,
+              "present_value": 1515.859806073131
+            },
+            {
+              "period": "FY2027",
+              "end": "2028-01-29",
+              "actual_days": 467,
+              "years_actual_365": 1.2794520547945205,
+              "fcff": 1867.4202347542987,
+              "present_value": 1690.4171621188107
+            },
+            {
+              "period": "FY2028",
+              "end": "2029-02-03",
+              "actual_days": 838,
+              "years_actual_365": 2.2958904109589042,
+              "fcff": 2691.5748365821623,
+              "present_value": 2251.1298189944223
+            },
+            {
+              "period": "FY2029",
+              "end": "2030-02-02",
+              "actual_days": 1202,
+              "years_actual_365": 3.293150684931507,
+              "fcff": 2838.8855907727675,
+              "present_value": 2197.0122563133605
+            },
+            {
+              "period": "FY2030",
+              "end": "2031-02-01",
+              "actual_days": 1566,
+              "years_actual_365": 4.2904109589041095,
+              "fcff": 3262.2332886988943,
+              "present_value": 2336.09291437998
+            },
+            {
+              "period": "FY2031",
+              "end": "2032-01-31",
+              "actual_days": 1930,
+              "years_actual_365": 5.287671232876712,
+              "fcff": 3311.4876681245396,
+              "present_value": 2194.2633386556754
+            }
+          ],
+          "terminal": {
+            "measurement_date": "2032-01-31",
+            "growth": 0.02,
+            "incremental_roic": 0.12,
+            "reinvestment_fraction": 0.16666666666666669,
+            "next_year_nopat": 4227.482314365752,
+            "next_year_reinvestment": 704.5803857276254,
+            "next_year_fcff": 3522.9019286381267,
+            "terminal_value": 57808.14230024935,
+            "present_value": 38304.92516889452,
+            "share_of_enterprise_value": 0.7586681009351948
+          },
+          "enterprise_value": 50489.7004654299
+        },
+        "partial_equity_bridge": {
+          "enterprise_value": 50489.7004654299,
+          "bridge_items": [
+            {
+              "name": "eligible excess cash",
+              "signed_amount": 4421.205970943524,
+              "unit": "USD millions",
+              "as_of": "2026-10-19 estimated",
+              "definition": "estimated cutoff cash less the provisional operating cash reserve, limited to available cash",
+              "source": "https://www.sec.gov/Archives/edgar/data/27419/000002741926000042/tgt-20260801.htm",
+              "locator": "p.3 August cash; Step 6 elapsed-period roll-forward",
+              "uncertainty": "estimated October cash and $1,000m reserve are unverified; no forecast ending cash added"
+            },
+            {
+              "name": "debt including finance leases",
+              "signed_amount": -15327.564383561643,
+              "unit": "USD millions",
+              "as_of": "2026-10-19 estimated",
+              "definition": "total interest-bearing debt including finance leases once",
+              "source": "https://www.sec.gov/Archives/edgar/data/27419/000002741926000042/tgt-20260801.htm",
+              "locator": "p.3 August current and noncurrent debt; Step 6 elapsed-period roll-forward",
+              "uncertainty": "carrying value, not market debt; August lease and cutoff changes uncertain"
+            },
+            {
+              "name": "other claims and non-operating assets",
+              "signed_amount": -306,
+              "unit": "USD millions",
+              "as_of": "2026-10-19",
+              "definition": "net nonoperating asset additions less non-common claims, not otherwise counted",
+              "source": "https://www.sec.gov/Archives/edgar/data/27419/000002741926000042/tgt-20260801.htm",
+              "locator": "notes and balance sheet, classifications incomplete",
+              "uncertainty": "unknown; omitted from partial result rather than asserted zero"
+            },
+            {
+              "name": "operating lease liability",
+              "signed_amount": null,
+              "unit": "USD millions",
+              "as_of": "2026-10-19",
+              "definition": "not separately deducted under rent-in-EBIT/FCFF convention",
+              "source": "https://www.sec.gov/Archives/edgar/data/27419/000002741926000042/tgt-20260801.htm",
+              "locator": "p.3 and p.21",
+              "uncertainty": "consistency with WACC and future peers must be reviewed"
+            }
+          ],
+          "cash_reported_august_1": 5411.0,
+          "debt_reported_august_1": 15357.0,
+          "cash_estimated_at_cutoff": 5421.205970943524,
+          "estimated_operating_cash_retained": 1000,
+          "estimated_eligible_excess_cash": 4421.205970943524,
+          "debt_estimated_at_cutoff": 15327.564383561643,
+          "debt_adjustment": -15327.564383561643,
+          "other_claims_and_nonoperating_assets_adjustment": -306,
+          "other_claims_status": "provided net adjustment",
+          "operating_lease_adjustment": null,
+          "operating_lease_policy": "rent remains in operating cash flows; no separate liability deduction under chosen policy",
+          "finance_lease_policy": "finance lease debt included once in total debt",
+          "equity_value_partial": 39277.342052811786,
+          "shares_outstanding_august_millions": 454.296736,
+          "incremental_dilution_proxy_millions": 2.2,
+          "estimated_diluted_shares_millions": 456.496736,
+          "shares_source": "https://www.sec.gov/Archives/edgar/data/27419/000002741926000042/tgt-20260801.htm cover and p.1; August 21 common shares plus Q2 diluted-less-basic weighted average as a proxy",
+          "shares_date": "August 21, 2026 cover count; October 19 estimate",
+          "shares_uncertainty": "award-based and subsequent share changes unverified",
+          "value_per_share_partial": 86.04079493968558,
+          "value_per_share": 86.04079493968558,
+          "equity_value": 39277.342052811786,
+          "bridge_status": "conditional itemized carrying-value estimate",
+          "other_claim_details": [
+            {
+              "name": "Company-owned life insurance",
+              "signed_amount": 600,
+              "unit": "USD millions",
+              "source": "https://www.sec.gov/Archives/edgar/data/27419/000002741926000016/tgt-20260131.htm",
+              "locator": "FY2025 10-K Note 13",
+              "classification": "reported historical amount; cutoff carrying estimate",
+              "judgment": "January carrying value used as cutoff estimate; operating forecast excludes its investment returns"
+            },
+            {
+              "name": "Prepaid forward asset",
+              "signed_amount": 25,
+              "unit": "USD millions",
+              "source": "https://www.sec.gov/Archives/edgar/data/27419/000002741926000042/tgt-20260801.htm",
+              "locator": "Q2 FY2026 10-Q Note 5",
+              "classification": "reported historical amount; cutoff carrying estimate",
+              "judgment": "August fair-value asset; financing-linked deferred-compensation hedge"
+            },
+            {
+              "name": "Deferred compensation",
+              "signed_amount": -650,
+              "unit": "USD millions",
+              "source": "https://www.sec.gov/Archives/edgar/data/27419/000002741926000016/tgt-20260131.htm",
+              "locator": "FY2025 10-K Notes 21 and 24",
+              "classification": "reported historical amount; cutoff carrying estimate",
+              "judgment": "January claim estimate; cash settlement of opening earned compensation not separately forecast"
+            },
+            {
+              "name": "Unfunded nonqualified/international pensions",
+              "signed_amount": -37,
+              "unit": "USD millions",
+              "source": "https://www.sec.gov/Archives/edgar/data/27419/000002741926000016/tgt-20260131.htm",
+              "locator": "FY2025 10-K Note 25",
+              "classification": "reported historical amount; cutoff carrying estimate",
+              "judgment": "January shortfall, pretax carrying proxy; full deduction conservative to assumed tax shield"
+            },
+            {
+              "name": "Net interest-rate swap liability",
+              "signed_amount": -106,
+              "unit": "USD millions",
+              "source": "https://www.sec.gov/Archives/edgar/data/27419/000002741926000042/tgt-20260801.htm",
+              "locator": "Q2 FY2026 10-Q Notes 5 and 8",
+              "classification": "reported historical amount; cutoff carrying estimate",
+              "judgment": "August derivative liability separate from carrying debt; no duplicate derivative cash flow in FCFF"
+            },
+            {
+              "name": "Accrued interest",
+              "signed_amount": -138,
+              "unit": "USD millions",
+              "source": "https://www.sec.gov/Archives/edgar/data/27419/000002741926000016/tgt-20260131.htm",
+              "locator": "FY2025 10-K Note 15",
+              "classification": "reported historical amount; cutoff carrying estimate",
+              "judgment": "January estimate for opening accrued financing interest; future interest excluded from FCFF"
+            }
+          ],
+          "classification_notes": [
+            "Goodwill, PP&E and residual operating assets remain in operating enterprise value; not added again.",
+            "Operating leases remain in EBIT and FCFF; operating lease assets/liabilities are not separately bridged. Finance leases are included in debt once.",
+            "Qualified pension surplus of 231 is not treated as freely distributable excess cash; no separate addition under restricted-surplus convention.",
+            "Operating payables, employee/insurance reserves, deferred occupancy and operating deferred taxes remain embedded in continuing operating economics; not an extra financing deduction.",
+            "Dividends payable are distributions to the same common owners; not an additional non-common claim in this cum-distribution equity value.",
+            "No preferred equity or noncontrolling interest is shown in Target consolidated statements; zero separate claim is an evidenced classification, not an unexplained missing value.",
+            "The bridge is specified under explicit carrying-value/classification assumptions; unreported cutoff balances, award dilution and fair-value differences remain estimation risks.",
+            "Current/noncurrent income-tax accruals are treated as continuing operating tax float under the constant-balance/cash-operating-tax convention. Do not deduct them again as financing debt. A separate 780 immediate-settlement stress can test cessation of that float; it is not the base convention."
+          ]
+        },
+        "statement_check_failures": [],
+        "scenario_status": "conditional estimate; student accepts use with disclosed evidence limitations"
+      },
+      "base": {
+        "input_changes_from_base": {
+          "FY2027_FY2031_sales_growth_shift": 0,
+          "FY2027_FY2031_cost_rate_shift": 0,
+          "FY2027_FY2031_sga_rate_shift": 0,
+          "FY2027_FY2031_capex_rate_shift": 0,
+          "common_cutoff_and_FY2026_stub": true
+        },
+        "fcff": [
+          {
+            "period": "FY2026 future stub",
+            "period_end": "2027-01-30",
+            "ebit": 1599.1135149097624,
+            "operating_tax": 383.78724357834295,
+            "nopat": 1215.3262713314195,
+            "total_da": 946.3187252747252,
+            "capex": 1414.6676483516483,
+            "increase_operating_working_capital": -802.544529725951,
+            "fcff": 1549.5218779804472,
+            "cash_flow_statement_reconciliation": 1549.5218779804475,
+            "reconciliation_difference": -2.2737367544323206e-13
+          },
+          {
+            "period": "FY2027",
+            "period_end": "2028-01-29",
+            "ebit": 5836.497472000006,
+            "operating_tax": 1400.7593932800014,
+            "nopat": 4435.738078720005,
+            "total_da": 3367.21008,
+            "capex": 5050.815119999999,
+            "increase_operating_working_capital": -103.623977228571,
+            "fcff": 2855.7570159485767,
+            "cash_flow_statement_reconciliation": 2855.7570159485767,
+            "reconciliation_difference": 0.0
+          },
+          {
+            "period": "FY2028",
+            "period_end": "2029-02-03",
+            "ebit": 6362.86147848001,
+            "operating_tax": 1527.0867548352023,
+            "nopat": 4835.774723644808,
+            "total_da": 3534.9230436,
+            "capex": 4713.2307248,
+            "increase_operating_working_capital": -107.340151111144,
+            "fcff": 3764.807193555953,
+            "cash_flow_statement_reconciliation": 3764.807193555953,
+            "reconciliation_difference": 0.0
+          },
+          {
+            "period": "FY2029",
+            "period_end": "2030-02-02",
+            "ebit": 6635.873144991998,
+            "operating_tax": 1592.6095547980794,
+            "nopat": 5043.263590193918,
+            "total_da": 3554.9320419599994,
+            "capex": 4739.909389279999,
+            "increase_operating_working_capital": -92.07275576692018,
+            "fcff": 3950.358998640839,
+            "cash_flow_statement_reconciliation": 3950.3589986408388,
+            "reconciliation_difference": 4.547473508864641e-13
+          },
+          {
+            "period": "FY2030",
+            "period_end": "2031-02-01",
+            "ebit": 6923.230151717108,
+            "operating_tax": 1661.5752364121058,
+            "nopat": 5261.654915305002,
+            "total_da": 3643.805343008999,
+            "capex": 4554.756678761249,
+            "increase_operating_working_capital": -94.36643608041231,
+            "fcff": 4445.070015633164,
+            "cash_flow_statement_reconciliation": 4445.070015633164,
+            "reconciliation_difference": 0.0
+          },
+          {
+            "period": "FY2031",
+            "period_end": "2032-01-31",
+            "ebit": 7096.310905510035,
+            "operating_tax": 1703.1146173224083,
+            "nopat": 5393.196288187626,
+            "total_da": 3734.9004765842237,
+            "capex": 4668.62559573028,
+            "increase_operating_working_capital": -97.05927879038904,
+            "fcff": 4556.530447831959,
+            "cash_flow_statement_reconciliation": 4556.5304478319595,
+            "reconciliation_difference": -9.094947017729282e-13
+          }
+        ],
+        "dcf": {
+          "discounted_periods": [
+            {
+              "period": "FY2026 future stub",
+              "end": "2027-01-30",
+              "actual_days": 103,
+              "years_actual_365": 0.2821917808219178,
+              "fcff": 1549.5218779804472,
+              "present_value": 1515.859806073131
+            },
+            {
+              "period": "FY2027",
+              "end": "2028-01-29",
+              "actual_days": 467,
+              "years_actual_365": 1.2794520547945205,
+              "fcff": 2855.7570159485767,
+              "present_value": 2585.074629030049
+            },
+            {
+              "period": "FY2028",
+              "end": "2029-02-03",
+              "actual_days": 838,
+              "years_actual_365": 2.2958904109589042,
+              "fcff": 3764.807193555953,
+              "present_value": 3148.7401431276544
+            },
+            {
+              "period": "FY2029",
+              "end": "2030-02-02",
+              "actual_days": 1202,
+              "years_actual_365": 3.293150684931507,
+              "fcff": 3950.358998640839,
+              "present_value": 3057.1810167556655
+            },
+            {
+              "period": "FY2030",
+              "end": "2031-02-01",
+              "actual_days": 1566,
+              "years_actual_365": 4.2904109589041095,
+              "fcff": 4445.070015633164,
+              "present_value": 3183.1250706123237
+            },
+            {
+              "period": "FY2031",
+              "end": "2032-01-31",
+              "actual_days": 1930,
+              "years_actual_365": 5.287671232876712,
+              "fcff": 4556.530447831959,
+              "present_value": 3019.2556081021094
+            }
+          ],
+          "terminal": {
+            "measurement_date": "2032-01-31",
+            "growth": 0.02,
+            "incremental_roic": 0.12,
+            "reinvestment_fraction": 0.16666666666666669,
+            "next_year_nopat": 5501.0602139513785,
+            "next_year_reinvestment": 916.8433689918965,
+            "next_year_fcff": 4584.216844959482,
+            "terminal_value": 75223.51319358547,
+            "present_value": 49844.726524090576,
+            "share_of_enterprise_value": 0.7511944188772639
+          },
+          "enterprise_value": 66353.96279779151
+        },
+        "partial_equity_bridge": {
+          "enterprise_value": 66353.96279779151,
+          "bridge_items": [
+            {
+              "name": "eligible excess cash",
+              "signed_amount": 4421.205970943524,
+              "unit": "USD millions",
+              "as_of": "2026-10-19 estimated",
+              "definition": "estimated cutoff cash less the provisional operating cash reserve, limited to available cash",
+              "source": "https://www.sec.gov/Archives/edgar/data/27419/000002741926000042/tgt-20260801.htm",
+              "locator": "p.3 August cash; Step 6 elapsed-period roll-forward",
+              "uncertainty": "estimated October cash and $1,000m reserve are unverified; no forecast ending cash added"
+            },
+            {
+              "name": "debt including finance leases",
+              "signed_amount": -15327.564383561643,
+              "unit": "USD millions",
+              "as_of": "2026-10-19 estimated",
+              "definition": "total interest-bearing debt including finance leases once",
+              "source": "https://www.sec.gov/Archives/edgar/data/27419/000002741926000042/tgt-20260801.htm",
+              "locator": "p.3 August current and noncurrent debt; Step 6 elapsed-period roll-forward",
+              "uncertainty": "carrying value, not market debt; August lease and cutoff changes uncertain"
+            },
+            {
+              "name": "other claims and non-operating assets",
+              "signed_amount": -306,
+              "unit": "USD millions",
+              "as_of": "2026-10-19",
+              "definition": "net nonoperating asset additions less non-common claims, not otherwise counted",
+              "source": "https://www.sec.gov/Archives/edgar/data/27419/000002741926000042/tgt-20260801.htm",
+              "locator": "notes and balance sheet, classifications incomplete",
+              "uncertainty": "unknown; omitted from partial result rather than asserted zero"
+            },
+            {
+              "name": "operating lease liability",
+              "signed_amount": null,
+              "unit": "USD millions",
+              "as_of": "2026-10-19",
+              "definition": "not separately deducted under rent-in-EBIT/FCFF convention",
+              "source": "https://www.sec.gov/Archives/edgar/data/27419/000002741926000042/tgt-20260801.htm",
+              "locator": "p.3 and p.21",
+              "uncertainty": "consistency with WACC and future peers must be reviewed"
+            }
+          ],
+          "cash_reported_august_1": 5411.0,
+          "debt_reported_august_1": 15357.0,
+          "cash_estimated_at_cutoff": 5421.205970943524,
+          "estimated_operating_cash_retained": 1000,
+          "estimated_eligible_excess_cash": 4421.205970943524,
+          "debt_estimated_at_cutoff": 15327.564383561643,
+          "debt_adjustment": -15327.564383561643,
+          "other_claims_and_nonoperating_assets_adjustment": -306,
+          "other_claims_status": "provided net adjustment",
+          "operating_lease_adjustment": null,
+          "operating_lease_policy": "rent remains in operating cash flows; no separate liability deduction under chosen policy",
+          "finance_lease_policy": "finance lease debt included once in total debt",
+          "equity_value_partial": 55141.60438517339,
+          "shares_outstanding_august_millions": 454.296736,
+          "incremental_dilution_proxy_millions": 2.2,
+          "estimated_diluted_shares_millions": 456.496736,
+          "shares_source": "https://www.sec.gov/Archives/edgar/data/27419/000002741926000042/tgt-20260801.htm cover and p.1; August 21 common shares plus Q2 diluted-less-basic weighted average as a proxy",
+          "shares_date": "August 21, 2026 cover count; October 19 estimate",
+          "shares_uncertainty": "award-based and subsequent share changes unverified",
+          "value_per_share_partial": 120.79298719273514,
+          "value_per_share": 120.79298719273514,
+          "equity_value": 55141.60438517339,
+          "bridge_status": "conditional itemized carrying-value estimate",
+          "other_claim_details": [
+            {
+              "name": "Company-owned life insurance",
+              "signed_amount": 600,
+              "unit": "USD millions",
+              "source": "https://www.sec.gov/Archives/edgar/data/27419/000002741926000016/tgt-20260131.htm",
+              "locator": "FY2025 10-K Note 13",
+              "classification": "reported historical amount; cutoff carrying estimate",
+              "judgment": "January carrying value used as cutoff estimate; operating forecast excludes its investment returns"
+            },
+            {
+              "name": "Prepaid forward asset",
+              "signed_amount": 25,
+              "unit": "USD millions",
+              "source": "https://www.sec.gov/Archives/edgar/data/27419/000002741926000042/tgt-20260801.htm",
+              "locator": "Q2 FY2026 10-Q Note 5",
+              "classification": "reported historical amount; cutoff carrying estimate",
+              "judgment": "August fair-value asset; financing-linked deferred-compensation hedge"
+            },
+            {
+              "name": "Deferred compensation",
+              "signed_amount": -650,
+              "unit": "USD millions",
+              "source": "https://www.sec.gov/Archives/edgar/data/27419/000002741926000016/tgt-20260131.htm",
+              "locator": "FY2025 10-K Notes 21 and 24",
+              "classification": "reported historical amount; cutoff carrying estimate",
+              "judgment": "January claim estimate; cash settlement of opening earned compensation not separately forecast"
+            },
+            {
+              "name": "Unfunded nonqualified/international pensions",
+              "signed_amount": -37,
+              "unit": "USD millions",
+              "source": "https://www.sec.gov/Archives/edgar/data/27419/000002741926000016/tgt-20260131.htm",
+              "locator": "FY2025 10-K Note 25",
+              "classification": "reported historical amount; cutoff carrying estimate",
+              "judgment": "January shortfall, pretax carrying proxy; full deduction conservative to assumed tax shield"
+            },
+            {
+              "name": "Net interest-rate swap liability",
+              "signed_amount": -106,
+              "unit": "USD millions",
+              "source": "https://www.sec.gov/Archives/edgar/data/27419/000002741926000042/tgt-20260801.htm",
+              "locator": "Q2 FY2026 10-Q Notes 5 and 8",
+              "classification": "reported historical amount; cutoff carrying estimate",
+              "judgment": "August derivative liability separate from carrying debt; no duplicate derivative cash flow in FCFF"
+            },
+            {
+              "name": "Accrued interest",
+              "signed_amount": -138,
+              "unit": "USD millions",
+              "source": "https://www.sec.gov/Archives/edgar/data/27419/000002741926000016/tgt-20260131.htm",
+              "locator": "FY2025 10-K Note 15",
+              "classification": "reported historical amount; cutoff carrying estimate",
+              "judgment": "January estimate for opening accrued financing interest; future interest excluded from FCFF"
+            }
+          ],
+          "classification_notes": [
+            "Goodwill, PP&E and residual operating assets remain in operating enterprise value; not added again.",
+            "Operating leases remain in EBIT and FCFF; operating lease assets/liabilities are not separately bridged. Finance leases are included in debt once.",
+            "Qualified pension surplus of 231 is not treated as freely distributable excess cash; no separate addition under restricted-surplus convention.",
+            "Operating payables, employee/insurance reserves, deferred occupancy and operating deferred taxes remain embedded in continuing operating economics; not an extra financing deduction.",
+            "Dividends payable are distributions to the same common owners; not an additional non-common claim in this cum-distribution equity value.",
+            "No preferred equity or noncontrolling interest is shown in Target consolidated statements; zero separate claim is an evidenced classification, not an unexplained missing value.",
+            "The bridge is specified under explicit carrying-value/classification assumptions; unreported cutoff balances, award dilution and fair-value differences remain estimation risks.",
+            "Current/noncurrent income-tax accruals are treated as continuing operating tax float under the constant-balance/cash-operating-tax convention. Do not deduct them again as financing debt. A separate 780 immediate-settlement stress can test cessation of that float; it is not the base convention."
+          ]
+        },
+        "statement_check_failures": [],
+        "scenario_status": "conditional estimate; student accepts use with disclosed evidence limitations"
+      },
+      "high": {
+        "input_changes_from_base": {
+          "FY2027_FY2031_sales_growth_shift": 0.01,
+          "FY2027_FY2031_cost_rate_shift": -0.008,
+          "FY2027_FY2031_sga_rate_shift": -0.003,
+          "FY2027_FY2031_capex_rate_shift": 0.005,
+          "common_cutoff_and_FY2026_stub": true
+        },
+        "fcff": [
+          {
+            "period": "FY2026 future stub",
+            "period_end": "2027-01-30",
+            "ebit": 1599.1135149097624,
+            "operating_tax": 383.78724357834295,
+            "nopat": 1215.3262713314195,
+            "total_da": 946.3187252747252,
+            "capex": 1414.6676483516483,
+            "increase_operating_working_capital": -802.544529725951,
+            "fcff": 1549.5218779804472,
+            "cash_flow_statement_reconciliation": 1549.5218779804475,
+            "reconciliation_difference": -2.2737367544323206e-13
+          },
+          {
+            "period": "FY2027",
+            "period_end": "2028-01-29",
+            "ebit": 7139.793023999993,
+            "operating_tax": 1713.5503257599983,
+            "nopat": 5426.242698239995,
+            "total_da": 3399.9014399999996,
+            "capex": 5666.502399999999,
+            "increase_operating_working_capital": -135.97390411428455,
+            "fcff": 3295.615642354279,
+            "cash_flow_statement_reconciliation": 3295.6156423542816,
+            "reconciliation_difference": -2.7284841053187847e-12
+          },
+          {
+            "period": "FY2028",
+            "period_end": "2029-02-03",
+            "ebit": 7808.440307200012,
+            "operating_tax": 1874.0256737280029,
+            "nopat": 5934.41463347201,
+            "total_da": 3603.8955263999997,
+            "capex": 5405.8432895999995,
+            "increase_operating_working_capital": -144.51386928457077,
+            "fcff": 4276.98073955658,
+            "cash_flow_statement_reconciliation": 4276.98073955658,
+            "reconciliation_difference": 0.0
+          },
+          {
+            "period": "FY2029",
+            "period_end": "2030-02-02",
+            "ebit": 8173.227065702399,
+            "operating_tax": 1961.5744957685756,
+            "nopat": 6211.6525699338235,
+            "total_da": 3659.6539100159994,
+            "capex": 5489.480865023999,
+            "increase_operating_working_capital": -131.45581302701999,
+            "fcff": 4513.281427952843,
+            "cash_flow_statement_reconciliation": 4513.281427952845,
+            "reconciliation_difference": -1.8189894035458565e-12
+          },
+          {
+            "period": "FY2030",
+            "period_end": "2031-02-01",
+            "ebit": 8585.548072897534,
+            "operating_tax": 2060.531537495408,
+            "nopat": 6525.0165354021265,
+            "total_da": 3787.7417968665595,
+            "capex": 5365.967545560959,
+            "increase_operating_working_capital": -136.04503682299332,
+            "fcff": 5082.8358235307205,
+            "cash_flow_statement_reconciliation": 5082.835823530721,
+            "reconciliation_difference": -9.094947017729282e-13
+          },
+          {
+            "period": "FY2031",
+            "period_end": "2032-01-31",
+            "ebit": 8886.042255448956,
+            "operating_tax": 2132.6501413077494,
+            "nopat": 6753.392114141207,
+            "total_da": 3920.3127597568887,
+            "capex": 5553.776409655592,
+            "increase_operating_working_capital": -141.1534759137096,
+            "fcff": 5261.081940156213,
+            "cash_flow_statement_reconciliation": 5261.081940156214,
+            "reconciliation_difference": -9.094947017729282e-13
+          }
+        ],
+        "dcf": {
+          "discounted_periods": [
+            {
+              "period": "FY2026 future stub",
+              "end": "2027-01-30",
+              "actual_days": 103,
+              "years_actual_365": 0.2821917808219178,
+              "fcff": 1549.5218779804472,
+              "present_value": 1515.859806073131
+            },
+            {
+              "period": "FY2027",
+              "end": "2028-01-29",
+              "actual_days": 467,
+              "years_actual_365": 1.2794520547945205,
+              "fcff": 3295.615642354279,
+              "present_value": 2983.241338988633
+            },
+            {
+              "period": "FY2028",
+              "end": "2029-02-03",
+              "actual_days": 838,
+              "years_actual_365": 2.2958904109589042,
+              "fcff": 4276.98073955658,
+              "present_value": 3577.1024261419348
+            },
+            {
+              "period": "FY2029",
+              "end": "2030-02-02",
+              "actual_days": 1202,
+              "years_actual_365": 3.293150684931507,
+              "fcff": 4513.281427952843,
+              "present_value": 3492.826426550257
+            },
+            {
+              "period": "FY2030",
+              "end": "2031-02-01",
+              "actual_days": 1566,
+              "years_actual_365": 4.2904109589041095,
+              "fcff": 5082.8358235307205,
+              "present_value": 3639.8306624608845
+            },
+            {
+              "period": "FY2031",
+              "end": "2032-01-31",
+              "actual_days": 1930,
+              "years_actual_365": 5.287671232876712,
+              "fcff": 5261.081940156213,
+              "present_value": 3486.10666259443
+            }
+          ],
+          "terminal": {
+            "measurement_date": "2032-01-31",
+            "growth": 0.02,
+            "incremental_roic": 0.12,
+            "reinvestment_fraction": 0.16666666666666669,
+            "next_year_nopat": 6888.459956424031,
+            "next_year_reinvestment": 1148.076659404005,
+            "next_year_fcff": 5740.383297020026,
+            "terminal_value": 94195.32567583857,
+            "present_value": 62415.859733605066,
+            "share_of_enterprise_value": 0.7695132943249794
+          },
+          "enterprise_value": 81110.82705641433
+        },
+        "partial_equity_bridge": {
+          "enterprise_value": 81110.82705641433,
+          "bridge_items": [
+            {
+              "name": "eligible excess cash",
+              "signed_amount": 4421.205970943524,
+              "unit": "USD millions",
+              "as_of": "2026-10-19 estimated",
+              "definition": "estimated cutoff cash less the provisional operating cash reserve, limited to available cash",
+              "source": "https://www.sec.gov/Archives/edgar/data/27419/000002741926000042/tgt-20260801.htm",
+              "locator": "p.3 August cash; Step 6 elapsed-period roll-forward",
+              "uncertainty": "estimated October cash and $1,000m reserve are unverified; no forecast ending cash added"
+            },
+            {
+              "name": "debt including finance leases",
+              "signed_amount": -15327.564383561643,
+              "unit": "USD millions",
+              "as_of": "2026-10-19 estimated",
+              "definition": "total interest-bearing debt including finance leases once",
+              "source": "https://www.sec.gov/Archives/edgar/data/27419/000002741926000042/tgt-20260801.htm",
+              "locator": "p.3 August current and noncurrent debt; Step 6 elapsed-period roll-forward",
+              "uncertainty": "carrying value, not market debt; August lease and cutoff changes uncertain"
+            },
+            {
+              "name": "other claims and non-operating assets",
+              "signed_amount": -306,
+              "unit": "USD millions",
+              "as_of": "2026-10-19",
+              "definition": "net nonoperating asset additions less non-common claims, not otherwise counted",
+              "source": "https://www.sec.gov/Archives/edgar/data/27419/000002741926000042/tgt-20260801.htm",
+              "locator": "notes and balance sheet, classifications incomplete",
+              "uncertainty": "unknown; omitted from partial result rather than asserted zero"
+            },
+            {
+              "name": "operating lease liability",
+              "signed_amount": null,
+              "unit": "USD millions",
+              "as_of": "2026-10-19",
+              "definition": "not separately deducted under rent-in-EBIT/FCFF convention",
+              "source": "https://www.sec.gov/Archives/edgar/data/27419/000002741926000042/tgt-20260801.htm",
+              "locator": "p.3 and p.21",
+              "uncertainty": "consistency with WACC and future peers must be reviewed"
+            }
+          ],
+          "cash_reported_august_1": 5411.0,
+          "debt_reported_august_1": 15357.0,
+          "cash_estimated_at_cutoff": 5421.205970943524,
+          "estimated_operating_cash_retained": 1000,
+          "estimated_eligible_excess_cash": 4421.205970943524,
+          "debt_estimated_at_cutoff": 15327.564383561643,
+          "debt_adjustment": -15327.564383561643,
+          "other_claims_and_nonoperating_assets_adjustment": -306,
+          "other_claims_status": "provided net adjustment",
+          "operating_lease_adjustment": null,
+          "operating_lease_policy": "rent remains in operating cash flows; no separate liability deduction under chosen policy",
+          "finance_lease_policy": "finance lease debt included once in total debt",
+          "equity_value_partial": 69898.46864379622,
+          "shares_outstanding_august_millions": 454.296736,
+          "incremental_dilution_proxy_millions": 2.2,
+          "estimated_diluted_shares_millions": 456.496736,
+          "shares_source": "https://www.sec.gov/Archives/edgar/data/27419/000002741926000042/tgt-20260801.htm cover and p.1; August 21 common shares plus Q2 diluted-less-basic weighted average as a proxy",
+          "shares_date": "August 21, 2026 cover count; October 19 estimate",
+          "shares_uncertainty": "award-based and subsequent share changes unverified",
+          "value_per_share_partial": 153.11931747042377,
+          "value_per_share": 153.11931747042377,
+          "equity_value": 69898.46864379622,
+          "bridge_status": "conditional itemized carrying-value estimate",
+          "other_claim_details": [
+            {
+              "name": "Company-owned life insurance",
+              "signed_amount": 600,
+              "unit": "USD millions",
+              "source": "https://www.sec.gov/Archives/edgar/data/27419/000002741926000016/tgt-20260131.htm",
+              "locator": "FY2025 10-K Note 13",
+              "classification": "reported historical amount; cutoff carrying estimate",
+              "judgment": "January carrying value used as cutoff estimate; operating forecast excludes its investment returns"
+            },
+            {
+              "name": "Prepaid forward asset",
+              "signed_amount": 25,
+              "unit": "USD millions",
+              "source": "https://www.sec.gov/Archives/edgar/data/27419/000002741926000042/tgt-20260801.htm",
+              "locator": "Q2 FY2026 10-Q Note 5",
+              "classification": "reported historical amount; cutoff carrying estimate",
+              "judgment": "August fair-value asset; financing-linked deferred-compensation hedge"
+            },
+            {
+              "name": "Deferred compensation",
+              "signed_amount": -650,
+              "unit": "USD millions",
+              "source": "https://www.sec.gov/Archives/edgar/data/27419/000002741926000016/tgt-20260131.htm",
+              "locator": "FY2025 10-K Notes 21 and 24",
+              "classification": "reported historical amount; cutoff carrying estimate",
+              "judgment": "January claim estimate; cash settlement of opening earned compensation not separately forecast"
+            },
+            {
+              "name": "Unfunded nonqualified/international pensions",
+              "signed_amount": -37,
+              "unit": "USD millions",
+              "source": "https://www.sec.gov/Archives/edgar/data/27419/000002741926000016/tgt-20260131.htm",
+              "locator": "FY2025 10-K Note 25",
+              "classification": "reported historical amount; cutoff carrying estimate",
+              "judgment": "January shortfall, pretax carrying proxy; full deduction conservative to assumed tax shield"
+            },
+            {
+              "name": "Net interest-rate swap liability",
+              "signed_amount": -106,
+              "unit": "USD millions",
+              "source": "https://www.sec.gov/Archives/edgar/data/27419/000002741926000042/tgt-20260801.htm",
+              "locator": "Q2 FY2026 10-Q Notes 5 and 8",
+              "classification": "reported historical amount; cutoff carrying estimate",
+              "judgment": "August derivative liability separate from carrying debt; no duplicate derivative cash flow in FCFF"
+            },
+            {
+              "name": "Accrued interest",
+              "signed_amount": -138,
+              "unit": "USD millions",
+              "source": "https://www.sec.gov/Archives/edgar/data/27419/000002741926000016/tgt-20260131.htm",
+              "locator": "FY2025 10-K Note 15",
+              "classification": "reported historical amount; cutoff carrying estimate",
+              "judgment": "January estimate for opening accrued financing interest; future interest excluded from FCFF"
+            }
+          ],
+          "classification_notes": [
+            "Goodwill, PP&E and residual operating assets remain in operating enterprise value; not added again.",
+            "Operating leases remain in EBIT and FCFF; operating lease assets/liabilities are not separately bridged. Finance leases are included in debt once.",
+            "Qualified pension surplus of 231 is not treated as freely distributable excess cash; no separate addition under restricted-surplus convention.",
+            "Operating payables, employee/insurance reserves, deferred occupancy and operating deferred taxes remain embedded in continuing operating economics; not an extra financing deduction.",
+            "Dividends payable are distributions to the same common owners; not an additional non-common claim in this cum-distribution equity value.",
+            "No preferred equity or noncontrolling interest is shown in Target consolidated statements; zero separate claim is an evidenced classification, not an unexplained missing value.",
+            "The bridge is specified under explicit carrying-value/classification assumptions; unreported cutoff balances, award dilution and fair-value differences remain estimation risks.",
+            "Current/noncurrent income-tax accruals are treated as continuing operating tax float under the constant-balance/cash-operating-tax convention. Do not deduct them again as financing debt. A separate 780 immediate-settlement stress can test cessation of that float; it is not the base convention."
+          ]
+        },
+        "statement_check_failures": [],
+        "scenario_status": "conditional estimate; student accepts use with disclosed evidence limitations"
+      }
+    },
+    "wacc_growth_sensitivity": [
+      {
+        "wacc": 0.0709412755445513,
+        "growth": 0.01,
+        "partial_value_per_share": 137.57550084352883
+      },
+      {
+        "wacc": 0.0709412755445513,
+        "growth": 0.02,
+        "partial_value_per_share": 149.85749552584042
+      },
+      {
+        "wacc": 0.0709412755445513,
+        "growth": 0.03,
+        "partial_value_per_share": 167.80456275123626
+      },
+      {
+        "wacc": 0.0809412755445513,
+        "growth": 0.01,
+        "partial_value_per_share": 113.76969320566394
+      },
+      {
+        "wacc": 0.0809412755445513,
+        "growth": 0.02,
+        "partial_value_per_share": 120.79298719273514
+      },
+      {
+        "wacc": 0.0809412755445513,
+        "growth": 0.03,
+        "partial_value_per_share": 130.31756350119284
+      },
+      {
+        "wacc": 0.0909412755445513,
+        "growth": 0.01,
+        "partial_value_per_share": 95.88799712063798
+      },
+      {
+        "wacc": 0.0909412755445513,
+        "growth": 0.02,
+        "partial_value_per_share": 99.93984157237028
+      },
+      {
+        "wacc": 0.0909412755445513,
+        "growth": 0.03,
+        "partial_value_per_share": 105.11751755556301
+      }
+    ],
+    "reverse_dcf": {
+      "status": "solved under documented accepted convention",
+      "solved_growth": 0.04473812542899901,
+      "student_price_acceptance": true,
+      "search_bounds": [
+        0,
+        0.05
+      ],
+      "fixed_inputs": [
+        "WACC",
+        "operating forecast",
+        "incremental ROIC",
+        "cash/debt/claims",
+        "diluted shares"
+      ],
+      "solved_variable": "perpetual terminal growth"
+    },
+    "market_price": {
+      "value": 153.29,
+      "unit": "USD per share",
+      "source_url": "https://query1.finance.yahoo.com/v8/finance/chart/TGT",
+      "definition": "provider-reported daily Close; split basis checked; not official auction verification",
+      "timestamp": "2026-10-19T16:00:00-04:00",
+      "accepted_by_student": true,
+      "calculation_basis": "conditional_provider_close",
+      "status": "Accepted for conditional class-model use under student-approved assumptions; provider daily Close, not official auction verification"
+    },
+    "upside_downside": {
+      "value": -0.2119969522295313,
+      "basis": "provider daily Close, accepted for conditional use"
+    },
+    "checks": [
+      {
+        "name": "FCFF reconciliation FY2026 future stub",
+        "difference": -2.2737367544323206e-13,
+        "status": "pass"
+      },
+      {
+        "name": "FCFF reconciliation FY2027",
+        "difference": 0.0,
+        "status": "pass"
+      },
+      {
+        "name": "FCFF reconciliation FY2028",
+        "difference": 0.0,
+        "status": "pass"
+      },
+      {
+        "name": "FCFF reconciliation FY2029",
+        "difference": 4.547473508864641e-13,
+        "status": "pass"
+      },
+      {
+        "name": "FCFF reconciliation FY2030",
+        "difference": 0.0,
+        "status": "pass"
+      },
+      {
+        "name": "FCFF reconciliation FY2031",
+        "difference": -9.094947017729282e-13,
+        "status": "pass"
+      },
+      {
+        "name": "six future periods, elapsed excluded",
+        "difference": 0,
+        "status": "pass"
+      },
+      {
+        "name": "low scenario feasibility",
+        "difference": 0,
+        "status": "pass"
+      },
+      {
+        "name": "high scenario feasibility",
+        "difference": 0,
+        "status": "pass"
+      },
+      {
+        "name": "enterprise-to-equity signed bridge",
+        "difference": 0.0,
+        "status": "pass"
+      },
+      {
+        "name": "itemized other-claims total",
+        "difference": 0,
+        "status": "pass"
+      }
+    ],
+    "evidence_warnings": [
+      "Market comparison uses a documented provider daily Close conditionally; student convention review is pending.",
+      "August current-balance components are estimated; unclassified remainders held constant.",
+      "August-to-October values are estimated, not reported.",
+      "Depreciation allocation and sales-based proxy are unverified.",
+      "Debt cohorts and maturity timing are approximations; finance-lease principal is a sourced 136 annual proxy; FY2031 bond maturity is an explicit zero assumption, not a reported fact.",
+      "Operating lease balances, tax balances, noncurrent assets and liabilities and unclassified current balances are held constant.",
+      "Repurchases, share compensation, issuance, net other income, impairment and disposal assumed zero for draft, not verified absence.",
+      "Dividend continuation and fixed dividend payable are approximations.",
+      "Student source check and assumption approval remain pending.",
+      "Incremental ROIC, beta, marginal debt cost and capital weights provisional.",
+      "Cutoff cash/debt are estimated; other assets and claims use explicit itemized carrying-value/classification assumptions.",
+      "Terminal steady state uses an assumed ROIC and reinvestment policy; detailed asset reconciliation remains pending.",
+      "The specified equity bridge remains conditional on stale claim estimates, dilution and cash-reserve judgments; sensitivity is required."
+    ]
+  },
+  "fcff": [
+    {
+      "period": "FY2026 future stub",
+      "period_end": "2027-01-30",
+      "ebit": 1599.1135149097624,
+      "operating_tax": 383.78724357834295,
+      "nopat": 1215.3262713314195,
+      "total_da": 946.3187252747252,
+      "capex": 1414.6676483516483,
+      "increase_operating_working_capital": -802.544529725951,
+      "fcff": 1549.5218779804472,
+      "cash_flow_statement_reconciliation": 1549.5218779804475,
+      "reconciliation_difference": -2.2737367544323206e-13
+    },
+    {
+      "period": "FY2027",
+      "period_end": "2028-01-29",
+      "ebit": 5836.497472000006,
+      "operating_tax": 1400.7593932800014,
+      "nopat": 4435.738078720005,
+      "total_da": 3367.21008,
+      "capex": 5050.815119999999,
+      "increase_operating_working_capital": -103.623977228571,
+      "fcff": 2855.7570159485767,
+      "cash_flow_statement_reconciliation": 2855.7570159485767,
+      "reconciliation_difference": 0.0
+    },
+    {
+      "period": "FY2028",
+      "period_end": "2029-02-03",
+      "ebit": 6362.86147848001,
+      "operating_tax": 1527.0867548352023,
+      "nopat": 4835.774723644808,
+      "total_da": 3534.9230436,
+      "capex": 4713.2307248,
+      "increase_operating_working_capital": -107.340151111144,
+      "fcff": 3764.807193555953,
+      "cash_flow_statement_reconciliation": 3764.807193555953,
+      "reconciliation_difference": 0.0
+    },
+    {
+      "period": "FY2029",
+      "period_end": "2030-02-02",
+      "ebit": 6635.873144991998,
+      "operating_tax": 1592.6095547980794,
+      "nopat": 5043.263590193918,
+      "total_da": 3554.9320419599994,
+      "capex": 4739.909389279999,
+      "increase_operating_working_capital": -92.07275576692018,
+      "fcff": 3950.358998640839,
+      "cash_flow_statement_reconciliation": 3950.3589986408388,
+      "reconciliation_difference": 4.547473508864641e-13
+    },
+    {
+      "period": "FY2030",
+      "period_end": "2031-02-01",
+      "ebit": 6923.230151717108,
+      "operating_tax": 1661.5752364121058,
+      "nopat": 5261.654915305002,
+      "total_da": 3643.805343008999,
+      "capex": 4554.756678761249,
+      "increase_operating_working_capital": -94.36643608041231,
+      "fcff": 4445.070015633164,
+      "cash_flow_statement_reconciliation": 4445.070015633164,
+      "reconciliation_difference": 0.0
+    },
+    {
+      "period": "FY2031",
+      "period_end": "2032-01-31",
+      "ebit": 7096.310905510035,
+      "operating_tax": 1703.1146173224083,
+      "nopat": 5393.196288187626,
+      "total_da": 3734.9004765842237,
+      "capex": 4668.62559573028,
+      "increase_operating_working_capital": -97.05927879038904,
+      "fcff": 4556.530447831959,
+      "cash_flow_statement_reconciliation": 4556.5304478319595,
+      "reconciliation_difference": -9.094947017729282e-13
+    }
+  ],
+  "wacc": {
+    "risk_free": 0.0509,
+    "erp": 0.042,
+    "beta": 0.9008291102522065,
+    "equity_cost": 0.08873482263059268,
+    "debt_cost_pretax": 0.06,
+    "tax_shield_rate": 0.24,
+    "equity_weight": 0.8193212209822804,
+    "debt_weight": 0.18067877901771956,
+    "wacc": 0.0809412755445513
+  },
+  "equity_bridge": {
+    "enterprise_value": 66353.96279779151,
+    "bridge_items": [
+      {
+        "name": "eligible excess cash",
+        "signed_amount": 4421.205970943524,
+        "unit": "USD millions",
+        "as_of": "2026-10-19 estimated",
+        "definition": "estimated cutoff cash less the provisional operating cash reserve, limited to available cash",
+        "source": "https://www.sec.gov/Archives/edgar/data/27419/000002741926000042/tgt-20260801.htm",
+        "locator": "p.3 August cash; Step 6 elapsed-period roll-forward",
+        "uncertainty": "estimated October cash and $1,000m reserve are unverified; no forecast ending cash added"
+      },
+      {
+        "name": "debt including finance leases",
+        "signed_amount": -15327.564383561643,
+        "unit": "USD millions",
+        "as_of": "2026-10-19 estimated",
+        "definition": "total interest-bearing debt including finance leases once",
+        "source": "https://www.sec.gov/Archives/edgar/data/27419/000002741926000042/tgt-20260801.htm",
+        "locator": "p.3 August current and noncurrent debt; Step 6 elapsed-period roll-forward",
+        "uncertainty": "carrying value, not market debt; August lease and cutoff changes uncertain"
+      },
+      {
+        "name": "other claims and non-operating assets",
+        "signed_amount": -306,
+        "unit": "USD millions",
+        "as_of": "2026-10-19",
+        "definition": "net nonoperating asset additions less non-common claims, not otherwise counted",
+        "source": "https://www.sec.gov/Archives/edgar/data/27419/000002741926000042/tgt-20260801.htm",
+        "locator": "notes and balance sheet, classifications incomplete",
+        "uncertainty": "unknown; omitted from partial result rather than asserted zero"
+      },
+      {
+        "name": "operating lease liability",
+        "signed_amount": null,
+        "unit": "USD millions",
+        "as_of": "2026-10-19",
+        "definition": "not separately deducted under rent-in-EBIT/FCFF convention",
+        "source": "https://www.sec.gov/Archives/edgar/data/27419/000002741926000042/tgt-20260801.htm",
+        "locator": "p.3 and p.21",
+        "uncertainty": "consistency with WACC and future peers must be reviewed"
+      }
+    ],
+    "cash_reported_august_1": 5411.0,
+    "debt_reported_august_1": 15357.0,
+    "cash_estimated_at_cutoff": 5421.205970943524,
+    "estimated_operating_cash_retained": 1000,
+    "estimated_eligible_excess_cash": 4421.205970943524,
+    "debt_estimated_at_cutoff": 15327.564383561643,
+    "debt_adjustment": -15327.564383561643,
+    "other_claims_and_nonoperating_assets_adjustment": -306,
+    "other_claims_status": "provided net adjustment",
+    "operating_lease_adjustment": null,
+    "operating_lease_policy": "rent remains in operating cash flows; no separate liability deduction under chosen policy",
+    "finance_lease_policy": "finance lease debt included once in total debt",
+    "equity_value_partial": 55141.60438517339,
+    "shares_outstanding_august_millions": 454.296736,
+    "incremental_dilution_proxy_millions": 2.2,
+    "estimated_diluted_shares_millions": 456.496736,
+    "shares_source": "https://www.sec.gov/Archives/edgar/data/27419/000002741926000042/tgt-20260801.htm cover and p.1; August 21 common shares plus Q2 diluted-less-basic weighted average as a proxy",
+    "shares_date": "August 21, 2026 cover count; October 19 estimate",
+    "shares_uncertainty": "award-based and subsequent share changes unverified",
+    "value_per_share_partial": 120.79298719273514,
+    "value_per_share": 120.79298719273514,
+    "equity_value": 55141.60438517339,
+    "bridge_status": "conditional itemized carrying-value estimate",
+    "other_claim_details": [
+      {
+        "name": "Company-owned life insurance",
+        "signed_amount": 600,
+        "unit": "USD millions",
+        "source": "https://www.sec.gov/Archives/edgar/data/27419/000002741926000016/tgt-20260131.htm",
+        "locator": "FY2025 10-K Note 13",
+        "classification": "reported historical amount; cutoff carrying estimate",
+        "judgment": "January carrying value used as cutoff estimate; operating forecast excludes its investment returns"
+      },
+      {
+        "name": "Prepaid forward asset",
+        "signed_amount": 25,
+        "unit": "USD millions",
+        "source": "https://www.sec.gov/Archives/edgar/data/27419/000002741926000042/tgt-20260801.htm",
+        "locator": "Q2 FY2026 10-Q Note 5",
+        "classification": "reported historical amount; cutoff carrying estimate",
+        "judgment": "August fair-value asset; financing-linked deferred-compensation hedge"
+      },
+      {
+        "name": "Deferred compensation",
+        "signed_amount": -650,
+        "unit": "USD millions",
+        "source": "https://www.sec.gov/Archives/edgar/data/27419/000002741926000016/tgt-20260131.htm",
+        "locator": "FY2025 10-K Notes 21 and 24",
+        "classification": "reported historical amount; cutoff carrying estimate",
+        "judgment": "January claim estimate; cash settlement of opening earned compensation not separately forecast"
+      },
+      {
+        "name": "Unfunded nonqualified/international pensions",
+        "signed_amount": -37,
+        "unit": "USD millions",
+        "source": "https://www.sec.gov/Archives/edgar/data/27419/000002741926000016/tgt-20260131.htm",
+        "locator": "FY2025 10-K Note 25",
+        "classification": "reported historical amount; cutoff carrying estimate",
+        "judgment": "January shortfall, pretax carrying proxy; full deduction conservative to assumed tax shield"
+      },
+      {
+        "name": "Net interest-rate swap liability",
+        "signed_amount": -106,
+        "unit": "USD millions",
+        "source": "https://www.sec.gov/Archives/edgar/data/27419/000002741926000042/tgt-20260801.htm",
+        "locator": "Q2 FY2026 10-Q Notes 5 and 8",
+        "classification": "reported historical amount; cutoff carrying estimate",
+        "judgment": "August derivative liability separate from carrying debt; no duplicate derivative cash flow in FCFF"
+      },
+      {
+        "name": "Accrued interest",
+        "signed_amount": -138,
+        "unit": "USD millions",
+        "source": "https://www.sec.gov/Archives/edgar/data/27419/000002741926000016/tgt-20260131.htm",
+        "locator": "FY2025 10-K Note 15",
+        "classification": "reported historical amount; cutoff carrying estimate",
+        "judgment": "January estimate for opening accrued financing interest; future interest excluded from FCFF"
+      }
+    ],
+    "classification_notes": [
+      "Goodwill, PP&E and residual operating assets remain in operating enterprise value; not added again.",
+      "Operating leases remain in EBIT and FCFF; operating lease assets/liabilities are not separately bridged. Finance leases are included in debt once.",
+      "Qualified pension surplus of 231 is not treated as freely distributable excess cash; no separate addition under restricted-surplus convention.",
+      "Operating payables, employee/insurance reserves, deferred occupancy and operating deferred taxes remain embedded in continuing operating economics; not an extra financing deduction.",
+      "Dividends payable are distributions to the same common owners; not an additional non-common claim in this cum-distribution equity value.",
+      "No preferred equity or noncontrolling interest is shown in Target consolidated statements; zero separate claim is an evidenced classification, not an unexplained missing value.",
+      "The bridge is specified under explicit carrying-value/classification assumptions; unreported cutoff balances, award dilution and fair-value differences remain estimation risks.",
+      "Current/noncurrent income-tax accruals are treated as continuing operating tax float under the constant-balance/cash-operating-tax convention. Do not deduct them again as financing debt. A separate 780 immediate-settlement stress can test cessation of that float; it is not the base convention."
+    ]
+  },
+  "partial_equity_bridge": {
+    "enterprise_value": 66353.96279779151,
+    "bridge_items": [
+      {
+        "name": "eligible excess cash",
+        "signed_amount": 4421.205970943524,
+        "unit": "USD millions",
+        "as_of": "2026-10-19 estimated",
+        "definition": "estimated cutoff cash less the provisional operating cash reserve, limited to available cash",
+        "source": "https://www.sec.gov/Archives/edgar/data/27419/000002741926000042/tgt-20260801.htm",
+        "locator": "p.3 August cash; Step 6 elapsed-period roll-forward",
+        "uncertainty": "estimated October cash and $1,000m reserve are unverified; no forecast ending cash added"
+      },
+      {
+        "name": "debt including finance leases",
+        "signed_amount": -15327.564383561643,
+        "unit": "USD millions",
+        "as_of": "2026-10-19 estimated",
+        "definition": "total interest-bearing debt including finance leases once",
+        "source": "https://www.sec.gov/Archives/edgar/data/27419/000002741926000042/tgt-20260801.htm",
+        "locator": "p.3 August current and noncurrent debt; Step 6 elapsed-period roll-forward",
+        "uncertainty": "carrying value, not market debt; August lease and cutoff changes uncertain"
+      },
+      {
+        "name": "other claims and non-operating assets",
+        "signed_amount": -306,
+        "unit": "USD millions",
+        "as_of": "2026-10-19",
+        "definition": "net nonoperating asset additions less non-common claims, not otherwise counted",
+        "source": "https://www.sec.gov/Archives/edgar/data/27419/000002741926000042/tgt-20260801.htm",
+        "locator": "notes and balance sheet, classifications incomplete",
+        "uncertainty": "unknown; omitted from partial result rather than asserted zero"
+      },
+      {
+        "name": "operating lease liability",
+        "signed_amount": null,
+        "unit": "USD millions",
+        "as_of": "2026-10-19",
+        "definition": "not separately deducted under rent-in-EBIT/FCFF convention",
+        "source": "https://www.sec.gov/Archives/edgar/data/27419/000002741926000042/tgt-20260801.htm",
+        "locator": "p.3 and p.21",
+        "uncertainty": "consistency with WACC and future peers must be reviewed"
+      }
+    ],
+    "cash_reported_august_1": 5411.0,
+    "debt_reported_august_1": 15357.0,
+    "cash_estimated_at_cutoff": 5421.205970943524,
+    "estimated_operating_cash_retained": 1000,
+    "estimated_eligible_excess_cash": 4421.205970943524,
+    "debt_estimated_at_cutoff": 15327.564383561643,
+    "debt_adjustment": -15327.564383561643,
+    "other_claims_and_nonoperating_assets_adjustment": -306,
+    "other_claims_status": "provided net adjustment",
+    "operating_lease_adjustment": null,
+    "operating_lease_policy": "rent remains in operating cash flows; no separate liability deduction under chosen policy",
+    "finance_lease_policy": "finance lease debt included once in total debt",
+    "equity_value_partial": 55141.60438517339,
+    "shares_outstanding_august_millions": 454.296736,
+    "incremental_dilution_proxy_millions": 2.2,
+    "estimated_diluted_shares_millions": 456.496736,
+    "shares_source": "https://www.sec.gov/Archives/edgar/data/27419/000002741926000042/tgt-20260801.htm cover and p.1; August 21 common shares plus Q2 diluted-less-basic weighted average as a proxy",
+    "shares_date": "August 21, 2026 cover count; October 19 estimate",
+    "shares_uncertainty": "award-based and subsequent share changes unverified",
+    "value_per_share_partial": 120.79298719273514,
+    "value_per_share": 120.79298719273514,
+    "equity_value": 55141.60438517339,
+    "bridge_status": "conditional itemized carrying-value estimate",
+    "other_claim_details": [
+      {
+        "name": "Company-owned life insurance",
+        "signed_amount": 600,
+        "unit": "USD millions",
+        "source": "https://www.sec.gov/Archives/edgar/data/27419/000002741926000016/tgt-20260131.htm",
+        "locator": "FY2025 10-K Note 13",
+        "classification": "reported historical amount; cutoff carrying estimate",
+        "judgment": "January carrying value used as cutoff estimate; operating forecast excludes its investment returns"
+      },
+      {
+        "name": "Prepaid forward asset",
+        "signed_amount": 25,
+        "unit": "USD millions",
+        "source": "https://www.sec.gov/Archives/edgar/data/27419/000002741926000042/tgt-20260801.htm",
+        "locator": "Q2 FY2026 10-Q Note 5",
+        "classification": "reported historical amount; cutoff carrying estimate",
+        "judgment": "August fair-value asset; financing-linked deferred-compensation hedge"
+      },
+      {
+        "name": "Deferred compensation",
+        "signed_amount": -650,
+        "unit": "USD millions",
+        "source": "https://www.sec.gov/Archives/edgar/data/27419/000002741926000016/tgt-20260131.htm",
+        "locator": "FY2025 10-K Notes 21 and 24",
+        "classification": "reported historical amount; cutoff carrying estimate",
+        "judgment": "January claim estimate; cash settlement of opening earned compensation not separately forecast"
+      },
+      {
+        "name": "Unfunded nonqualified/international pensions",
+        "signed_amount": -37,
+        "unit": "USD millions",
+        "source": "https://www.sec.gov/Archives/edgar/data/27419/000002741926000016/tgt-20260131.htm",
+        "locator": "FY2025 10-K Note 25",
+        "classification": "reported historical amount; cutoff carrying estimate",
+        "judgment": "January shortfall, pretax carrying proxy; full deduction conservative to assumed tax shield"
+      },
+      {
+        "name": "Net interest-rate swap liability",
+        "signed_amount": -106,
+        "unit": "USD millions",
+        "source": "https://www.sec.gov/Archives/edgar/data/27419/000002741926000042/tgt-20260801.htm",
+        "locator": "Q2 FY2026 10-Q Notes 5 and 8",
+        "classification": "reported historical amount; cutoff carrying estimate",
+        "judgment": "August derivative liability separate from carrying debt; no duplicate derivative cash flow in FCFF"
+      },
+      {
+        "name": "Accrued interest",
+        "signed_amount": -138,
+        "unit": "USD millions",
+        "source": "https://www.sec.gov/Archives/edgar/data/27419/000002741926000016/tgt-20260131.htm",
+        "locator": "FY2025 10-K Note 15",
+        "classification": "reported historical amount; cutoff carrying estimate",
+        "judgment": "January estimate for opening accrued financing interest; future interest excluded from FCFF"
+      }
+    ],
+    "classification_notes": [
+      "Goodwill, PP&E and residual operating assets remain in operating enterprise value; not added again.",
+      "Operating leases remain in EBIT and FCFF; operating lease assets/liabilities are not separately bridged. Finance leases are included in debt once.",
+      "Qualified pension surplus of 231 is not treated as freely distributable excess cash; no separate addition under restricted-surplus convention.",
+      "Operating payables, employee/insurance reserves, deferred occupancy and operating deferred taxes remain embedded in continuing operating economics; not an extra financing deduction.",
+      "Dividends payable are distributions to the same common owners; not an additional non-common claim in this cum-distribution equity value.",
+      "No preferred equity or noncontrolling interest is shown in Target consolidated statements; zero separate claim is an evidenced classification, not an unexplained missing value.",
+      "The bridge is specified under explicit carrying-value/classification assumptions; unreported cutoff balances, award dilution and fair-value differences remain estimation risks.",
+      "Current/noncurrent income-tax accruals are treated as continuing operating tax float under the constant-balance/cash-operating-tax convention. Do not deduct them again as financing debt. A separate 780 immediate-settlement stress can test cessation of that float; it is not the base convention."
+    ]
+  },
+  "low_base_high": {
+    "low": 86.04079493968558,
+    "base": 120.79298719273514,
+    "high": 153.11931747042377
+  },
+  "terminal": {
+    "measurement_date": "2032-01-31",
+    "growth": 0.02,
+    "incremental_roic": 0.12,
+    "reinvestment_fraction": 0.16666666666666669,
+    "next_year_nopat": 5501.0602139513785,
+    "next_year_reinvestment": 916.8433689918965,
+    "next_year_fcff": 4584.216844959482,
+    "terminal_value": 75223.51319358547,
+    "present_value": 49844.726524090576,
+    "share_of_enterprise_value": 0.7511944188772639
+  },
+  "wacc_growth_sensitivity": [
+    {
+      "wacc": 0.0709412755445513,
+      "growth": 0.01,
+      "partial_value_per_share": 137.57550084352883
+    },
+    {
+      "wacc": 0.0709412755445513,
+      "growth": 0.02,
+      "partial_value_per_share": 149.85749552584042
+    },
+    {
+      "wacc": 0.0709412755445513,
+      "growth": 0.03,
+      "partial_value_per_share": 167.80456275123626
+    },
+    {
+      "wacc": 0.0809412755445513,
+      "growth": 0.01,
+      "partial_value_per_share": 113.76969320566394
+    },
+    {
+      "wacc": 0.0809412755445513,
+      "growth": 0.02,
+      "partial_value_per_share": 120.79298719273514
+    },
+    {
+      "wacc": 0.0809412755445513,
+      "growth": 0.03,
+      "partial_value_per_share": 130.31756350119284
+    },
+    {
+      "wacc": 0.0909412755445513,
+      "growth": 0.01,
+      "partial_value_per_share": 95.88799712063798
+    },
+    {
+      "wacc": 0.0909412755445513,
+      "growth": 0.02,
+      "partial_value_per_share": 99.93984157237028
+    },
+    {
+      "wacc": 0.0909412755445513,
+      "growth": 0.03,
+      "partial_value_per_share": 105.11751755556301
+    }
+  ],
+  "conditional_reverse_dcf": {
+    "status": "solved under documented accepted convention",
+    "solved_growth": 0.04473812542899901,
+    "student_price_acceptance": true,
+    "search_bounds": [
+      0,
+      0.05
+    ],
+    "fixed_inputs": [
+      "WACC",
+      "operating forecast",
+      "incremental ROIC",
+      "cash/debt/claims",
+      "diluted shares"
+    ],
+    "solved_variable": "perpetual terminal growth"
+  },
+  "market_price": {
+    "value": 153.29,
+    "unit": "USD per share",
+    "source_url": "https://query1.finance.yahoo.com/v8/finance/chart/TGT",
+    "definition": "provider-reported daily Close; split basis checked; not official auction verification",
+    "timestamp": "2026-10-19T16:00:00-04:00",
+    "accepted_by_student": true,
+    "calculation_basis": "conditional_provider_close",
+    "status": "Accepted for conditional class-model use under student-approved assumptions; provider daily Close, not official auction verification"
+  },
+  "conditional_gap_vs_price": -0.2119969522295313,
+  "peer_comparisons": {
+    "policy": "docs/peer-policy-audit-amendment-2026-10-20.md",
+    "reserve_convention": 0.009284620026925398,
+    "rows": [
+      {
+        "ticker": "TGT",
+        "classification": "target",
+        "price": {
+          "value": 153.29,
+          "date": "2026-10-19",
+          "definition": "provider daily Close; chart timestamp marks session open, not the closing trade time",
+          "source": "https://query1.finance.yahoo.com/v8/finance/chart/TGT",
+          "file": "data/audit-2026-10-20/prices-TGT.json"
+        },
+        "balance_date": "2026-08-01",
+        "share_date": "2026-08-21",
+        "basic_shares_m": 454.296736,
+        "dilution_proxy_m": 2.2000000000000455,
+        "valuation_shares_proxy_m": 456.49673600000006,
+        "equity_value_m": 69976.38466144001,
+        "debt_including_finance_leases_m": 15357,
+        "nci_including_redeemable_m": 0,
+        "derivative_claims_m": 106,
+        "cash_and_short_investments_m": 5411,
+        "operating_reserve_m": 1000.0,
+        "eligible_excess_cash_m": 4411.0,
+        "other_investment_assets_m": 0,
+        "conventional_EV_proxy_m": 81028.38466144001,
+        "EV_EBIT": 13.453160328978916,
+        "P_E": 15.903139458105644,
+        "earnings": {
+          "revenue": 107705.0,
+          "ebit": 6023.0,
+          "net_income_common": 4392.0,
+          "diluted_shares": 455.6499999999999,
+          "eps": 9.638977285196972,
+          "start": "2025-08-03",
+          "end": "2026-08-01",
+          "days": 364,
+          "evidence": [
+            {
+              "value": 104780.0,
+              "unit": "USD millions",
+              "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
+              "start": "2025-02-02",
+              "end": "2026-01-31",
+              "filed": "2026-03-11",
+              "accession": "0000027419-26-000016",
+              "source": "https://data.sec.gov/api/xbrl/companyfacts/CIK0000027419.json"
+            },
+            {
+              "value": 51982.0,
+              "unit": "USD millions",
+              "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
+              "start": "2026-02-01",
+              "end": "2026-08-01",
+              "filed": "2026-08-28",
+              "accession": "0000027419-26-000042",
+              "source": "https://data.sec.gov/api/xbrl/companyfacts/CIK0000027419.json"
+            },
+            {
+              "value": 49057.0,
+              "unit": "USD millions",
+              "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
+              "start": "2025-02-02",
+              "end": "2025-08-02",
+              "filed": "2026-08-28",
+              "accession": "0000027419-26-000042",
+              "source": "https://data.sec.gov/api/xbrl/companyfacts/CIK0000027419.json"
+            },
+            {
+              "value": 5117.0,
+              "unit": "USD millions",
+              "tag": "OperatingIncomeLoss",
+              "start": "2025-02-02",
+              "end": "2026-01-31",
+              "filed": "2026-03-11",
+              "accession": "0000027419-26-000016",
+              "source": "https://data.sec.gov/api/xbrl/companyfacts/CIK0000027419.json"
+            },
+            {
+              "value": 3695.0,
+              "unit": "USD millions",
+              "tag": "OperatingIncomeLoss",
+              "start": "2026-02-01",
+              "end": "2026-08-01",
+              "filed": "2026-08-28",
+              "accession": "0000027419-26-000042",
+              "source": "https://data.sec.gov/api/xbrl/companyfacts/CIK0000027419.json"
+            },
+            {
+              "value": 2789.0,
+              "unit": "USD millions",
+              "tag": "OperatingIncomeLoss",
+              "start": "2025-02-02",
+              "end": "2025-08-02",
+              "filed": "2026-08-28",
+              "accession": "0000027419-26-000042",
+              "source": "https://data.sec.gov/api/xbrl/companyfacts/CIK0000027419.json"
+            },
+            {
+              "value": 3705.0,
+              "unit": "USD millions",
+              "tag": "NetIncomeLoss",
+              "start": "2025-02-02",
+              "end": "2026-01-31",
+              "filed": "2026-03-11",
+              "accession": "0000027419-26-000016",
+              "source": "https://data.sec.gov/api/xbrl/companyfacts/CIK0000027419.json"
+            },
+            {
+              "value": 2658.0,
+              "unit": "USD millions",
+              "tag": "NetIncomeLoss",
+              "start": "2026-02-01",
+              "end": "2026-08-01",
+              "filed": "2026-08-28",
+              "accession": "0000027419-26-000042",
+              "source": "https://data.sec.gov/api/xbrl/companyfacts/CIK0000027419.json"
+            },
+            {
+              "value": 1971.0,
+              "unit": "USD millions",
+              "tag": "NetIncomeLoss",
+              "start": "2025-02-02",
+              "end": "2025-08-02",
+              "filed": "2026-08-28",
+              "accession": "0000027419-26-000042",
+              "source": "https://data.sec.gov/api/xbrl/companyfacts/CIK0000027419.json"
+            },
+            {
+              "value": 455.6,
+              "unit": "million shares",
+              "tag": "WeightedAverageNumberOfDilutedSharesOutstanding",
+              "start": "2025-02-02",
+              "end": "2026-01-31",
+              "filed": "2026-03-11",
+              "accession": "0000027419-26-000016",
+              "source": "https://data.sec.gov/api/xbrl/companyfacts/CIK0000027419.json"
+            },
+            {
+              "value": 456.2,
+              "unit": "million shares",
+              "tag": "WeightedAverageNumberOfDilutedSharesOutstanding",
+              "start": "2026-02-01",
+              "end": "2026-08-01",
+              "filed": "2026-08-28",
+              "accession": "0000027419-26-000042",
+              "source": "https://data.sec.gov/api/xbrl/companyfacts/CIK0000027419.json"
+            },
+            {
+              "value": 456.1,
+              "unit": "million shares",
+              "tag": "WeightedAverageNumberOfDilutedSharesOutstanding",
+              "start": "2025-02-02",
+              "end": "2025-08-02",
+              "filed": "2026-08-28",
+              "accession": "0000027419-26-000042",
+              "source": "https://data.sec.gov/api/xbrl/companyfacts/CIK0000027419.json"
+            }
+          ]
+        },
+        "evidence": [
+          {
+            "value": 454.296736,
+            "unit": "million shares",
+            "tag": "EntityCommonStockSharesOutstanding",
+            "start": null,
+            "end": "2026-08-21",
+            "filed": "2026-08-28",
+            "accession": "0000027419-26-000042",
+            "source": "https://data.sec.gov/api/xbrl/companyfacts/CIK0000027419.json"
+          },
+          {
+            "value": 456.6,
+            "unit": "million shares",
+            "tag": "WeightedAverageNumberOfDilutedSharesOutstanding",
+            "start": "2026-05-03",
+            "end": "2026-08-01",
+            "filed": "2026-08-28",
+            "accession": "0000027419-26-000042",
+            "source": "https://data.sec.gov/api/xbrl/companyfacts/CIK0000027419.json"
+          },
+          {
+            "value": 454.4,
+            "unit": "million shares",
+            "tag": "WeightedAverageNumberOfSharesOutstandingBasic",
+            "start": "2026-05-03",
+            "end": "2026-08-01",
+            "filed": "2026-08-28",
+            "accession": "0000027419-26-000042",
+            "source": "https://data.sec.gov/api/xbrl/companyfacts/CIK0000027419.json"
+          }
+        ],
+        "limitations": [
+          "Cash/debt at August 1; share count August 21; cutoff changes not asserted known.",
+          "Primary comparison uses reported TTM EBIT; tariff refund increases it by 994.",
+          "Deferred-compensation/life-insurance/pension and opening tax classifications differ from the expanded DCF bridge; this conventional trading EV is a qualified contextual proxy, not the expanded bridge.",
+          "Operating lease liabilities excluded because rent stays in EBIT.",
+          "Current diluted valuation shares are a proxy from latest cover shares and period dilution; not an award-by-award treasury-stock calculation.",
+          "Other claims, fair-value effects and restricted resources are not comprehensively measured for these contextual EV proxies; do not treat them as a core fair-value range."
+        ]
+      },
+      {
+        "ticker": "WMT",
+        "classification": "contextual comparison; not core valuation peer",
+        "price": {
+          "value": 118.7,
+          "date": "2026-10-19",
+          "definition": "provider daily Close; chart timestamp marks session open, not the closing trade time",
+          "source": "https://query1.finance.yahoo.com/v8/finance/chart/WMT",
+          "file": "data/audit-2026-10-20/prices-WMT.json"
+        },
+        "balance_date": "2026-07-31",
+        "share_date": "2026-08-26",
+        "basic_shares_m": 7933.746241,
+        "dilution_proxy_m": 24.0,
+        "valuation_shares_proxy_m": 7957.746241,
+        "equity_value_m": 944584.4788067,
+        "debt_including_finance_leases_m": 57243.0,
+        "nci_including_redeemable_m": 6561.0,
+        "derivative_claims_m": 1337,
+        "cash_and_short_investments_m": 11529.0,
+        "operating_reserve_m": 6831.994800612785,
+        "eligible_excess_cash_m": 4697.005199387215,
+        "other_investment_assets_m": 4867,
+        "conventional_EV_proxy_m": 1000161.4736073128,
+        "EV_EBIT": 30.98393660493534,
+        "P_E": 43.01601121406251,
+        "earnings": {
+          "revenue": 735840.0,
+          "ebit": 32280.0,
+          "net_income_common": 22076.0,
+          "diluted_shares": 8000.180821917808,
+          "eps": 2.759437629149478,
+          "start": "2025-08-01",
+          "end": "2026-07-31",
+          "days": 365,
+          "evidence": [
+            {
+              "value": 713163.0,
+              "unit": "USD millions",
+              "tag": "Revenues",
+              "start": "2025-02-01",
+              "end": "2026-01-31",
+              "filed": "2026-03-13",
+              "accession": "0000104169-26-000055",
+              "source": "https://data.sec.gov/api/xbrl/companyfacts/CIK0000104169.json"
+            },
+            {
+              "value": 365688.0,
+              "unit": "USD millions",
+              "tag": "Revenues",
+              "start": "2026-02-01",
+              "end": "2026-07-31",
+              "filed": "2026-08-28",
+              "accession": "0000104169-26-000154",
+              "source": "https://data.sec.gov/api/xbrl/companyfacts/CIK0000104169.json"
+            },
+            {
+              "value": 343011.0,
+              "unit": "USD millions",
+              "tag": "Revenues",
+              "start": "2025-02-01",
+              "end": "2025-07-31",
+              "filed": "2026-08-28",
+              "accession": "0000104169-26-000154",
+              "source": "https://data.sec.gov/api/xbrl/companyfacts/CIK0000104169.json"
+            },
+            {
+              "value": 29825.0,
+              "unit": "USD millions",
+              "tag": "OperatingIncomeLoss",
+              "start": "2025-02-01",
+              "end": "2026-01-31",
+              "filed": "2026-03-13",
+              "accession": "0000104169-26-000055",
+              "source": "https://data.sec.gov/api/xbrl/companyfacts/CIK0000104169.json"
+            },
+            {
+              "value": 16876.0,
+              "unit": "USD millions",
+              "tag": "OperatingIncomeLoss",
+              "start": "2026-02-01",
+              "end": "2026-07-31",
+              "filed": "2026-08-28",
+              "accession": "0000104169-26-000154",
+              "source": "https://data.sec.gov/api/xbrl/companyfacts/CIK0000104169.json"
+            },
+            {
+              "value": 14421.0,
+              "unit": "USD millions",
+              "tag": "OperatingIncomeLoss",
+              "start": "2025-02-01",
+              "end": "2025-07-31",
+              "filed": "2026-08-28",
+              "accession": "0000104169-26-000154",
+              "source": "https://data.sec.gov/api/xbrl/companyfacts/CIK0000104169.json"
+            },
+            {
+              "value": 21893.0,
+              "unit": "USD millions",
+              "tag": "NetIncomeLoss",
+              "start": "2025-02-01",
+              "end": "2026-01-31",
+              "filed": "2026-03-13",
+              "accession": "0000104169-26-000055",
+              "source": "https://data.sec.gov/api/xbrl/companyfacts/CIK0000104169.json"
+            },
+            {
+              "value": 11696.0,
+              "unit": "USD millions",
+              "tag": "NetIncomeLoss",
+              "start": "2026-02-01",
+              "end": "2026-07-31",
+              "filed": "2026-08-28",
+              "accession": "0000104169-26-000154",
+              "source": "https://data.sec.gov/api/xbrl/companyfacts/CIK0000104169.json"
+            },
+            {
+              "value": 11513.0,
+              "unit": "USD millions",
+              "tag": "NetIncomeLoss",
+              "start": "2025-02-01",
+              "end": "2025-07-31",
+              "filed": "2026-08-28",
+              "accession": "0000104169-26-000154",
+              "source": "https://data.sec.gov/api/xbrl/companyfacts/CIK0000104169.json"
+            },
+            {
+              "value": 8022.0,
+              "unit": "million shares",
+              "tag": "WeightedAverageNumberOfDilutedSharesOutstanding",
+              "start": "2025-02-01",
+              "end": "2026-01-31",
+              "filed": "2026-03-13",
+              "accession": "0000104169-26-000055",
+              "source": "https://data.sec.gov/api/xbrl/companyfacts/CIK0000104169.json"
+            },
+            {
+              "value": 7989.0,
+              "unit": "million shares",
+              "tag": "WeightedAverageNumberOfDilutedSharesOutstanding",
+              "start": "2026-02-01",
+              "end": "2026-07-31",
+              "filed": "2026-08-28",
+              "accession": "0000104169-26-000154",
+              "source": "https://data.sec.gov/api/xbrl/companyfacts/CIK0000104169.json"
+            },
+            {
+              "value": 8033.0,
+              "unit": "million shares",
+              "tag": "WeightedAverageNumberOfDilutedSharesOutstanding",
+              "start": "2025-02-01",
+              "end": "2025-07-31",
+              "filed": "2026-08-28",
+              "accession": "0000104169-26-000154",
+              "source": "https://data.sec.gov/api/xbrl/companyfacts/CIK0000104169.json"
+            }
+          ]
+        },
+        "evidence": [
+          {
+            "value": 7933.746241,
+            "unit": "million shares",
+            "tag": "EntityCommonStockSharesOutstanding",
+            "start": null,
+            "end": "2026-08-26",
+            "filed": "2026-08-28",
+            "accession": "0000104169-26-000154",
+            "source": "https://data.sec.gov/api/xbrl/companyfacts/CIK0000104169.json"
+          },
+          {
+            "value": 7978.0,
+            "unit": "million shares",
+            "tag": "WeightedAverageNumberOfDilutedSharesOutstanding",
+            "start": "2026-05-01",
+            "end": "2026-07-31",
+            "filed": "2026-08-28",
+            "accession": "0000104169-26-000154",
+            "source": "https://data.sec.gov/api/xbrl/companyfacts/CIK0000104169.json"
+          },
+          {
+            "value": 7954.0,
+            "unit": "million shares",
+            "tag": "WeightedAverageNumberOfSharesOutstandingBasic",
+            "start": "2026-05-01",
+            "end": "2026-07-31",
+            "filed": "2026-08-28",
+            "accession": "0000104169-26-000154",
+            "source": "https://data.sec.gov/api/xbrl/companyfacts/CIK0000104169.json"
+          },
+          {
+            "value": 11529.0,
+            "unit": "USD millions",
+            "tag": "CashAndCashEquivalentsAtCarryingValue",
+            "start": null,
+            "end": "2026-07-31",
+            "filed": "2026-08-28",
+            "accession": "0000104169-26-000154",
+            "source": "https://data.sec.gov/api/xbrl/companyfacts/CIK0000104169.json"
+          },
+          {
+            "value": 10479.0,
+            "unit": "USD millions",
+            "tag": "ShortTermBorrowings",
+            "start": null,
+            "end": "2026-07-31",
+            "filed": "2026-08-28",
+            "accession": "0000104169-26-000154",
+            "source": "https://data.sec.gov/api/xbrl/companyfacts/CIK0000104169.json"
+          },
+          {
+            "value": 3470.0,
+            "unit": "USD millions",
+            "tag": "LongTermDebtCurrent",
+            "start": null,
+            "end": "2026-07-31",
+            "filed": "2026-08-28",
+            "accession": "0000104169-26-000154",
+            "source": "https://data.sec.gov/api/xbrl/companyfacts/CIK0000104169.json"
+          },
+          {
+            "value": 36462.0,
+            "unit": "USD millions",
+            "tag": "LongTermDebtNoncurrent",
+            "start": null,
+            "end": "2026-07-31",
+            "filed": "2026-08-28",
+            "accession": "0000104169-26-000154",
+            "source": "https://data.sec.gov/api/xbrl/companyfacts/CIK0000104169.json"
+          },
+          {
+            "value": 880.0,
+            "unit": "USD millions",
+            "tag": "FinanceLeaseLiabilityCurrent",
+            "start": null,
+            "end": "2026-07-31",
+            "filed": "2026-08-28",
+            "accession": "0000104169-26-000154",
+            "source": "https://data.sec.gov/api/xbrl/companyfacts/CIK0000104169.json"
+          },
+          {
+            "value": 5952.0,
+            "unit": "USD millions",
+            "tag": "FinanceLeaseLiabilityNoncurrent",
+            "start": null,
+            "end": "2026-07-31",
+            "filed": "2026-08-28",
+            "accession": "0000104169-26-000154",
+            "source": "https://data.sec.gov/api/xbrl/companyfacts/CIK0000104169.json"
+          },
+          {
+            "value": 6268.0,
+            "unit": "USD millions",
+            "tag": "MinorityInterest",
+            "start": null,
+            "end": "2026-07-31",
+            "filed": "2026-08-28",
+            "accession": "0000104169-26-000154",
+            "source": "https://data.sec.gov/api/xbrl/companyfacts/CIK0000104169.json"
+          }
+        ],
+        "limitations": [
+          "Redeemable NCI 293 plus nonredeemable NCI; Note 4 investment assets 4867 and derivative liabilities 1337 from July filing.",
+          "NCI/debt use carrying proxies; geographic mix, growth, grocery and advertising differ materially from Target.",
+          "P/E uses net income attributable to Walmart; consolidated operating profit includes NCI.",
+          "Operating lease liabilities excluded because rent stays in EBIT.",
+          "Current diluted valuation shares are a proxy from latest cover shares and period dilution; not an award-by-award treasury-stock calculation.",
+          "Other claims, fair-value effects and restricted resources are not comprehensively measured for these contextual EV proxies; do not treat them as a core fair-value range."
+        ]
+      },
+      {
+        "ticker": "COST",
+        "classification": "contextual comparison; not core valuation peer",
+        "price": {
+          "value": 995.53,
+          "date": "2026-10-19",
+          "definition": "provider daily Close; chart timestamp marks session open, not the closing trade time",
+          "source": "https://query1.finance.yahoo.com/v8/finance/chart/COST",
+          "file": "data/audit-2026-10-20/prices-COST.json"
+        },
+        "balance_date": "2026-08-30",
+        "share_date": "2026-09-29",
+        "basic_shares_m": 443.129349,
+        "dilution_proxy_m": 0.4740000000000464,
+        "valuation_shares_proxy_m": 443.60334900000004,
+        "equity_value_m": 441620.44202997,
+        "debt_including_finance_leases_m": 7575.0,
+        "nci_including_redeemable_m": 0,
+        "derivative_claims_m": 0,
+        "cash_and_short_investments_m": 21301.0,
+        "operating_reserve_m": 2814.669699642542,
+        "eligible_excess_cash_m": 18486.33030035746,
+        "other_investment_assets_m": 0,
+        "conventional_EV_proxy_m": 430709.1117296125,
+        "EV_EBIT": 36.86000100381793,
+        "P_E": 47.955821733145456,
+        "earnings": {
+          "revenue": 303154.0,
+          "ebit": 11685.0,
+          "net_income_common": 9226.0,
+          "diluted_shares": 444.427,
+          "eps": 20.759314803106022,
+          "start": "2025-09-01",
+          "end": "2026-08-30",
+          "days": 364,
+          "evidence": [
+            {
+              "value": 303154.0,
+              "unit": "USD millions",
+              "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
+              "start": "2025-09-01",
+              "end": "2026-08-30",
+              "filed": "2026-10-07",
+              "accession": "0000909832-26-000093",
+              "source": "https://data.sec.gov/api/xbrl/companyfacts/CIK0000909832.json"
+            },
+            {
+              "value": 11685.0,
+              "unit": "USD millions",
+              "tag": "OperatingIncomeLoss",
+              "start": "2025-09-01",
+              "end": "2026-08-30",
+              "filed": "2026-10-07",
+              "accession": "0000909832-26-000093",
+              "source": "https://data.sec.gov/api/xbrl/companyfacts/CIK0000909832.json"
+            },
+            {
+              "value": 9226.0,
+              "unit": "USD millions",
+              "tag": "NetIncomeLoss",
+              "start": "2025-09-01",
+              "end": "2026-08-30",
+              "filed": "2026-10-07",
+              "accession": "0000909832-26-000093",
+              "source": "https://data.sec.gov/api/xbrl/companyfacts/CIK0000909832.json"
+            },
+            {
+              "value": 444.427,
+              "unit": "million shares",
+              "tag": "WeightedAverageNumberOfDilutedSharesOutstanding",
+              "start": "2025-09-01",
+              "end": "2026-08-30",
+              "filed": "2026-10-07",
+              "accession": "0000909832-26-000093",
+              "source": "https://data.sec.gov/api/xbrl/companyfacts/CIK0000909832.json"
+            }
+          ]
+        },
+        "evidence": [
+          {
+            "value": 443.129349,
+            "unit": "million shares",
+            "tag": "EntityCommonStockSharesOutstanding",
+            "start": null,
+            "end": "2026-09-29",
+            "filed": "2026-10-07",
+            "accession": "0000909832-26-000093",
+            "source": "https://data.sec.gov/api/xbrl/companyfacts/CIK0000909832.json"
+          },
+          {
+            "value": 444.427,
+            "unit": "million shares",
+            "tag": "WeightedAverageNumberOfDilutedSharesOutstanding",
+            "start": "2025-09-01",
+            "end": "2026-08-30",
+            "filed": "2026-10-07",
+            "accession": "0000909832-26-000093",
+            "source": "https://data.sec.gov/api/xbrl/companyfacts/CIK0000909832.json"
+          },
+          {
+            "value": 443.953,
+            "unit": "million shares",
+            "tag": "WeightedAverageNumberOfSharesOutstandingBasic",
+            "start": "2025-09-01",
+            "end": "2026-08-30",
+            "filed": "2026-10-07",
+            "accession": "0000909832-26-000093",
+            "source": "https://data.sec.gov/api/xbrl/companyfacts/CIK0000909832.json"
+          },
+          {
+            "value": 20207.0,
+            "unit": "USD millions",
+            "tag": "CashAndCashEquivalentsAtCarryingValue",
+            "start": null,
+            "end": "2026-08-30",
+            "filed": "2026-10-07",
+            "accession": "0000909832-26-000093",
+            "source": "https://data.sec.gov/api/xbrl/companyfacts/CIK0000909832.json"
+          },
+          {
+            "value": 2248.0,
+            "unit": "USD millions",
+            "tag": "LongTermDebtCurrent",
+            "start": null,
+            "end": "2026-08-30",
+            "filed": "2026-10-07",
+            "accession": "0000909832-26-000093",
+            "source": "https://data.sec.gov/api/xbrl/companyfacts/CIK0000909832.json"
+          },
+          {
+            "value": 3914.0,
+            "unit": "USD millions",
+            "tag": "LongTermDebtNoncurrent",
+            "start": null,
+            "end": "2026-08-30",
+            "filed": "2026-10-07",
+            "accession": "0000909832-26-000093",
+            "source": "https://data.sec.gov/api/xbrl/companyfacts/CIK0000909832.json"
+          },
+          {
+            "value": 94.0,
+            "unit": "USD millions",
+            "tag": "FinanceLeaseLiabilityCurrent",
+            "start": null,
+            "end": "2026-08-30",
+            "filed": "2026-10-07",
+            "accession": "0000909832-26-000093",
+            "source": "https://data.sec.gov/api/xbrl/companyfacts/CIK0000909832.json"
+          },
+          {
+            "value": 1319.0,
+            "unit": "USD millions",
+            "tag": "FinanceLeaseLiabilityNoncurrent",
+            "start": null,
+            "end": "2026-08-30",
+            "filed": "2026-10-07",
+            "accession": "0000909832-26-000093",
+            "source": "https://data.sec.gov/api/xbrl/companyfacts/CIK0000909832.json"
+          }
+        ],
+        "limitations": [
+          "Cash includes 1094 of short-term investments; no short-term borrowings at fiscal year end, per Note 4.",
+          "No separate NCI or preferred balance in the consolidated balance sheet.",
+          "Membership-funded economics and geographic mix make this contextual rather than a core Target peer.",
+          "Operating lease liabilities excluded because rent stays in EBIT.",
+          "Current diluted valuation shares are a proxy from latest cover shares and period dilution; not an award-by-award treasury-stock calculation.",
+          "Other claims, fair-value effects and restricted resources are not comprehensively measured for these contextual EV proxies; do not treat them as a core fair-value range."
+        ]
+      }
+    ],
+    "qualification": "Reported-period contextual EV/EBIT and P/E calculations; no core peer range, no averaging with DCF",
+    "normalized_target_EBIT_ex_tariff_m": 5029.0,
+    "normalization": "Remove the documented 994 tariff refund; transformation spending is not automatically added back; reported cash remains unchanged."
+  },
+  "known_answer": {
+    "source": "https://github.com/CinderZhang/FIN43900-Fall2026/blob/main/lessons/week-03/lab-05-dcf-build.md",
+    "source_local": "course-materials/public-course/lessons/week-03/lab-05-dcf-build.md",
+    "checks": [
+      {
+        "item": "FCFF Year 1",
+        "published": 108,
+        "actual": 108.0,
+        "difference": 0.0,
+        "tolerance": 0.0001,
+        "status": "pass"
+      },
+      {
+        "item": "FCFF Year 2",
+        "published": 114.48,
+        "actual": 114.48,
+        "difference": 0.0,
+        "tolerance": 0.0001,
+        "status": "pass"
+      },
+      {
+        "item": "FCFF Year 3",
+        "published": 120.204,
+        "actual": 120.20400000000001,
+        "difference": 1.4210854715202004e-14,
+        "tolerance": 0.0001,
+        "status": "pass"
+      },
+      {
+        "item": "FCFF Year 4",
+        "published": 125.0122,
+        "actual": 125.01216000000001,
+        "difference": -3.999999999848569e-05,
+        "tolerance": 0.0001,
+        "status": "pass"
+      },
+      {
+        "item": "FCFF Year 5",
+        "published": 128.7625,
+        "actual": 128.76252480000002,
+        "difference": 2.480000003401983e-05,
+        "tolerance": 0.0001,
+        "status": "pass"
+      },
+      {
+        "item": "PV explicit FCFF",
+        "published": 448.4408,
+        "actual": 448.44081738082957,
+        "difference": 1.7380829547164467e-05,
+        "tolerance": 0.0001,
+        "status": "pass"
+      },
+      {
+        "item": "Terminal value",
+        "published": 1894.6486,
+        "actual": 1894.6485792000003,
+        "difference": -2.0799999674636638e-05,
+        "tolerance": 0.0001,
+        "status": "pass"
+      },
+      {
+        "item": "PV terminal value",
+        "published": 1176.4277,
+        "actual": 1176.4277025290123,
+        "difference": 2.5290123630838934e-06,
+        "tolerance": 0.0001,
+        "status": "pass"
+      },
+      {
+        "item": "Enterprise value",
+        "published": 1624.8685,
+        "actual": 1624.8685199098418,
+        "difference": 1.9909841739718104e-05,
+        "tolerance": 0.0001,
+        "status": "pass"
+      },
+      {
+        "item": "Equity value",
+        "published": 1374.8685,
+        "actual": 1374.8685199098418,
+        "difference": 1.9909841739718104e-05,
+        "tolerance": 0.0001,
+        "status": "pass"
+      },
+      {
+        "item": "Per diluted share",
+        "published": 27.4974,
+        "actual": 27.497370398196836,
+        "difference": -2.9601803163359364e-05,
+        "tolerance": 0.0001,
+        "status": "pass"
+      },
+      {
+        "item": "Terminal share",
+        "published": 0.724,
+        "actual": 0.7240140898257345,
+        "difference": 1.4089825734475703e-05,
+        "tolerance": 0.0001,
+        "status": "pass"
+      }
+    ],
+    "passed": 12,
+    "total": 12,
+    "week_2_mini_case": {
+      "nopat": 112.5,
+      "fcff": 77.5,
+      "equity": 820,
+      "per_share": 8.2
+    },
+    "qualification": "Uses the same discount_cashflows, fcff_from_operating and equity_from_enterprise primitives as the Target engine; published case differs from Target terminal reinvestment convention. Not the student AI-closed exercise."
+  },
+  "checks": [
+    {
+      "name": "Input unit definitions",
+      "difference": 0,
+      "tolerance": 0,
+      "status": "pass"
+    },
+    {
+      "name": "August reported balance",
+      "difference": 0.0,
+      "tolerance": 1e-06,
+      "status": "pass"
+    },
+    {
+      "name": "August other assets classification",
+      "difference": 0.0,
+      "tolerance": 1e-06,
+      "status": "pass"
+    },
+    {
+      "name": "August accrual classification",
+      "difference": 0.0,
+      "tolerance": 1e-06,
+      "status": "pass"
+    },
+    {
+      "name": "FY2025 normalization rounded bridge",
+      "difference": -1,
+      "tolerance": 1.0,
+      "status": "pass"
+    },
+    {
+      "name": "Prior 56 historical checks",
+      "difference": 0,
+      "tolerance": 0,
+      "status": "pass"
+    },
+    {
+      "name": "elapsed estimate balance sheet",
+      "difference": 0.0,
+      "tolerance": 1e-06,
+      "status": "pass"
+    },
+    {
+      "name": "elapsed estimate cash movement",
+      "difference": -5.684341886080801e-13,
+      "tolerance": 1e-06,
+      "status": "pass"
+    },
+    {
+      "name": "elapsed estimate PPE roll-forward",
+      "difference": -3.865352482534945e-12,
+      "tolerance": 1e-06,
+      "status": "pass"
+    },
+    {
+      "name": "elapsed estimate debt roll-forward",
+      "difference": -9.379164112033322e-13,
+      "tolerance": 1e-06,
+      "status": "pass"
+    },
+    {
+      "name": "elapsed estimate retained earnings roll-forward",
+      "difference": -2.2737367544323206e-13,
+      "tolerance": 1e-06,
+      "status": "pass"
+    },
+    {
+      "name": "elapsed estimate equity components",
+      "difference": 0.0,
+      "tolerance": 1e-06,
+      "status": "pass"
+    },
+    {
+      "name": "elapsed estimate depreciation allocated once",
+      "difference": -1.8189894035458565e-12,
+      "tolerance": 1e-06,
+      "status": "pass"
+    },
+    {
+      "name": "elapsed estimate asset feasibility",
+      "status": "pass",
+      "difference": 725.8172747252747,
+      "tolerance": 0
+    },
+    {
+      "name": "elapsed estimate funding capacity and minimum cash",
+      "status": "pass",
+      "difference": 4421.205970943524,
+      "tolerance": 1e-06
+    },
+    {
+      "name": "elapsed estimate fiscal period length",
+      "status": "pass",
+      "difference": 79,
+      "tolerance": 0
+    },
+    {
+      "name": "elapsed estimate sales and expense signs",
+      "status": "pass",
+      "difference": 136.9706951398011,
+      "tolerance": 0
+    },
+    {
+      "name": "FY2026 future stub balance sheet",
+      "difference": 0.0,
+      "tolerance": 1e-06,
+      "status": "pass"
+    },
+    {
+      "name": "FY2026 future stub cash movement",
+      "difference": -1.5916157281026244e-12,
+      "tolerance": 1e-06,
+      "status": "pass"
+    },
+    {
+      "name": "FY2026 future stub PPE roll-forward",
+      "difference": 3.410605131648481e-12,
+      "tolerance": 1e-06,
+      "status": "pass"
+    },
+    {
+      "name": "FY2026 future stub debt roll-forward",
+      "difference": 1.8616219676914625e-12,
+      "tolerance": 1e-06,
+      "status": "pass"
+    },
+    {
+      "name": "FY2026 future stub retained earnings roll-forward",
+      "difference": -1.1368683772161603e-13,
+      "tolerance": 1e-06,
+      "status": "pass"
+    },
+    {
+      "name": "FY2026 future stub equity components",
+      "difference": 0.0,
+      "tolerance": 1e-06,
+      "status": "pass"
+    },
+    {
+      "name": "FY2026 future stub depreciation allocated once",
+      "difference": -2.2737367544323206e-13,
+      "tolerance": 1e-06,
+      "status": "pass"
+    },
+    {
+      "name": "FY2026 future stub asset feasibility",
+      "status": "pass",
+      "difference": 946.3187252747252,
+      "tolerance": 0
+    },
+    {
+      "name": "FY2026 future stub funding capacity and minimum cash",
+      "status": "pass",
+      "difference": 4273.043826089097,
+      "tolerance": 1e-06
+    },
+    {
+      "name": "FY2026 future stub fiscal period length",
+      "status": "pass",
+      "difference": 103,
+      "tolerance": 0
+    },
+    {
+      "name": "FY2026 future stub sales and expense signs",
+      "status": "pass",
+      "difference": 174.10753537249013,
+      "tolerance": 0
+    },
+    {
+      "name": "FY2027 balance sheet",
+      "difference": 7.275957614183426e-12,
+      "tolerance": 1e-06,
+      "status": "pass"
+    },
+    {
+      "name": "FY2027 cash movement",
+      "difference": 3.183231456205249e-12,
+      "tolerance": 1e-06,
+      "status": "pass"
+    },
+    {
+      "name": "FY2027 PPE roll-forward",
+      "difference": 2.7284841053187847e-12,
+      "tolerance": 1e-06,
+      "status": "pass"
+    },
+    {
+      "name": "FY2027 debt roll-forward",
+      "difference": -1.7905676941154525e-12,
+      "tolerance": 1e-06,
+      "status": "pass"
+    },
+    {
+      "name": "FY2027 retained earnings roll-forward",
+      "difference": -4.547473508864641e-13,
+      "tolerance": 1e-06,
+      "status": "pass"
+    },
+    {
+      "name": "FY2027 equity components",
+      "difference": 0.0,
+      "tolerance": 1e-06,
+      "status": "pass"
+    },
+    {
+      "name": "FY2027 depreciation allocated once",
+      "difference": -6.821210263296962e-12,
+      "tolerance": 1e-06,
+      "status": "pass"
+    },
+    {
+      "name": "FY2027 asset feasibility",
+      "status": "pass",
+      "difference": 3367.21008,
+      "tolerance": 0
+    },
+    {
+      "name": "FY2027 funding capacity and minimum cash",
+      "status": "pass",
+      "difference": 4335.307632935001,
+      "tolerance": 1e-06
+    },
+    {
+      "name": "FY2027 fiscal period length",
+      "status": "pass",
+      "difference": 364,
+      "tolerance": 0
+    },
+    {
+      "name": "FY2027 sales and expense signs",
+      "status": "pass",
+      "difference": 595.9591536873709,
+      "tolerance": 0
+    },
+    {
+      "name": "FY2028 balance sheet",
+      "difference": 3.637978807091713e-12,
+      "tolerance": 1e-06,
+      "status": "pass"
+    },
+    {
+      "name": "FY2028 cash movement",
+      "difference": -9.094947017729282e-13,
+      "tolerance": 1e-06,
+      "status": "pass"
+    },
+    {
+      "name": "FY2028 PPE roll-forward",
+      "difference": 0.0,
+      "tolerance": 1e-06,
+      "status": "pass"
+    },
+    {
+      "name": "FY2028 debt roll-forward",
+      "difference": 1.6200374375330284e-12,
+      "tolerance": 1e-06,
+      "status": "pass"
+    },
+    {
+      "name": "FY2028 retained earnings roll-forward",
+      "difference": -4.547473508864641e-13,
+      "tolerance": 1e-06,
+      "status": "pass"
+    },
+    {
+      "name": "FY2028 equity components",
+      "difference": 0.0,
+      "tolerance": 1e-06,
+      "status": "pass"
+    },
+    {
+      "name": "FY2028 depreciation allocated once",
+      "difference": -5.9117155615240335e-12,
+      "tolerance": 1e-06,
+      "status": "pass"
+    },
+    {
+      "name": "FY2028 asset feasibility",
+      "status": "pass",
+      "difference": 3534.9230436,
+      "tolerance": 0
+    },
+    {
+      "name": "FY2028 funding capacity and minimum cash",
+      "status": "pass",
+      "difference": 4823.12875217454,
+      "tolerance": 1e-06
+    },
+    {
+      "name": "FY2028 fiscal period length",
+      "status": "pass",
+      "difference": 371,
+      "tolerance": 0
+    },
+    {
+      "name": "FY2028 sales and expense signs",
+      "status": "pass",
+      "difference": 591.8600037342841,
+      "tolerance": 0
+    },
+    {
+      "name": "FY2029 balance sheet",
+      "difference": 3.637978807091713e-12,
+      "tolerance": 1e-06,
+      "status": "pass"
+    },
+    {
+      "name": "FY2029 cash movement",
+      "difference": 4.547473508864641e-13,
+      "tolerance": 1e-06,
+      "status": "pass"
+    },
+    {
+      "name": "FY2029 PPE roll-forward",
+      "difference": 4.092726157978177e-12,
+      "tolerance": 1e-06,
+      "status": "pass"
+    },
+    {
+      "name": "FY2029 debt roll-forward",
+      "difference": 2.842170943040401e-14,
+      "tolerance": 1e-06,
+      "status": "pass"
+    },
+    {
+      "name": "FY2029 retained earnings roll-forward",
+      "difference": 4.547473508864641e-13,
+      "tolerance": 1e-06,
+      "status": "pass"
+    },
+    {
+      "name": "FY2029 equity components",
+      "difference": 0.0,
+      "tolerance": 1e-06,
+      "status": "pass"
+    },
+    {
+      "name": "FY2029 depreciation allocated once",
+      "difference": 5.002220859751105e-12,
+      "tolerance": 1e-06,
+      "status": "pass"
+    },
+    {
+      "name": "FY2029 asset feasibility",
+      "status": "pass",
+      "difference": 3554.9320419599994,
+      "tolerance": 0
+    },
+    {
+      "name": "FY2029 funding capacity and minimum cash",
+      "status": "pass",
+      "difference": 5110.1231446836155,
+      "tolerance": 1e-06
+    },
+    {
+      "name": "FY2029 fiscal period length",
+      "status": "pass",
+      "difference": 364,
+      "tolerance": 0
+    },
+    {
+      "name": "FY2029 sales and expense signs",
+      "status": "pass",
+      "difference": 552.368886620379,
+      "tolerance": 0
+    },
+    {
+      "name": "FY2030 balance sheet",
+      "difference": 3.637978807091713e-12,
+      "tolerance": 1e-06,
+      "status": "pass"
+    },
+    {
+      "name": "FY2030 cash movement",
+      "difference": 4.547473508864641e-13,
+      "tolerance": 1e-06,
+      "status": "pass"
+    },
+    {
+      "name": "FY2030 PPE roll-forward",
+      "difference": -5.002220859751105e-12,
+      "tolerance": 1e-06,
+      "status": "pass"
+    },
+    {
+      "name": "FY2030 debt roll-forward",
+      "difference": 2.842170943040401e-14,
+      "tolerance": 1e-06,
+      "status": "pass"
+    },
+    {
+      "name": "FY2030 retained earnings roll-forward",
+      "difference": 4.547473508864641e-13,
+      "tolerance": 1e-06,
+      "status": "pass"
+    },
+    {
+      "name": "FY2030 equity components",
+      "difference": 0.0,
+      "tolerance": 1e-06,
+      "status": "pass"
+    },
+    {
+      "name": "FY2030 depreciation allocated once",
+      "difference": -3.183231456205249e-12,
+      "tolerance": 1e-06,
+      "status": "pass"
+    },
+    {
+      "name": "FY2030 asset feasibility",
+      "status": "pass",
+      "difference": 3643.805343008999,
+      "tolerance": 0
+    },
+    {
+      "name": "FY2030 funding capacity and minimum cash",
+      "status": "pass",
+      "difference": 5690.447603300425,
+      "tolerance": 1e-06
+    },
+    {
+      "name": "FY2030 fiscal period length",
+      "status": "pass",
+      "difference": 364,
+      "tolerance": 0
+    },
+    {
+      "name": "FY2030 sales and expense signs",
+      "status": "pass",
+      "difference": 514.7122430474761,
+      "tolerance": 0
+    },
+    {
+      "name": "FY2031 balance sheet",
+      "difference": 7.275957614183426e-12,
+      "tolerance": 1e-06,
+      "status": "pass"
+    },
+    {
+      "name": "FY2031 cash movement",
+      "difference": 2.2737367544323206e-12,
+      "tolerance": 1e-06,
+      "status": "pass"
+    },
+    {
+      "name": "FY2031 PPE roll-forward",
+      "difference": -3.637978807091713e-12,
+      "tolerance": 1e-06,
+      "status": "pass"
+    },
+    {
+      "name": "FY2031 debt roll-forward",
+      "difference": 2.842170943040401e-14,
+      "tolerance": 1e-06,
+      "status": "pass"
+    },
+    {
+      "name": "FY2031 retained earnings roll-forward",
+      "difference": 1.3642420526593924e-12,
+      "tolerance": 1e-06,
+      "status": "pass"
+    },
+    {
+      "name": "FY2031 equity components",
+      "difference": 0.0,
+      "tolerance": 1e-06,
+      "status": "pass"
+    },
+    {
+      "name": "FY2031 depreciation allocated once",
+      "difference": -4.547473508864641e-12,
+      "tolerance": 1e-06,
+      "status": "pass"
+    },
+    {
+      "name": "FY2031 asset feasibility",
+      "status": "pass",
+      "difference": 3734.9004765842237,
+      "tolerance": 0
+    },
+    {
+      "name": "FY2031 funding capacity and minimum cash",
+      "status": "pass",
+      "difference": 7629.861735012259,
+      "tolerance": 1e-06
+    },
+    {
+      "name": "FY2031 fiscal period length",
+      "status": "pass",
+      "difference": 364,
+      "tolerance": 0
+    },
+    {
+      "name": "FY2031 sales and expense signs",
+      "status": "pass",
+      "difference": 491.5158734471758,
+      "tolerance": 0
+    },
+    {
+      "name": "FCFF reconciliation FY2026 future stub",
+      "difference": -2.2737367544323206e-13,
+      "status": "pass"
+    },
+    {
+      "name": "FCFF reconciliation FY2027",
+      "difference": 0.0,
+      "status": "pass"
+    },
+    {
+      "name": "FCFF reconciliation FY2028",
+      "difference": 0.0,
+      "status": "pass"
+    },
+    {
+      "name": "FCFF reconciliation FY2029",
+      "difference": 4.547473508864641e-13,
+      "status": "pass"
+    },
+    {
+      "name": "FCFF reconciliation FY2030",
+      "difference": 0.0,
+      "status": "pass"
+    },
+    {
+      "name": "FCFF reconciliation FY2031",
+      "difference": -9.094947017729282e-13,
+      "status": "pass"
+    },
+    {
+      "name": "six future periods, elapsed excluded",
+      "difference": 0,
+      "status": "pass"
+    },
+    {
+      "name": "low scenario feasibility",
+      "difference": 0,
+      "status": "pass"
+    },
+    {
+      "name": "high scenario feasibility",
+      "difference": 0,
+      "status": "pass"
+    },
+    {
+      "name": "enterprise-to-equity signed bridge",
+      "difference": 0.0,
+      "status": "pass"
+    },
+    {
+      "name": "itemized other-claims total",
+      "difference": 0,
+      "status": "pass"
+    }
+  ],
+  "check_summary": {
+    "pass": 94,
+    "fail": 0
+  },
+  "student_action": {
+    "status": "confirmed_by_student",
+    "proposal": "watch/defer",
+    "approved_action": "watch/defer",
+    "confirmed_on": "2026-10-20",
+    "source": "Direct user instruction in this conversation: say that I want to watch/defer.",
+    "scope": "Recommendation only; does not approve every model assumption, market-price convention, monitoring threshold or validation task."
+  },
+  "pending_human_requirements": [
+    "protected pre-run prediction/execution",
+    "actual credited partner-feedback evidence",
+    "Edition A receipt/switch evidence",
+    "recordings/transcripts/repository/video access"
+  ],
+  "operating_sensitivities": {
+    "rows": [
+      {
+        "driver": "Sales growth",
+        "key": "sales_growth",
+        "range_set": "primary",
+        "change": -0.01,
+        "change_percentage_points": -1.0,
+        "EBIT_change_m": -56.66502399999081,
+        "FCFF_change_m": -61.560435411422986,
+        "value_change_per_share": -1.4460646107216064,
+        "absolute_value_change": 1.4460646107216064,
+        "state_valid": true
+      },
+      {
+        "driver": "Sales growth",
+        "key": "sales_growth",
+        "range_set": "primary",
+        "change": 0.01,
+        "change_percentage_points": 1.0,
+        "EBIT_change_m": 56.66502399998899,
+        "FCFF_change_m": 61.56043541141935,
+        "value_change_per_share": 1.446064610721379,
+        "absolute_value_change": 1.446064610721379,
+        "state_valid": true
+      },
+      {
+        "driver": "Sales growth",
+        "key": "sales_growth",
+        "range_set": "alternative justified asymmetry",
+        "change": -0.02,
+        "change_percentage_points": -2.0,
+        "EBIT_change_m": -113.33004799999435,
+        "FCFF_change_m": -123.1208708228528,
+        "value_change_per_share": -2.892129221443085,
+        "absolute_value_change": 2.892129221443085,
+        "state_valid": true
+      },
+      {
+        "driver": "Sales growth",
+        "key": "sales_growth",
+        "range_set": "alternative justified asymmetry",
+        "change": 0.02,
+        "change_percentage_points": 2.0,
+        "EBIT_change_m": 113.33004799999253,
+        "FCFF_change_m": 123.12087082284961,
+        "value_change_per_share": 2.8921292214429144,
+        "absolute_value_change": 2.8921292214429144,
+        "state_valid": true
+      },
+      {
+        "driver": "Cost / sales",
+        "key": "cost_ex_da_rate",
+        "range_set": "primary",
+        "change": -0.01,
+        "change_percentage_points": -1.0,
+        "EBIT_change_m": 1122.4033600000112,
+        "FCFF_change_m": 849.9430278857244,
+        "value_change_per_share": 1.6910532340179287,
+        "absolute_value_change": 1.6910532340179287,
+        "state_valid": true
+      },
+      {
+        "driver": "Cost / sales",
+        "key": "cost_ex_da_rate",
+        "range_set": "primary",
+        "change": 0.01,
+        "change_percentage_points": 1.0,
+        "EBIT_change_m": -1122.4033599999966,
+        "FCFF_change_m": -849.9430278857114,
+        "value_change_per_share": -1.691053234017943,
+        "absolute_value_change": 1.691053234017943,
+        "state_valid": true
+      },
+      {
+        "driver": "Cost / sales",
+        "key": "cost_ex_da_rate",
+        "range_set": "alternative justified asymmetry",
+        "change": -0.005,
+        "change_percentage_points": -0.5,
+        "EBIT_change_m": 561.2016800000129,
+        "FCFF_change_m": 424.9715139428654,
+        "value_change_per_share": 0.8455266170089715,
+        "absolute_value_change": 0.8455266170089715,
+        "state_valid": true
+      },
+      {
+        "driver": "Cost / sales",
+        "key": "cost_ex_da_rate",
+        "range_set": "alternative justified asymmetry",
+        "change": 0.005,
+        "change_percentage_points": 0.5,
+        "EBIT_change_m": -561.2016799999983,
+        "FCFF_change_m": -424.9715139428581,
+        "value_change_per_share": -0.8455266170089573,
+        "absolute_value_change": 0.8455266170089573,
+        "state_valid": true
+      },
+      {
+        "driver": "SG&A / sales",
+        "key": "sga_rate",
+        "range_set": "primary",
+        "change": -0.005,
+        "change_percentage_points": -0.5,
+        "EBIT_change_m": 561.2016799999983,
+        "FCFF_change_m": 426.5132767999976,
+        "value_change_per_share": 0.845759161754799,
+        "absolute_value_change": 0.845759161754799,
+        "state_valid": true
+      },
+      {
+        "driver": "SG&A / sales",
+        "key": "sga_rate",
+        "range_set": "primary",
+        "change": 0.005,
+        "change_percentage_points": 0.5,
+        "EBIT_change_m": -561.2016800000019,
+        "FCFF_change_m": -426.51327680000213,
+        "value_change_per_share": -0.8457591617548417,
+        "absolute_value_change": 0.8457591617548417,
+        "state_valid": true
+      },
+      {
+        "driver": "SG&A / sales",
+        "key": "sga_rate",
+        "range_set": "alternative justified asymmetry",
+        "change": -0.01,
+        "change_percentage_points": -1.0,
+        "EBIT_change_m": 1122.4033600000002,
+        "FCFF_change_m": 853.0265535999997,
+        "value_change_per_share": 1.6915183235096265,
+        "absolute_value_change": 1.6915183235096265,
+        "state_valid": true
+      },
+      {
+        "driver": "SG&A / sales",
+        "key": "sga_rate",
+        "range_set": "alternative justified asymmetry",
+        "change": 0.01,
+        "change_percentage_points": 1.0,
+        "EBIT_change_m": -1122.4033600000039,
+        "FCFF_change_m": -853.0265536000031,
+        "value_change_per_share": -1.6915183235096407,
+        "absolute_value_change": 1.6915183235096407,
+        "state_valid": true
+      },
+      {
+        "driver": "Capex / sales",
+        "key": "capex_rate",
+        "range_set": "primary",
+        "change": -0.01,
+        "change_percentage_points": -1.0,
+        "EBIT_change_m": 0.0,
+        "FCFF_change_m": 1122.4033600000002,
+        "value_change_per_share": 2.2256820046179655,
+        "absolute_value_change": 2.2256820046179655,
+        "state_valid": true
+      },
+      {
+        "driver": "Capex / sales",
+        "key": "capex_rate",
+        "range_set": "primary",
+        "change": 0.01,
+        "change_percentage_points": 1.0,
+        "EBIT_change_m": 0.0,
+        "FCFF_change_m": -1122.40336,
+        "value_change_per_share": -2.2256820046179655,
+        "absolute_value_change": 2.2256820046179655,
+        "state_valid": true
+      },
+      {
+        "driver": "Capex / sales",
+        "key": "capex_rate",
+        "range_set": "alternative justified asymmetry",
+        "change": -0.005,
+        "change_percentage_points": -0.5,
+        "EBIT_change_m": 0.0,
+        "FCFF_change_m": 561.2016799999992,
+        "value_change_per_share": 1.1128410023089685,
+        "absolute_value_change": 1.1128410023089685,
+        "state_valid": true
+      },
+      {
+        "driver": "Capex / sales",
+        "key": "capex_rate",
+        "range_set": "alternative justified asymmetry",
+        "change": 0.005,
+        "change_percentage_points": 0.5,
+        "EBIT_change_m": 0.0,
+        "FCFF_change_m": -561.2016800000001,
+        "value_change_per_share": -1.1128410023089685,
+        "absolute_value_change": 1.1128410023089685,
+        "state_valid": true
+      }
+    ],
+    "rankings": {
+      "primary": [
+        [
+          "Capex / sales",
+          2.2256820046179655
+        ],
+        [
+          "Cost / sales",
+          1.691053234017943
+        ],
+        [
+          "Sales growth",
+          1.4460646107216064
+        ],
+        [
+          "SG&A / sales",
+          0.8457591617548417
+        ]
+      ],
+      "alternative justified asymmetry": [
+        [
+          "Sales growth",
+          2.892129221443085
+        ],
+        [
+          "SG&A / sales",
+          1.6915183235096407
+        ],
+        [
+          "Capex / sales",
+          1.1128410023089685
+        ],
+        [
+          "Cost / sales",
+          0.8455266170089715
+        ]
+      ]
+    },
+    "ranking_metric": "maximum absolute per-share effect across each symmetric low/high range; depends on economic shock width",
+    "range_basis": "Sales +/-1pp then +/-2pp tests demand uncertainty; merchandise cost +/-1pp then +/-0.5pp tests margin; SG&A +/-0.5pp then +/-1pp tests wage/fulfillment pressure; capex +/-1pp then +/-0.5pp tests investment policy. These are explicit stress assumptions, not statistical intervals.",
+    "interpretation": "Changing relative range widths can change rankings; simply halving every shock is not an independent range-robustness argument."
+  },
+  "combined_stress_envelope": {
+    "low": 66.94744577860446,
+    "high": 211.87516810969075,
+    "cases": [
+      {
+        "operating_case": "low",
+        "wacc": 0.0709412755445513,
+        "growth": 0.01,
+        "value_per_share": 98.89010699686995
+      },
+      {
+        "operating_case": "low",
+        "wacc": 0.0709412755445513,
+        "growth": 0.03,
+        "value_per_share": 122.12068794390308
+      },
+      {
+        "operating_case": "low",
+        "wacc": 0.0909412755445513,
+        "growth": 0.01,
+        "value_per_share": 66.94744577860446
+      },
+      {
+        "operating_case": "low",
+        "wacc": 0.0909412755445513,
+        "growth": 0.03,
+        "value_per_share": 74.0401938837369
+      },
+      {
+        "operating_case": "base",
+        "wacc": 0.0709412755445513,
+        "growth": 0.01,
+        "value_per_share": 137.57550084352883
+      },
+      {
+        "operating_case": "base",
+        "wacc": 0.0709412755445513,
+        "growth": 0.03,
+        "value_per_share": 167.80456275123626
+      },
+      {
+        "operating_case": "base",
+        "wacc": 0.0909412755445513,
+        "growth": 0.01,
+        "value_per_share": 95.88799712063798
+      },
+      {
+        "operating_case": "base",
+        "wacc": 0.0909412755445513,
+        "growth": 0.03,
+        "value_per_share": 105.11751755556301
+      },
+      {
+        "operating_case": "high",
+        "wacc": 0.0709412755445513,
+        "growth": 0.01,
+        "value_per_share": 174.02215898548522
+      },
+      {
+        "operating_case": "high",
+        "wacc": 0.0709412755445513,
+        "growth": 0.03,
+        "value_per_share": 211.87516810969075
+      },
+      {
+        "operating_case": "high",
+        "wacc": 0.0909412755445513,
+        "growth": 0.01,
+        "value_per_share": 122.04057975665779
+      },
+      {
+        "operating_case": "high",
+        "wacc": 0.0909412755445513,
+        "growth": 0.03,
+        "value_per_share": 133.59783953209865
+      }
+    ],
+    "interpretation": "Combined operating/WACC/growth stress, not a probability interval; ranges are chosen modeling assumptions."
+  },
+  "historical_reference_bands": {
+    "cost_ex_da_rate": {
+      "low": 0.7178837527916971,
+      "high": 0.7245745354336574,
+      "observations": [
+        0.7245745354336574,
+        0.7178837527916971,
+        0.7206623401412483
+      ],
+      "definition": "reported annual rate; sales also includes latest H1 growth; cost compared including model allocated D&A",
+      "source": "data/historical-reported.json; FY2023-FY2025 annual statements and H1 FY2026"
+    },
+    "sga_rate": {
+      "low": 0.19981007708635906,
+      "high": 0.20615393277405553,
+      "observations": [
+        0.19981007708635906,
+        0.20615393277405553,
+        0.20552586371444934
+      ],
+      "definition": "reported annual rate; sales also includes latest H1 growth; cost compared including model allocated D&A",
+      "source": "data/historical-reported.json; FY2023-FY2025 annual statements and H1 FY2026"
+    },
+    "capex_rate": {
+      "low": 0.027128727736801608,
+      "high": 0.04474360406658474,
+      "observations": [
+        0.04474360406658474,
+        0.027128727736801608,
+        0.03556976522237068
+      ],
+      "definition": "reported annual rate; sales also includes latest H1 growth; cost compared including model allocated D&A",
+      "source": "data/historical-reported.json; FY2023-FY2025 annual statements and H1 FY2026"
+    },
+    "sales_growth": {
+      "low": -0.016759566841206386,
+      "high": 0.05962451841735117,
+      "observations": [
+        -0.007876214948050464,
+        -0.016759566841206386,
+        0.05962451841735117
+      ],
+      "definition": "reported annual rate; sales also includes latest H1 growth; cost compared including model allocated D&A",
+      "source": "data/historical-reported.json; FY2023-FY2025 annual statements and H1 FY2026"
+    }
+  },
+  "proposed_monitoring_policy": [
+    {
+      "metric": "reported comparable-sales growth",
+      "condition": "non-positive for two consecutive reports",
+      "window": "within five business days of each quarterly release; additionally on any source/accounting failure",
+      "owner": "student analyst",
+      "response": "revisit recovery growth and watch/defer recommendation",
+      "student_approved": true
+    },
+    {
+      "metric": "recurring operating margin after a disclosed normalization bridge",
+      "condition": "below 4.5% for two consecutive quarters",
+      "window": "within five business days of each quarterly release; additionally on any source/accounting failure",
+      "owner": "student analyst",
+      "response": "rerun downside case and reconsider initiation eligibility",
+      "student_approved": true
+    },
+    {
+      "metric": "inventory growth versus sales growth in matching seasonal periods",
+      "condition": "inventory growth exceeds sales growth by over 5 percentage points for two consecutive quarters",
+      "window": "within five business days of each quarterly release; additionally on any source/accounting failure",
+      "owner": "student analyst",
+      "response": "review markdown exposure, turnover assumptions and liquidity",
+      "student_approved": true
+    },
+    {
+      "metric": "required accounting/source checks",
+      "condition": "any required reconciliation fails or a load-bearing source cannot be reproduced",
+      "window": "within five business days of each quarterly release; additionally on any source/accounting failure",
+      "owner": "student analyst",
+      "response": "stop reliance on valuation until corrected",
+      "student_approved": true
+    }
+  ],
+  "student_source_check": {
+    "status": "confirmed_by_student_report",
+    "reported_at": "2026-10-20T02:24:18-04:00",
+    "source_url": "https://www.sec.gov/Archives/edgar/data/27419/000002741926000042/tgt-20260801.htm",
+    "locator": "Form 10-Q cover page",
+    "reported_share_count": 454296736,
+    "reported_share_date": "2026-08-21",
+    "definition": "point-in-time common shares outstanding, not diluted weighted-average shares",
+    "student_response_verbatim": "The cover reports 454,296,736 common shares outstanding as of August 21, 2026. I accept the correction from the older August 1 count because August 21 is the more recent disclosed date. However, I would qualify its use in the valuation: it is not an exact October 19 count, and it is not a diluted share count. The model’s additional dilution remains an estimate. This small correction does not change my watch/defer recommendation.",
+    "reading_time": "not separately provided; reported_at is receipt time, not an invented source-access timestamp",
+    "drafting_assistance": "Student submitted the assisted example wording as the response; source finding and disposition are recorded as reported, not as unassisted authorship."
+  },
+  "student_ai_output_review": {
+    "status": "accepted_correction_and_qualified_use",
+    "reported_at": "2026-10-20T02:24:18-04:00",
+    "output": "Earlier model used August 1 common shares as valuation base although August 21 cover shares were available. The older amount was valid for its date, not fabricated.",
+    "evidence": "https://www.sec.gov/Archives/edgar/data/27419/000002741926000042/tgt-20260801.htm cover; prior model/source ledger preserved in audit backup",
+    "disposition": "Accept newer reported basic count; qualify exact October count and award dilution",
+    "isolated_effect": "Approximately -$0.0014/share holding equity fixed; rounded current value remains $120.79",
+    "recommendation_effect": "watch/defer unchanged",
+    "student_response_verbatim": "The cover reports 454,296,736 common shares outstanding as of August 21, 2026. I accept the correction from the older August 1 count because August 21 is the more recent disclosed date. However, I would qualify its use in the valuation: it is not an exact October 19 count, and it is not a diluted share count. The model’s additional dilution remains an estimate. This small correction does not change my watch/defer recommendation.",
+    "scope": "This is not the protected AI-off changed-input exercise."
+  },
+  "student_assumptions": {
+    "status": "accepted_for_conditional_use",
+    "reported_at": "2026-10-20T02:24:18-04:00",
+    "student_response_verbatim": "Keep the conditional assumptions and accept the proposed policy",
+    "scope": "Existing source-check worksheet assumptions and disclosed conventions retained for the class model; approval is not independent verification of every estimate or statistical validation of bounds."
+  },
+  "monitoring_policy": {
+    "status": "accepted_by_student",
+    "reported_at": "2026-10-20T02:24:18-04:00",
+    "owner": "student analyst",
+    "review_cadence": "within five business days of each quarterly earnings release",
+    "rules": [
+      {
+        "metric": "reported comparable-sales growth",
+        "condition": "non-positive for two consecutive reports",
+        "window": "within five business days of each quarterly release; additionally on any source/accounting failure",
+        "owner": "student analyst",
+        "response": "revisit recovery growth and watch/defer recommendation",
+        "student_approved": true
+      },
+      {
+        "metric": "recurring operating margin after a disclosed normalization bridge",
+        "condition": "below 4.5% for two consecutive quarters",
+        "window": "within five business days of each quarterly release; additionally on any source/accounting failure",
+        "owner": "student analyst",
+        "response": "rerun downside case and reconsider initiation eligibility",
+        "student_approved": true
+      },
+      {
+        "metric": "inventory growth versus sales growth in matching seasonal periods",
+        "condition": "inventory growth exceeds sales growth by over 5 percentage points for two consecutive quarters",
+        "window": "within five business days of each quarterly release; additionally on any source/accounting failure",
+        "owner": "student analyst",
+        "response": "review markdown exposure, turnover assumptions and liquidity",
+        "student_approved": true
+      },
+      {
+        "metric": "required accounting/source checks",
+        "condition": "any required reconciliation fails or a load-bearing source cannot be reproduced",
+        "window": "within five business days of each quarterly release; additionally on any source/accounting failure",
+        "owner": "student analyst",
+        "response": "stop reliance on valuation until corrected",
+        "student_approved": true
+      }
+    ]
+  },
+  "entry_policy": {
+    "status": "accepted_by_student",
+    "reported_at": "2026-10-20T02:24:18-04:00",
+    "discount_to_current_base": 0.2,
+    "conditions": "Consider initiation only after validation is complete, operating evidence supports the thesis and no unresolved monitoring trigger remains. Price alone is not an automatic purchase. Recalculate with each updated base value.",
+    "risk": "Entry screen may exceed the low operating case; not protection against every downside scenario.",
+    "current_base_value": 120.79298719273514,
+    "entry_screen": 96.63438975418812
+  },
+  "source_version": {
+    "financial_engine.py": "47372937991b2606668ce565d786dc312b046d6a9dedb1e2968d295ab2a9f4c0",
+    "valuation_engine.py": "2e1ab28e09ffbbaf488458132124892036a91e0959bfd040d6831db827dd1e58",
+    "audit_analysis.py": "92018e5f3a5892d54df63846ce548b2b88f371aae92c928b59d1fbca9e02fc18",
+    "analysis.py": "f0b54687f86aec70afab3cf5968e13f8109aac5a04eb4eb58c1abfb9133a1857",
+    "app.py": "6d6c9b8f7a41b7e1ed7e07a5bfef4611053e91230476cc097c31a6ac49b23950",
+    "data/model-inputs-step6.json": "a7f36f89e04a4675666255ed249bfc2bd6607d3a438f4c668ebdd0f992ba2125",
+    "data/model-inputs-step7.json": "3d3ebf275bb51c50e772096499669a0b5f9fe2a5ecc3b74f0d794176c36f5b0d",
+    "data/student-decisions.json": "3ce5e150dfe255942413c7e67f4fe682388386c253fa834cfe4dd0eca5a09db4"
+  },
+  "version_id": "target-audit-b7be55e9cbc05931"
+}

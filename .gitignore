@@ -1,0 +1,17 @@
+.venv/
+.venv-*/
+outputs/audit-temp/
+.env
+__pycache__/
+*.pyc
+.streamlit/secrets.toml
+
+# Additional local credentials and virtual environments
+.env.*
+!.env.example
+venv/
+env/
+*.pem
+*.key
+credentials.json
+secrets.toml
