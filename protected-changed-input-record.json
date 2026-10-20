@@ -1,0 +1,73 @@
+{
+  "status": "Student original prediction, explanation and before/after evidence entered; protected-record completion remains qualified",
+  "updated_at": "2026-10-20T04:09:22-04:00",
+  "input": {
+    "name": "FY2027 sales growth",
+    "old": 0.03,
+    "new": 0.07,
+    "units": "annual growth decimal",
+    "selection_source": "Direct user messages; no assistant-operated slider change"
+  },
+  "prediction": {
+    "verbatim": "i said that operating profit, fcff, and value per share should increase because sales increases and you should buy the stock now and wait to sell it until 2031 because all of those values are going to be higher with higher sales. i think operating profit will go up by 1000, i think that fcff will go up by 1000 and i think the share price will increase by 5 dollars all because sales grow",
+    "preserved_at": "2026-10-20T03:55:12-04:00",
+    "snapshot": {
+      "file": "Target-Student-Prediction-and-Base-20261020-035512.zip",
+      "sha256": "636616b02d0444f397dbce978a015199b040fe9875abca98ccd058ba18cbe89e",
+      "original_unchanged": true
+    },
+    "no_git_commit_claimed": true,
+    "unit_metric_clarification": {
+      "reported_by_student": "Intended magnitudes are1billion for financial amounts and5USD for estimated value per share; original metric confirmed operating profit.",
+      "timing": "Units confirmed in the message accompanying changed-run evidence; not backdated as a new pre-run statement"
+    },
+    "separate_metric_response": {
+      "student_response_verbatim": "Operating profit, as originally written",
+      "timing": "Received after changed-run screenshots; preserved as separate clarification, original prediction not revised"
+    }
+  },
+  "student_explanation": {
+    "exact_excerpt": "all because sales grow",
+    "source": "Original student message, preserved verbatim; user subsequently asked that the existing explanation and screenshots be entered.",
+    "scope": "Recorded as the student's stated reasoning; no assistant-authored replacement or detailed prediction-error diagnosis."
+  },
+  "expected_decision_effect": {
+    "student_statement": "buy the stock now and wait to sell it until 2031",
+    "source": "Original student prediction; retained, not substituted for the confirmed base-case watch/defer recommendation."
+  },
+  "observed_results": [
+    {
+      "metric": "FY2031 operating profit",
+      "before_displayed": "7096.3109",
+      "after_displayed": "7371.8958",
+      "observed_change_from_displayed_values": "275.5849",
+      "student_predicted_change": "1000",
+      "unit": "USD millions"
+    },
+    {
+      "metric": "FY2031 FCFF",
+      "before_displayed": "4556.5304",
+      "after_displayed": "4733.4831",
+      "observed_change_from_displayed_values": "176.9527",
+      "student_predicted_change": "1000",
+      "unit": "USD millions"
+    },
+    {
+      "metric": "Estimated value per share",
+      "before_displayed": "120.7930",
+      "after_displayed": "126.5772",
+      "observed_change_from_displayed_values": "5.7842",
+      "student_predicted_change": "5",
+      "unit": "USD/share"
+    }
+  ],
+  "calculation_provenance": "Screenshot transcription and subtraction of displayed values prepared by assistant. No changed scenario run or explanation of the economic outcome generated. Display rounding may differ from full-precision arithmetic.",
+  "checks": "The displayed FY2031 rows show pass. Screenshots do not independently certify every undisplayed check or hidden input. Course fixture screenshots are separate benchmark evidence.",
+  "evidence_location": "outputs/changed-input-evidence/",
+  "pending": [
+    "Post-test restored-base screenshot(s)",
+    "Student's separately documented actual decision reconciliation and explanation of magnitude differences, if required by instructor",
+    "Actual execution/reset times or other course-required chronology evidence; no timestamps reconstructed"
+  ],
+  "boundaries": "Original prediction remains unchanged. Clarifications received with/after results are not backdated. No completed AI-off attestation or entire-rubric completion asserted."
+}

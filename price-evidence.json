@@ -1,0 +1,31 @@
+{
+  "status": "provider-reported observation; conflicting source; student decision pending",
+  "observation": {
+    "provider_close_usd": 153.29,
+    "source": "Stock Analysis historical TGT table; source identifies S&P Global Market Intelligence",
+    "source_url": "https://stockanalysis.com/stocks/tgt/history/",
+    "market_timestamp": "2026-10-19 16:00 EDT",
+    "retrieved": "2026-10-20",
+    "conflict": "another provider observation is $153.24",
+    "student_acceptance": "PENDING; temporary price supplied solely to calculate this conditional case",
+    "TTM_diluted_EPS_approx": 9.64,
+    "reported_P_E": 15.901452282157674,
+    "TTM_operating_income_m": 6023.0,
+    "TTM_cashflow_DA_m": 3173.0,
+    "EBITDA_proxy_m": 9196.0,
+    "estimated_EV_m": 80553.6382855592,
+    "EV_EBITDA_proxy": 8.759638787033404,
+    "base_DCF_gap_vs_price_pct": -0.24553463131721986,
+    "reverse_DCF": {
+      "status": "solved, conditional on assumptions and incomplete bridge",
+      "solved_growth": 0.0498310423917335
+    },
+    "limitations": [
+      "not official exchange auction evidence",
+      "TTM EPS sums reported diluted EPS with differing weighted share bases",
+      "cash-flow D&A classification into operating EBITDA unresolved",
+      "estimated shares, debt and cash; unknown bridge claims/assets excluded",
+      "provisional WACC, terminal assumptions and student price acceptance pending"
+    ]
+  }
+}
