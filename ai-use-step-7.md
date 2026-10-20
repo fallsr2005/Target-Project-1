@@ -1,0 +1,3 @@
+# AI-use record: Step 7
+
+October 19, 2026. Codex assistant, identified in this session as GPT-5; a more specific model/version was not exposed. The assistant researched dated Treasury and NYU evidence, documented assumptions and gaps, authored the provisional FCFF/valuation engine and report, recorded directional test expectations before execution, and ran the tests described in `step-7-model-notes.md`. The student has not supplied an independent source check, approved model inputs, accepted a price, or provided partner feedback. The assistant did not perform or draft the student's protected AI-closed changed-input exercise. Student disposition and any impact remain pending.
