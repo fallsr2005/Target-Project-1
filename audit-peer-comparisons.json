@@ -1,0 +1,646 @@
+{
+  "policy": "docs/peer-policy-audit-amendment-2026-10-20.md",
+  "reserve_convention": 0.009284620026925398,
+  "rows": [
+    {
+      "ticker": "TGT",
+      "classification": "target",
+      "price": {
+        "value": 153.29,
+        "date": "2026-10-19",
+        "definition": "provider daily Close; chart timestamp marks session open, not the closing trade time",
+        "source": "https://query1.finance.yahoo.com/v8/finance/chart/TGT",
+        "file": "data/audit-2026-10-20/prices-TGT.json"
+      },
+      "balance_date": "2026-08-01",
+      "share_date": "2026-08-21",
+      "basic_shares_m": 454.296736,
+      "dilution_proxy_m": 2.2000000000000455,
+      "valuation_shares_proxy_m": 456.49673600000006,
+      "equity_value_m": 69976.38466144001,
+      "debt_including_finance_leases_m": 15357,
+      "nci_including_redeemable_m": 0,
+      "derivative_claims_m": 106,
+      "cash_and_short_investments_m": 5411,
+      "operating_reserve_m": 1000.0,
+      "eligible_excess_cash_m": 4411.0,
+      "other_investment_assets_m": 0,
+      "conventional_EV_proxy_m": 81028.38466144001,
+      "EV_EBIT": 13.453160328978916,
+      "P_E": 15.903139458105644,
+      "earnings": {
+        "revenue": 107705.0,
+        "ebit": 6023.0,
+        "net_income_common": 4392.0,
+        "diluted_shares": 455.6499999999999,
+        "eps": 9.638977285196972,
+        "start": "2025-08-03",
+        "end": "2026-08-01",
+        "days": 364,
+        "evidence": [
+          {
+            "value": 104780.0,
+            "unit": "USD millions",
+            "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
+            "start": "2025-02-02",
+            "end": "2026-01-31",
+            "filed": "2026-03-11",
+            "accession": "0000027419-26-000016",
+            "source": "https://data.sec.gov/api/xbrl/companyfacts/CIK0000027419.json"
+          },
+          {
+            "value": 51982.0,
+            "unit": "USD millions",
+            "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
+            "start": "2026-02-01",
+            "end": "2026-08-01",
+            "filed": "2026-08-28",
+            "accession": "0000027419-26-000042",
+            "source": "https://data.sec.gov/api/xbrl/companyfacts/CIK0000027419.json"
+          },
+          {
+            "value": 49057.0,
+            "unit": "USD millions",
+            "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
+            "start": "2025-02-02",
+            "end": "2025-08-02",
+            "filed": "2026-08-28",
+            "accession": "0000027419-26-000042",
+            "source": "https://data.sec.gov/api/xbrl/companyfacts/CIK0000027419.json"
+          },
+          {
+            "value": 5117.0,
+            "unit": "USD millions",
+            "tag": "OperatingIncomeLoss",
+            "start": "2025-02-02",
+            "end": "2026-01-31",
+            "filed": "2026-03-11",
+            "accession": "0000027419-26-000016",
+            "source": "https://data.sec.gov/api/xbrl/companyfacts/CIK0000027419.json"
+          },
+          {
+            "value": 3695.0,
+            "unit": "USD millions",
+            "tag": "OperatingIncomeLoss",
+            "start": "2026-02-01",
+            "end": "2026-08-01",
+            "filed": "2026-08-28",
+            "accession": "0000027419-26-000042",
+            "source": "https://data.sec.gov/api/xbrl/companyfacts/CIK0000027419.json"
+          },
+          {
+            "value": 2789.0,
+            "unit": "USD millions",
+            "tag": "OperatingIncomeLoss",
+            "start": "2025-02-02",
+            "end": "2025-08-02",
+            "filed": "2026-08-28",
+            "accession": "0000027419-26-000042",
+            "source": "https://data.sec.gov/api/xbrl/companyfacts/CIK0000027419.json"
+          },
+          {
+            "value": 3705.0,
+            "unit": "USD millions",
+            "tag": "NetIncomeLoss",
+            "start": "2025-02-02",
+            "end": "2026-01-31",
+            "filed": "2026-03-11",
+            "accession": "0000027419-26-000016",
+            "source": "https://data.sec.gov/api/xbrl/companyfacts/CIK0000027419.json"
+          },
+          {
+            "value": 2658.0,
+            "unit": "USD millions",
+            "tag": "NetIncomeLoss",
+            "start": "2026-02-01",
+            "end": "2026-08-01",
+            "filed": "2026-08-28",
+            "accession": "0000027419-26-000042",
+            "source": "https://data.sec.gov/api/xbrl/companyfacts/CIK0000027419.json"
+          },
+          {
+            "value": 1971.0,
+            "unit": "USD millions",
+            "tag": "NetIncomeLoss",
+            "start": "2025-02-02",
+            "end": "2025-08-02",
+            "filed": "2026-08-28",
+            "accession": "0000027419-26-000042",
+            "source": "https://data.sec.gov/api/xbrl/companyfacts/CIK0000027419.json"
+          },
+          {
+            "value": 455.6,
+            "unit": "million shares",
+            "tag": "WeightedAverageNumberOfDilutedSharesOutstanding",
+            "start": "2025-02-02",
+            "end": "2026-01-31",
+            "filed": "2026-03-11",
+            "accession": "0000027419-26-000016",
+            "source": "https://data.sec.gov/api/xbrl/companyfacts/CIK0000027419.json"
+          },
+          {
+            "value": 456.2,
+            "unit": "million shares",
+            "tag": "WeightedAverageNumberOfDilutedSharesOutstanding",
+            "start": "2026-02-01",
+            "end": "2026-08-01",
+            "filed": "2026-08-28",
+            "accession": "0000027419-26-000042",
+            "source": "https://data.sec.gov/api/xbrl/companyfacts/CIK0000027419.json"
+          },
+          {
+            "value": 456.1,
+            "unit": "million shares",
+            "tag": "WeightedAverageNumberOfDilutedSharesOutstanding",
+            "start": "2025-02-02",
+            "end": "2025-08-02",
+            "filed": "2026-08-28",
+            "accession": "0000027419-26-000042",
+            "source": "https://data.sec.gov/api/xbrl/companyfacts/CIK0000027419.json"
+          }
+        ]
+      },
+      "evidence": [
+        {
+          "value": 454.296736,
+          "unit": "million shares",
+          "tag": "EntityCommonStockSharesOutstanding",
+          "start": null,
+          "end": "2026-08-21",
+          "filed": "2026-08-28",
+          "accession": "0000027419-26-000042",
+          "source": "https://data.sec.gov/api/xbrl/companyfacts/CIK0000027419.json"
+        },
+        {
+          "value": 456.6,
+          "unit": "million shares",
+          "tag": "WeightedAverageNumberOfDilutedSharesOutstanding",
+          "start": "2026-05-03",
+          "end": "2026-08-01",
+          "filed": "2026-08-28",
+          "accession": "0000027419-26-000042",
+          "source": "https://data.sec.gov/api/xbrl/companyfacts/CIK0000027419.json"
+        },
+        {
+          "value": 454.4,
+          "unit": "million shares",
+          "tag": "WeightedAverageNumberOfSharesOutstandingBasic",
+          "start": "2026-05-03",
+          "end": "2026-08-01",
+          "filed": "2026-08-28",
+          "accession": "0000027419-26-000042",
+          "source": "https://data.sec.gov/api/xbrl/companyfacts/CIK0000027419.json"
+        }
+      ],
+      "limitations": [
+        "Cash/debt at August 1; share count August 21; cutoff changes not asserted known.",
+        "Primary comparison uses reported TTM EBIT; tariff refund increases it by 994.",
+        "Deferred-compensation/life-insurance/pension and opening tax classifications differ from the expanded DCF bridge; this conventional trading EV is a qualified contextual proxy, not the expanded bridge.",
+        "Operating lease liabilities excluded because rent stays in EBIT.",
+        "Current diluted valuation shares are a proxy from latest cover shares and period dilution; not an award-by-award treasury-stock calculation.",
+        "Other claims, fair-value effects and restricted resources are not comprehensively measured for these contextual EV proxies; do not treat them as a core fair-value range."
+      ]
+    },
+    {
+      "ticker": "WMT",
+      "classification": "contextual comparison; not core valuation peer",
+      "price": {
+        "value": 118.7,
+        "date": "2026-10-19",
+        "definition": "provider daily Close; chart timestamp marks session open, not the closing trade time",
+        "source": "https://query1.finance.yahoo.com/v8/finance/chart/WMT",
+        "file": "data/audit-2026-10-20/prices-WMT.json"
+      },
+      "balance_date": "2026-07-31",
+      "share_date": "2026-08-26",
+      "basic_shares_m": 7933.746241,
+      "dilution_proxy_m": 24.0,
+      "valuation_shares_proxy_m": 7957.746241,
+      "equity_value_m": 944584.4788067,
+      "debt_including_finance_leases_m": 57243.0,
+      "nci_including_redeemable_m": 6561.0,
+      "derivative_claims_m": 1337,
+      "cash_and_short_investments_m": 11529.0,
+      "operating_reserve_m": 6831.994800612785,
+      "eligible_excess_cash_m": 4697.005199387215,
+      "other_investment_assets_m": 4867,
+      "conventional_EV_proxy_m": 1000161.4736073128,
+      "EV_EBIT": 30.98393660493534,
+      "P_E": 43.01601121406251,
+      "earnings": {
+        "revenue": 735840.0,
+        "ebit": 32280.0,
+        "net_income_common": 22076.0,
+        "diluted_shares": 8000.180821917808,
+        "eps": 2.759437629149478,
+        "start": "2025-08-01",
+        "end": "2026-07-31",
+        "days": 365,
+        "evidence": [
+          {
+            "value": 713163.0,
+            "unit": "USD millions",
+            "tag": "Revenues",
+            "start": "2025-02-01",
+            "end": "2026-01-31",
+            "filed": "2026-03-13",
+            "accession": "0000104169-26-000055",
+            "source": "https://data.sec.gov/api/xbrl/companyfacts/CIK0000104169.json"
+          },
+          {
+            "value": 365688.0,
+            "unit": "USD millions",
+            "tag": "Revenues",
+            "start": "2026-02-01",
+            "end": "2026-07-31",
+            "filed": "2026-08-28",
+            "accession": "0000104169-26-000154",
+            "source": "https://data.sec.gov/api/xbrl/companyfacts/CIK0000104169.json"
+          },
+          {
+            "value": 343011.0,
+            "unit": "USD millions",
+            "tag": "Revenues",
+            "start": "2025-02-01",
+            "end": "2025-07-31",
+            "filed": "2026-08-28",
+            "accession": "0000104169-26-000154",
+            "source": "https://data.sec.gov/api/xbrl/companyfacts/CIK0000104169.json"
+          },
+          {
+            "value": 29825.0,
+            "unit": "USD millions",
+            "tag": "OperatingIncomeLoss",
+            "start": "2025-02-01",
+            "end": "2026-01-31",
+            "filed": "2026-03-13",
+            "accession": "0000104169-26-000055",
+            "source": "https://data.sec.gov/api/xbrl/companyfacts/CIK0000104169.json"
+          },
+          {
+            "value": 16876.0,
+            "unit": "USD millions",
+            "tag": "OperatingIncomeLoss",
+            "start": "2026-02-01",
+            "end": "2026-07-31",
+            "filed": "2026-08-28",
+            "accession": "0000104169-26-000154",
+            "source": "https://data.sec.gov/api/xbrl/companyfacts/CIK0000104169.json"
+          },
+          {
+            "value": 14421.0,
+            "unit": "USD millions",
+            "tag": "OperatingIncomeLoss",
+            "start": "2025-02-01",
+            "end": "2025-07-31",
+            "filed": "2026-08-28",
+            "accession": "0000104169-26-000154",
+            "source": "https://data.sec.gov/api/xbrl/companyfacts/CIK0000104169.json"
+          },
+          {
+            "value": 21893.0,
+            "unit": "USD millions",
+            "tag": "NetIncomeLoss",
+            "start": "2025-02-01",
+            "end": "2026-01-31",
+            "filed": "2026-03-13",
+            "accession": "0000104169-26-000055",
+            "source": "https://data.sec.gov/api/xbrl/companyfacts/CIK0000104169.json"
+          },
+          {
+            "value": 11696.0,
+            "unit": "USD millions",
+            "tag": "NetIncomeLoss",
+            "start": "2026-02-01",
+            "end": "2026-07-31",
+            "filed": "2026-08-28",
+            "accession": "0000104169-26-000154",
+            "source": "https://data.sec.gov/api/xbrl/companyfacts/CIK0000104169.json"
+          },
+          {
+            "value": 11513.0,
+            "unit": "USD millions",
+            "tag": "NetIncomeLoss",
+            "start": "2025-02-01",
+            "end": "2025-07-31",
+            "filed": "2026-08-28",
+            "accession": "0000104169-26-000154",
+            "source": "https://data.sec.gov/api/xbrl/companyfacts/CIK0000104169.json"
+          },
+          {
+            "value": 8022.0,
+            "unit": "million shares",
+            "tag": "WeightedAverageNumberOfDilutedSharesOutstanding",
+            "start": "2025-02-01",
+            "end": "2026-01-31",
+            "filed": "2026-03-13",
+            "accession": "0000104169-26-000055",
+            "source": "https://data.sec.gov/api/xbrl/companyfacts/CIK0000104169.json"
+          },
+          {
+            "value": 7989.0,
+            "unit": "million shares",
+            "tag": "WeightedAverageNumberOfDilutedSharesOutstanding",
+            "start": "2026-02-01",
+            "end": "2026-07-31",
+            "filed": "2026-08-28",
+            "accession": "0000104169-26-000154",
+            "source": "https://data.sec.gov/api/xbrl/companyfacts/CIK0000104169.json"
+          },
+          {
+            "value": 8033.0,
+            "unit": "million shares",
+            "tag": "WeightedAverageNumberOfDilutedSharesOutstanding",
+            "start": "2025-02-01",
+            "end": "2025-07-31",
+            "filed": "2026-08-28",
+            "accession": "0000104169-26-000154",
+            "source": "https://data.sec.gov/api/xbrl/companyfacts/CIK0000104169.json"
+          }
+        ]
+      },
+      "evidence": [
+        {
+          "value": 7933.746241,
+          "unit": "million shares",
+          "tag": "EntityCommonStockSharesOutstanding",
+          "start": null,
+          "end": "2026-08-26",
+          "filed": "2026-08-28",
+          "accession": "0000104169-26-000154",
+          "source": "https://data.sec.gov/api/xbrl/companyfacts/CIK0000104169.json"
+        },
+        {
+          "value": 7978.0,
+          "unit": "million shares",
+          "tag": "WeightedAverageNumberOfDilutedSharesOutstanding",
+          "start": "2026-05-01",
+          "end": "2026-07-31",
+          "filed": "2026-08-28",
+          "accession": "0000104169-26-000154",
+          "source": "https://data.sec.gov/api/xbrl/companyfacts/CIK0000104169.json"
+        },
+        {
+          "value": 7954.0,
+          "unit": "million shares",
+          "tag": "WeightedAverageNumberOfSharesOutstandingBasic",
+          "start": "2026-05-01",
+          "end": "2026-07-31",
+          "filed": "2026-08-28",
+          "accession": "0000104169-26-000154",
+          "source": "https://data.sec.gov/api/xbrl/companyfacts/CIK0000104169.json"
+        },
+        {
+          "value": 11529.0,
+          "unit": "USD millions",
+          "tag": "CashAndCashEquivalentsAtCarryingValue",
+          "start": null,
+          "end": "2026-07-31",
+          "filed": "2026-08-28",
+          "accession": "0000104169-26-000154",
+          "source": "https://data.sec.gov/api/xbrl/companyfacts/CIK0000104169.json"
+        },
+        {
+          "value": 10479.0,
+          "unit": "USD millions",
+          "tag": "ShortTermBorrowings",
+          "start": null,
+          "end": "2026-07-31",
+          "filed": "2026-08-28",
+          "accession": "0000104169-26-000154",
+          "source": "https://data.sec.gov/api/xbrl/companyfacts/CIK0000104169.json"
+        },
+        {
+          "value": 3470.0,
+          "unit": "USD millions",
+          "tag": "LongTermDebtCurrent",
+          "start": null,
+          "end": "2026-07-31",
+          "filed": "2026-08-28",
+          "accession": "0000104169-26-000154",
+          "source": "https://data.sec.gov/api/xbrl/companyfacts/CIK0000104169.json"
+        },
+        {
+          "value": 36462.0,
+          "unit": "USD millions",
+          "tag": "LongTermDebtNoncurrent",
+          "start": null,
+          "end": "2026-07-31",
+          "filed": "2026-08-28",
+          "accession": "0000104169-26-000154",
+          "source": "https://data.sec.gov/api/xbrl/companyfacts/CIK0000104169.json"
+        },
+        {
+          "value": 880.0,
+          "unit": "USD millions",
+          "tag": "FinanceLeaseLiabilityCurrent",
+          "start": null,
+          "end": "2026-07-31",
+          "filed": "2026-08-28",
+          "accession": "0000104169-26-000154",
+          "source": "https://data.sec.gov/api/xbrl/companyfacts/CIK0000104169.json"
+        },
+        {
+          "value": 5952.0,
+          "unit": "USD millions",
+          "tag": "FinanceLeaseLiabilityNoncurrent",
+          "start": null,
+          "end": "2026-07-31",
+          "filed": "2026-08-28",
+          "accession": "0000104169-26-000154",
+          "source": "https://data.sec.gov/api/xbrl/companyfacts/CIK0000104169.json"
+        },
+        {
+          "value": 6268.0,
+          "unit": "USD millions",
+          "tag": "MinorityInterest",
+          "start": null,
+          "end": "2026-07-31",
+          "filed": "2026-08-28",
+          "accession": "0000104169-26-000154",
+          "source": "https://data.sec.gov/api/xbrl/companyfacts/CIK0000104169.json"
+        }
+      ],
+      "limitations": [
+        "Redeemable NCI 293 plus nonredeemable NCI; Note 4 investment assets 4867 and derivative liabilities 1337 from July filing.",
+        "NCI/debt use carrying proxies; geographic mix, growth, grocery and advertising differ materially from Target.",
+        "P/E uses net income attributable to Walmart; consolidated operating profit includes NCI.",
+        "Operating lease liabilities excluded because rent stays in EBIT.",
+        "Current diluted valuation shares are a proxy from latest cover shares and period dilution; not an award-by-award treasury-stock calculation.",
+        "Other claims, fair-value effects and restricted resources are not comprehensively measured for these contextual EV proxies; do not treat them as a core fair-value range."
+      ]
+    },
+    {
+      "ticker": "COST",
+      "classification": "contextual comparison; not core valuation peer",
+      "price": {
+        "value": 995.53,
+        "date": "2026-10-19",
+        "definition": "provider daily Close; chart timestamp marks session open, not the closing trade time",
+        "source": "https://query1.finance.yahoo.com/v8/finance/chart/COST",
+        "file": "data/audit-2026-10-20/prices-COST.json"
+      },
+      "balance_date": "2026-08-30",
+      "share_date": "2026-09-29",
+      "basic_shares_m": 443.129349,
+      "dilution_proxy_m": 0.4740000000000464,
+      "valuation_shares_proxy_m": 443.60334900000004,
+      "equity_value_m": 441620.44202997,
+      "debt_including_finance_leases_m": 7575.0,
+      "nci_including_redeemable_m": 0,
+      "derivative_claims_m": 0,
+      "cash_and_short_investments_m": 21301.0,
+      "operating_reserve_m": 2814.669699642542,
+      "eligible_excess_cash_m": 18486.33030035746,
+      "other_investment_assets_m": 0,
+      "conventional_EV_proxy_m": 430709.1117296125,
+      "EV_EBIT": 36.86000100381793,
+      "P_E": 47.955821733145456,
+      "earnings": {
+        "revenue": 303154.0,
+        "ebit": 11685.0,
+        "net_income_common": 9226.0,
+        "diluted_shares": 444.427,
+        "eps": 20.759314803106022,
+        "start": "2025-09-01",
+        "end": "2026-08-30",
+        "days": 364,
+        "evidence": [
+          {
+            "value": 303154.0,
+            "unit": "USD millions",
+            "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
+            "start": "2025-09-01",
+            "end": "2026-08-30",
+            "filed": "2026-10-07",
+            "accession": "0000909832-26-000093",
+            "source": "https://data.sec.gov/api/xbrl/companyfacts/CIK0000909832.json"
+          },
+          {
+            "value": 11685.0,
+            "unit": "USD millions",
+            "tag": "OperatingIncomeLoss",
+            "start": "2025-09-01",
+            "end": "2026-08-30",
+            "filed": "2026-10-07",
+            "accession": "0000909832-26-000093",
+            "source": "https://data.sec.gov/api/xbrl/companyfacts/CIK0000909832.json"
+          },
+          {
+            "value": 9226.0,
+            "unit": "USD millions",
+            "tag": "NetIncomeLoss",
+            "start": "2025-09-01",
+            "end": "2026-08-30",
+            "filed": "2026-10-07",
+            "accession": "0000909832-26-000093",
+            "source": "https://data.sec.gov/api/xbrl/companyfacts/CIK0000909832.json"
+          },
+          {
+            "value": 444.427,
+            "unit": "million shares",
+            "tag": "WeightedAverageNumberOfDilutedSharesOutstanding",
+            "start": "2025-09-01",
+            "end": "2026-08-30",
+            "filed": "2026-10-07",
+            "accession": "0000909832-26-000093",
+            "source": "https://data.sec.gov/api/xbrl/companyfacts/CIK0000909832.json"
+          }
+        ]
+      },
+      "evidence": [
+        {
+          "value": 443.129349,
+          "unit": "million shares",
+          "tag": "EntityCommonStockSharesOutstanding",
+          "start": null,
+          "end": "2026-09-29",
+          "filed": "2026-10-07",
+          "accession": "0000909832-26-000093",
+          "source": "https://data.sec.gov/api/xbrl/companyfacts/CIK0000909832.json"
+        },
+        {
+          "value": 444.427,
+          "unit": "million shares",
+          "tag": "WeightedAverageNumberOfDilutedSharesOutstanding",
+          "start": "2025-09-01",
+          "end": "2026-08-30",
+          "filed": "2026-10-07",
+          "accession": "0000909832-26-000093",
+          "source": "https://data.sec.gov/api/xbrl/companyfacts/CIK0000909832.json"
+        },
+        {
+          "value": 443.953,
+          "unit": "million shares",
+          "tag": "WeightedAverageNumberOfSharesOutstandingBasic",
+          "start": "2025-09-01",
+          "end": "2026-08-30",
+          "filed": "2026-10-07",
+          "accession": "0000909832-26-000093",
+          "source": "https://data.sec.gov/api/xbrl/companyfacts/CIK0000909832.json"
+        },
+        {
+          "value": 20207.0,
+          "unit": "USD millions",
+          "tag": "CashAndCashEquivalentsAtCarryingValue",
+          "start": null,
+          "end": "2026-08-30",
+          "filed": "2026-10-07",
+          "accession": "0000909832-26-000093",
+          "source": "https://data.sec.gov/api/xbrl/companyfacts/CIK0000909832.json"
+        },
+        {
+          "value": 2248.0,
+          "unit": "USD millions",
+          "tag": "LongTermDebtCurrent",
+          "start": null,
+          "end": "2026-08-30",
+          "filed": "2026-10-07",
+          "accession": "0000909832-26-000093",
+          "source": "https://data.sec.gov/api/xbrl/companyfacts/CIK0000909832.json"
+        },
+        {
+          "value": 3914.0,
+          "unit": "USD millions",
+          "tag": "LongTermDebtNoncurrent",
+          "start": null,
+          "end": "2026-08-30",
+          "filed": "2026-10-07",
+          "accession": "0000909832-26-000093",
+          "source": "https://data.sec.gov/api/xbrl/companyfacts/CIK0000909832.json"
+        },
+        {
+          "value": 94.0,
+          "unit": "USD millions",
+          "tag": "FinanceLeaseLiabilityCurrent",
+          "start": null,
+          "end": "2026-08-30",
+          "filed": "2026-10-07",
+          "accession": "0000909832-26-000093",
+          "source": "https://data.sec.gov/api/xbrl/companyfacts/CIK0000909832.json"
+        },
+        {
+          "value": 1319.0,
+          "unit": "USD millions",
+          "tag": "FinanceLeaseLiabilityNoncurrent",
+          "start": null,
+          "end": "2026-08-30",
+          "filed": "2026-10-07",
+          "accession": "0000909832-26-000093",
+          "source": "https://data.sec.gov/api/xbrl/companyfacts/CIK0000909832.json"
+        }
+      ],
+      "limitations": [
+        "Cash includes 1094 of short-term investments; no short-term borrowings at fiscal year end, per Note 4.",
+        "No separate NCI or preferred balance in the consolidated balance sheet.",
+        "Membership-funded economics and geographic mix make this contextual rather than a core Target peer.",
+        "Operating lease liabilities excluded because rent stays in EBIT.",
+        "Current diluted valuation shares are a proxy from latest cover shares and period dilution; not an award-by-award treasury-stock calculation.",
+        "Other claims, fair-value effects and restricted resources are not comprehensively measured for these contextual EV proxies; do not treat them as a core fair-value range."
+      ]
+    }
+  ],
+  "qualification": "Reported-period contextual EV/EBIT and P/E calculations; no core peer range, no averaging with DCF",
+  "normalized_target_EBIT_ex_tariff_m": 5029.0,
+  "normalization": "Remove the documented 994 tariff refund; transformation spending is not automatically added back; reported cash remains unchanged."
+}

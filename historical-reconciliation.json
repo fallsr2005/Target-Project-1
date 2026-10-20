@@ -1,0 +1,394 @@
+[
+  {
+    "check": "FY2025 income: sales less costs",
+    "expected_usd_millions": 5117.0,
+    "actual_usd_millions": 5117.0,
+    "difference_usd_millions": 0.0,
+    "status": "pass"
+  },
+  {
+    "check": "FY2025 income: pretax",
+    "expected_usd_millions": 4767.0,
+    "actual_usd_millions": 4767.0,
+    "difference_usd_millions": 0.0,
+    "status": "pass"
+  },
+  {
+    "check": "FY2025 income: net earnings",
+    "expected_usd_millions": 3705.0,
+    "actual_usd_millions": 3705.0,
+    "difference_usd_millions": 0.0,
+    "status": "pass"
+  },
+  {
+    "check": "FY2024 income: sales less costs",
+    "expected_usd_millions": 5566.0,
+    "actual_usd_millions": 5566.0,
+    "difference_usd_millions": 0.0,
+    "status": "pass"
+  },
+  {
+    "check": "FY2024 income: pretax",
+    "expected_usd_millions": 5261.0,
+    "actual_usd_millions": 5261.0,
+    "difference_usd_millions": 0.0,
+    "status": "pass"
+  },
+  {
+    "check": "FY2024 income: net earnings",
+    "expected_usd_millions": 4091.0,
+    "actual_usd_millions": 4091.0,
+    "difference_usd_millions": 0.0,
+    "status": "pass"
+  },
+  {
+    "check": "FY2023 income: sales less costs",
+    "expected_usd_millions": 5707.0,
+    "actual_usd_millions": 5707.0,
+    "difference_usd_millions": 0.0,
+    "status": "pass"
+  },
+  {
+    "check": "FY2023 income: pretax",
+    "expected_usd_millions": 5297.0,
+    "actual_usd_millions": 5297.0,
+    "difference_usd_millions": 0.0,
+    "status": "pass"
+  },
+  {
+    "check": "FY2023 income: net earnings",
+    "expected_usd_millions": 4138.0,
+    "actual_usd_millions": 4138.0,
+    "difference_usd_millions": 0.0,
+    "status": "pass"
+  },
+  {
+    "check": "Q2 FY2026 income: sales less costs",
+    "expected_usd_millions": 2560.0,
+    "actual_usd_millions": 2560.0,
+    "difference_usd_millions": 0.0,
+    "status": "pass"
+  },
+  {
+    "check": "Q2 FY2026 income: pretax",
+    "expected_usd_millions": 2459.0,
+    "actual_usd_millions": 2459.0,
+    "difference_usd_millions": 0.0,
+    "status": "pass"
+  },
+  {
+    "check": "Q2 FY2026 income: net earnings",
+    "expected_usd_millions": 1877.0,
+    "actual_usd_millions": 1877.0,
+    "difference_usd_millions": 0.0,
+    "status": "pass"
+  },
+  {
+    "check": "Q2 FY2025 income: sales less costs",
+    "expected_usd_millions": 1317.0,
+    "actual_usd_millions": 1317.0,
+    "difference_usd_millions": 0.0,
+    "status": "pass"
+  },
+  {
+    "check": "Q2 FY2025 income: pretax",
+    "expected_usd_millions": 1218.0,
+    "actual_usd_millions": 1218.0,
+    "difference_usd_millions": 0.0,
+    "status": "pass"
+  },
+  {
+    "check": "Q2 FY2025 income: net earnings",
+    "expected_usd_millions": 935.0,
+    "actual_usd_millions": 935.0,
+    "difference_usd_millions": 0.0,
+    "status": "pass"
+  },
+  {
+    "check": "H1 FY2026 income: sales less costs",
+    "expected_usd_millions": 3695.0,
+    "actual_usd_millions": 3695.0,
+    "difference_usd_millions": 0.0,
+    "status": "pass"
+  },
+  {
+    "check": "H1 FY2026 income: pretax",
+    "expected_usd_millions": 3493.0,
+    "actual_usd_millions": 3493.0,
+    "difference_usd_millions": 0.0,
+    "status": "pass"
+  },
+  {
+    "check": "H1 FY2026 income: net earnings",
+    "expected_usd_millions": 2658.0,
+    "actual_usd_millions": 2658.0,
+    "difference_usd_millions": 0.0,
+    "status": "pass"
+  },
+  {
+    "check": "H1 FY2025 income: sales less costs",
+    "expected_usd_millions": 2789.0,
+    "actual_usd_millions": 2789.0,
+    "difference_usd_millions": 0.0,
+    "status": "pass"
+  },
+  {
+    "check": "H1 FY2025 income: pretax",
+    "expected_usd_millions": 2600.0,
+    "actual_usd_millions": 2600.0,
+    "difference_usd_millions": 0.0,
+    "status": "pass"
+  },
+  {
+    "check": "H1 FY2025 income: net earnings",
+    "expected_usd_millions": 1971.0,
+    "actual_usd_millions": 1971.0,
+    "difference_usd_millions": 0.0,
+    "status": "pass"
+  },
+  {
+    "check": "FY2025 year-end assets",
+    "expected_usd_millions": 59490.0,
+    "actual_usd_millions": 59490.0,
+    "difference_usd_millions": 0.0,
+    "status": "pass"
+  },
+  {
+    "check": "FY2025 year-end current assets",
+    "expected_usd_millions": 20005.0,
+    "actual_usd_millions": 20005.0,
+    "difference_usd_millions": 0.0,
+    "status": "pass"
+  },
+  {
+    "check": "FY2025 year-end current liabilities",
+    "expected_usd_millions": 21230.0,
+    "actual_usd_millions": 21230.0,
+    "difference_usd_millions": 0.0,
+    "status": "pass"
+  },
+  {
+    "check": "FY2025 year-end liabilities and equity",
+    "expected_usd_millions": 59490.0,
+    "actual_usd_millions": 59490.0,
+    "difference_usd_millions": 0.0,
+    "status": "pass"
+  },
+  {
+    "check": "FY2025 year-end balance sheet",
+    "expected_usd_millions": 59490.0,
+    "actual_usd_millions": 59490.0,
+    "difference_usd_millions": 0.0,
+    "status": "pass"
+  },
+  {
+    "check": "FY2024 year-end assets",
+    "expected_usd_millions": 57769.0,
+    "actual_usd_millions": 57769.0,
+    "difference_usd_millions": 0.0,
+    "status": "pass"
+  },
+  {
+    "check": "FY2024 year-end current assets",
+    "expected_usd_millions": 19454.0,
+    "actual_usd_millions": 19454.0,
+    "difference_usd_millions": 0.0,
+    "status": "pass"
+  },
+  {
+    "check": "FY2024 year-end current liabilities",
+    "expected_usd_millions": 20799.0,
+    "actual_usd_millions": 20799.0,
+    "difference_usd_millions": 0.0,
+    "status": "pass"
+  },
+  {
+    "check": "FY2024 year-end liabilities and equity",
+    "expected_usd_millions": 57769.0,
+    "actual_usd_millions": 57769.0,
+    "difference_usd_millions": 0.0,
+    "status": "pass"
+  },
+  {
+    "check": "FY2024 year-end balance sheet",
+    "expected_usd_millions": 57769.0,
+    "actual_usd_millions": 57769.0,
+    "difference_usd_millions": 0.0,
+    "status": "pass"
+  },
+  {
+    "check": "FY2023 year-end assets",
+    "expected_usd_millions": 55356.0,
+    "actual_usd_millions": 55356.0,
+    "difference_usd_millions": 0.0,
+    "status": "pass"
+  },
+  {
+    "check": "FY2023 year-end current assets",
+    "expected_usd_millions": 17498.0,
+    "actual_usd_millions": 17498.0,
+    "difference_usd_millions": 0.0,
+    "status": "pass"
+  },
+  {
+    "check": "FY2023 year-end current liabilities",
+    "expected_usd_millions": 19304.0,
+    "actual_usd_millions": 19304.0,
+    "difference_usd_millions": 0.0,
+    "status": "pass"
+  },
+  {
+    "check": "FY2023 year-end liabilities and equity",
+    "expected_usd_millions": 55356.0,
+    "actual_usd_millions": 55356.0,
+    "difference_usd_millions": 0.0,
+    "status": "pass"
+  },
+  {
+    "check": "FY2023 year-end balance sheet",
+    "expected_usd_millions": 55356.0,
+    "actual_usd_millions": 55356.0,
+    "difference_usd_millions": 0.0,
+    "status": "pass"
+  },
+  {
+    "check": "Q2 FY2026 end assets",
+    "expected_usd_millions": 61235.0,
+    "actual_usd_millions": 61235.0,
+    "difference_usd_millions": 0.0,
+    "status": "pass"
+  },
+  {
+    "check": "Q2 FY2026 end current assets",
+    "expected_usd_millions": 20928.0,
+    "actual_usd_millions": 20928.0,
+    "difference_usd_millions": 0.0,
+    "status": "pass"
+  },
+  {
+    "check": "Q2 FY2026 end current liabilities",
+    "expected_usd_millions": 21180.0,
+    "actual_usd_millions": 21180.0,
+    "difference_usd_millions": 0.0,
+    "status": "pass"
+  },
+  {
+    "check": "Q2 FY2026 end liabilities and equity",
+    "expected_usd_millions": 61235.0,
+    "actual_usd_millions": 61235.0,
+    "difference_usd_millions": 0.0,
+    "status": "pass"
+  },
+  {
+    "check": "Q2 FY2026 end balance sheet",
+    "expected_usd_millions": 61235.0,
+    "actual_usd_millions": 61235.0,
+    "difference_usd_millions": 0.0,
+    "status": "pass"
+  },
+  {
+    "check": "FY2025 year-end assets",
+    "expected_usd_millions": 59490.0,
+    "actual_usd_millions": 59490.0,
+    "difference_usd_millions": 0.0,
+    "status": "pass"
+  },
+  {
+    "check": "FY2025 year-end current assets",
+    "expected_usd_millions": 20005.0,
+    "actual_usd_millions": 20005.0,
+    "difference_usd_millions": 0.0,
+    "status": "pass"
+  },
+  {
+    "check": "FY2025 year-end current liabilities",
+    "expected_usd_millions": 21230.0,
+    "actual_usd_millions": 21230.0,
+    "difference_usd_millions": 0.0,
+    "status": "pass"
+  },
+  {
+    "check": "FY2025 year-end liabilities and equity",
+    "expected_usd_millions": 59490.0,
+    "actual_usd_millions": 59490.0,
+    "difference_usd_millions": 0.0,
+    "status": "pass"
+  },
+  {
+    "check": "FY2025 year-end balance sheet",
+    "expected_usd_millions": 59490.0,
+    "actual_usd_millions": 59490.0,
+    "difference_usd_millions": 0.0,
+    "status": "pass"
+  },
+  {
+    "check": "Q2 FY2025 end assets",
+    "expected_usd_millions": 57851.0,
+    "actual_usd_millions": 57851.0,
+    "difference_usd_millions": 0.0,
+    "status": "pass"
+  },
+  {
+    "check": "Q2 FY2025 end current assets",
+    "expected_usd_millions": 19034.0,
+    "actual_usd_millions": 19034.0,
+    "difference_usd_millions": 0.0,
+    "status": "pass"
+  },
+  {
+    "check": "Q2 FY2025 end current liabilities",
+    "expected_usd_millions": 19223.0,
+    "actual_usd_millions": 19223.0,
+    "difference_usd_millions": 0.0,
+    "status": "pass"
+  },
+  {
+    "check": "Q2 FY2025 end liabilities and equity",
+    "expected_usd_millions": 57851.0,
+    "actual_usd_millions": 57851.0,
+    "difference_usd_millions": 0.0,
+    "status": "pass"
+  },
+  {
+    "check": "Q2 FY2025 end balance sheet",
+    "expected_usd_millions": 57851.0,
+    "actual_usd_millions": 57851.0,
+    "difference_usd_millions": 0.0,
+    "status": "pass"
+  },
+  {
+    "check": "FY2025 cash movement",
+    "expected_usd_millions": 5488.0,
+    "actual_usd_millions": 5488.0,
+    "difference_usd_millions": 0.0,
+    "status": "pass"
+  },
+  {
+    "check": "FY2024 cash movement",
+    "expected_usd_millions": 4762.0,
+    "actual_usd_millions": 4762.0,
+    "difference_usd_millions": 0.0,
+    "status": "pass"
+  },
+  {
+    "check": "FY2023 cash movement",
+    "expected_usd_millions": 3805.0,
+    "actual_usd_millions": 3805.0,
+    "difference_usd_millions": 0.0,
+    "status": "pass"
+  },
+  {
+    "check": "H1 FY2026 cash movement",
+    "expected_usd_millions": 5411.0,
+    "actual_usd_millions": 5411.0,
+    "difference_usd_millions": 0.0,
+    "status": "pass"
+  },
+  {
+    "check": "H1 FY2025 cash movement",
+    "expected_usd_millions": 4341.0,
+    "actual_usd_millions": 4341.0,
+    "difference_usd_millions": 0.0,
+    "status": "pass"
+  }
+]
