@@ -1,0 +1,5 @@
+CORRECTED BEFORE/RESET-BASE SCREENSHOTS
+
+User identifies this set as the unchanged FY2027 sales-growth0.03 baseline after Reset. Displayed value/share120.79, FY2031 operating profit7096.3109USDm and FCFF4556.5304USDm match the saved base within display rounding. Six original attachments copied unchanged.
+
+This is baseline screenshot evidence only. The student still needs the original prediction preserved before execution, its required code/input snapshot/timestamp, actual changed-run evidence, decision effect, explanation and restored-base evidence. No prediction was generated or revised and no slider was operated to assemble this package.

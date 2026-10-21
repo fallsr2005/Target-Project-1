@@ -1,0 +1,38 @@
+{
+  "base": {
+    "exceptions": [],
+    "errors": [
+      "Historical reference flag: FY2027 capex / sales is outside 2.71% to 4.47%. This is an assumption-review alert, not an accounting failure. Cost comparison includes allocated depreciation; observations and normalizations differ."
+    ],
+    "slider_values": {
+      "sales_growth": 0.03,
+      "cost_ex_da_rate": 0.713,
+      "sga_rate": 0.205,
+      "capex_rate": 0.045,
+      "revolver_capacity": 4000,
+      "minimum_cash": 1000
+    }
+  },
+  "stress": {
+    "exceptions": [],
+    "errors": [
+      "Historical reference flag: FY2027 capex / sales is outside 2.71% to 4.47%. This is an assumption-review alert, not an accounting failure. Cost comparison includes allocated depreciation; observations and normalizations differ.",
+      "7 actual model checks failed. Valuation is blocked until the state is corrected."
+    ]
+  },
+  "reset": {
+    "exceptions": [],
+    "errors": [
+      "Historical reference flag: FY2027 capex / sales is outside 2.71% to 4.47%. This is an assumption-review alert, not an accounting failure. Cost comparison includes allocated depreciation; observations and normalizations differ."
+    ],
+    "slider_values": {
+      "sales_growth": 0.03,
+      "cost_ex_da_rate": 0.713,
+      "sga_rate": 0.205,
+      "capex_rate": 0.045,
+      "revolver_capacity": 4000,
+      "minimum_cash": 1000
+    }
+  },
+  "frozen_output_unchanged": true
+}

@@ -1,0 +1,54 @@
+{
+  "recorded_at": "2026-10-20T02:28:47.956306-04:00",
+  "source_version": "target-audit-b7be55e9cbc05931",
+  "test_command": ".venv-audit\\Scripts\\python.exe -m unittest discover -s tests -v",
+  "exit_code": 0,
+  "stdout": "",
+  "stderr": "test_conditional_price_is_never_student_acceptance (test_audit_validation.AuditChecks.test_conditional_price_is_never_student_acceptance) ... ok\ntest_contextual_comparisons_have_cutoff_sources_and_consistent_ev (test_audit_validation.AuditChecks.test_contextual_comparisons_have_cutoff_sources_and_consistent_ev) ... ok\ntest_itemized_claims_match_bridge_and_sign (test_audit_validation.AuditChecks.test_itemized_claims_match_bridge_and_sign) ... ok\ntest_seasonal_inventory_is_not_year_end_level (test_audit_validation.AuditChecks.test_seasonal_inventory_is_not_year_end_level) ... ok\ntest_tax_over_100_percent_rejected (test_audit_validation.AuditChecks.test_tax_over_100_percent_rejected) ... ok\ntest_twelve_published_course_answers (test_audit_validation.AuditChecks.test_twelve_published_course_answers) ... ok\ntest_week_two_published_bridge_case (test_audit_validation.AuditChecks.test_week_two_published_bridge_case) ... ok\ntest_base_accounting (test_step6_engine.EngineChecks.test_base_accounting) ... ok\ntest_cost_change_reaches_margin_and_cash (test_step6_engine.EngineChecks.test_cost_change_reaches_margin_and_cash) ... ok\ntest_extra_week_does_not_persist (test_step6_engine.EngineChecks.test_extra_week_does_not_persist) ... ok\ntest_invalid_allocation_rejected (test_step6_engine.EngineChecks.test_invalid_allocation_rejected) ... ok\ntest_liquidity_failure_and_recovery (test_step6_engine.EngineChecks.test_liquidity_failure_and_recovery) ... ok\ntest_bridge_signs_and_share_units (test_step7_valuation.ValuationChecks.test_bridge_signs_and_share_units) ... ok\ntest_discount_timing (test_step7_valuation.ValuationChecks.test_discount_timing) ... ok\ntest_fcff_reconciliation_and_exclusion (test_step7_valuation.ValuationChecks.test_fcff_reconciliation_and_exclusion) ... ok\ntest_growth_depends_on_return_on_capital (test_step7_valuation.ValuationChecks.test_growth_depends_on_return_on_capital) ... ok\ntest_invalid_inputs (test_step7_valuation.ValuationChecks.test_invalid_inputs) ... ok\ntest_reverse_dcf_requires_price_and_recovers_synthetic (test_step7_valuation.ValuationChecks.test_reverse_dcf_requires_price_and_recovers_synthetic) ... ok\ntest_scenarios_hold_bridge_common (test_step7_valuation.ValuationChecks.test_scenarios_hold_bridge_common) ... ok\ntest_wacc_monotonic_for_positive_cash_flows (test_step7_valuation.ValuationChecks.test_wacc_monotonic_for_positive_cash_flows) ... ok\n\n----------------------------------------------------------------------\nRan 20 tests in 0.311s\n\nOK\n",
+  "model_checks": {
+    "pass": 94,
+    "fail": 0
+  },
+  "published_answers": 12,
+  "financial_results_unchanged": true,
+  "extra_ui_recheck": "Passed after loopback-network permission was granted; base, seven-failure stress, reset, zero exceptions and frozen-output integrity verified.",
+  "ui_result": {
+    "base": {
+      "exceptions": [],
+      "errors": [
+        "Historical reference flag: FY2027 capex / sales is outside 2.71% to 4.47%. This is an assumption-review alert, not an accounting failure. Cost comparison includes allocated depreciation; observations and normalizations differ."
+      ],
+      "slider_values": {
+        "sales_growth": 0.03,
+        "cost_ex_da_rate": 0.713,
+        "sga_rate": 0.205,
+        "capex_rate": 0.045,
+        "revolver_capacity": 4000,
+        "minimum_cash": 1000
+      }
+    },
+    "stress": {
+      "exceptions": [],
+      "errors": [
+        "Historical reference flag: FY2027 capex / sales is outside 2.71% to 4.47%. This is an assumption-review alert, not an accounting failure. Cost comparison includes allocated depreciation; observations and normalizations differ.",
+        "7 actual model checks failed. Valuation is blocked until the state is corrected."
+      ]
+    },
+    "reset": {
+      "exceptions": [],
+      "errors": [
+        "Historical reference flag: FY2027 capex / sales is outside 2.71% to 4.47%. This is an assumption-review alert, not an accounting failure. Cost comparison includes allocated depreciation; observations and normalizations differ."
+      ],
+      "slider_values": {
+        "sales_growth": 0.03,
+        "cost_ex_da_rate": 0.713,
+        "sga_rate": 0.205,
+        "capex_rate": 0.045,
+        "revolver_capacity": 4000,
+        "minimum_cash": 1000
+      }
+    },
+    "frozen_output_unchanged": true
+  },
+  "initial_ui_failure": "Initial extra render blocked in asyncio fallback socketpair before app execution; timeout preserved as diagnostic, resolved by loopback permission."
+}

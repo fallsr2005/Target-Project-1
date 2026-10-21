@@ -1,0 +1,5 @@
+# Student follow-up reset screenshots
+
+Received October 20, 2026. The student reports that the first two screenshots are before Reset and the third is after Reset. The screenshots show 0.07 growth before, $126.58 before, and $120.79 after. However, the after screenshot still visibly labels the growth slider 0.07 despite showing the base valuation and no growth-reference flag. The screenshots alone do not establish that the slider visibly returned to 0.03. A separate assistant-operated AppTest observed 0.03 and $120.79 after Reset (see `outputs/followup-reset-check.json`). This follow-up is not evidence of reset immediately after the original protected test. The apparent display inconsistency requires a fresh screenshot after the app settles.
+
+Later follow-up after the reset-code correction: the student reports setting growth to 0.07 and pressing Reset. `120.79 after reset final.png` visibly shows growth 0.03, value $120.79, and passing current accounting checks; the capex historical-reference alert remains. This documents the subsequent check and does not establish the state immediately after the original protected test.

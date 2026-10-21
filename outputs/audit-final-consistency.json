@@ -1,0 +1,21 @@
+{
+  "core_source_hashes_verified": true,
+  "pdf_project_copies_match": true,
+  "manifest_rows": 12,
+  "credential_pattern_hits": [],
+  "credential_scan_scope": "project root/docs/data/tests immediate text files under 2MB; no credentials printed",
+  "human_requirements": [
+    "protected pre-run prediction/execution",
+    "actual credited partner-feedback evidence",
+    "Edition A receipt/switch evidence",
+    "Video 3/transcript, detailed segment indices, repository/video URLs and access"
+  ],
+  "recommendation": "watch/defer confirmed by direct user instruction",
+  "version": "target-audit-b7be55e9cbc05931",
+  "source_check": "student-reported finding and qualification recorded",
+  "ai_output_disposition": "corrected and qualified by student",
+  "conditional_assumptions_monitoring_entry": "accepted",
+  "ui_recheck": "passed after loopback permission; no app exceptions",
+  "video_1_2_recorded_locally": true,
+  "transcript_text_basis": "Student confirms approved scripts were read as written; detailed timestamps and independent audio verification pending"
+}

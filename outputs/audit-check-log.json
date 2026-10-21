@@ -1,0 +1,42 @@
+{
+  "run_time": "2026-10-20T01:34:05.922462-04:00",
+  "python": "3.12.14",
+  "environment": ".venv-audit, freshly created from bundled Python 3.12; dependencies installed from unchanged requirements.txt",
+  "results": [
+    {
+      "command": ".venv-audit\\Scripts\\python.exe -m pip check",
+      "exit_code": 0,
+      "stdout": "No broken requirements found.\n",
+      "stderr": ""
+    },
+    {
+      "command": ".venv-audit\\Scripts\\python.exe data/check_reported_history.py",
+      "exit_code": 0,
+      "stdout": "56 checks; 56 pass; 0 require investigation\n",
+      "stderr": ""
+    },
+    {
+      "command": ".venv-audit\\Scripts\\python.exe -m unittest discover -s tests -v",
+      "exit_code": 0,
+      "stdout": "",
+      "stderr": "test_conditional_price_is_never_student_acceptance (test_audit_validation.AuditChecks.test_conditional_price_is_never_student_acceptance) ... ok\ntest_contextual_comparisons_have_cutoff_sources_and_consistent_ev (test_audit_validation.AuditChecks.test_contextual_comparisons_have_cutoff_sources_and_consistent_ev) ... ok\ntest_itemized_claims_match_bridge_and_sign (test_audit_validation.AuditChecks.test_itemized_claims_match_bridge_and_sign) ... ok\ntest_seasonal_inventory_is_not_year_end_level (test_audit_validation.AuditChecks.test_seasonal_inventory_is_not_year_end_level) ... ok\ntest_tax_over_100_percent_rejected (test_audit_validation.AuditChecks.test_tax_over_100_percent_rejected) ... ok\ntest_twelve_published_course_answers (test_audit_validation.AuditChecks.test_twelve_published_course_answers) ... ok\ntest_week_two_published_bridge_case (test_audit_validation.AuditChecks.test_week_two_published_bridge_case) ... ok\ntest_base_accounting (test_step6_engine.EngineChecks.test_base_accounting) ... ok\ntest_cost_change_reaches_margin_and_cash (test_step6_engine.EngineChecks.test_cost_change_reaches_margin_and_cash) ... ok\ntest_extra_week_does_not_persist (test_step6_engine.EngineChecks.test_extra_week_does_not_persist) ... ok\ntest_invalid_allocation_rejected (test_step6_engine.EngineChecks.test_invalid_allocation_rejected) ... ok\ntest_liquidity_failure_and_recovery (test_step6_engine.EngineChecks.test_liquidity_failure_and_recovery) ... ok\ntest_bridge_signs_and_share_units (test_step7_valuation.ValuationChecks.test_bridge_signs_and_share_units) ... ok\ntest_discount_timing (test_step7_valuation.ValuationChecks.test_discount_timing) ... ok\ntest_fcff_reconciliation_and_exclusion (test_step7_valuation.ValuationChecks.test_fcff_reconciliation_and_exclusion) ... ok\ntest_growth_depends_on_return_on_capital (test_step7_valuation.ValuationChecks.test_growth_depends_on_return_on_capital) ... ok\ntest_invalid_inputs (test_step7_valuation.ValuationChecks.test_invalid_inputs) ... ok\ntest_reverse_dcf_requires_price_and_recovers_synthetic (test_step7_valuation.ValuationChecks.test_reverse_dcf_requires_price_and_recovers_synthetic) ... ok\ntest_scenarios_hold_bridge_common (test_step7_valuation.ValuationChecks.test_scenarios_hold_bridge_common) ... ok\ntest_wacc_monotonic_for_positive_cash_flows (test_step7_valuation.ValuationChecks.test_wacc_monotonic_for_positive_cash_flows) ... ok\n\n----------------------------------------------------------------------\nRan 20 tests in 0.397s\n\nOK\n"
+    },
+    {
+      "command": ".venv-audit\\Scripts\\python.exe analysis.py",
+      "exit_code": 0,
+      "stdout": "Model checks: {'pass': 94, 'fail': 0} | published answers: 12 / 12\n",
+      "stderr": ""
+    },
+    {
+      "command": ".venv-audit\\Scripts\\python.exe C:\\Users\\rocco\\Documents\\Codex\\2026-10-19\\i-am-in-a-finance-and-27\\work\\run_ui_audit.py",
+      "exit_code": 0,
+      "stdout": "{\n  \"base\": {\n    \"exceptions\": [],\n    \"errors\": [\n      \"Historical reference flag: FY2027 capex / sales is outside 2.71% to 4.47%. This is an assumption-review alert, not an accounting failure. Cost comparison includes allocated depreciation; observations and normalizations differ.\"\n    ],\n    \"slider_values\": {\n      \"sales_growth\": 0.03,\n      \"cost_ex_da_rate\": 0.713,\n      \"sga_rate\": 0.205,\n      \"capex_rate\": 0.045,\n      \"revolver_capacity\": 4000,\n      \"minimum_cash\": 1000\n    }\n  },\n  \"stress\": {\n    \"exceptions\": [],\n    \"errors\": [\n      \"Historical reference flag: FY2027 capex / sales is outside 2.71% to 4.47%. This is an assumption-review alert, not an accounting failure. Cost comparison includes allocated depreciation; observations and normalizations differ.\",\n      \"7 actual model checks failed. Valuation is blocked until the state is corrected.\"\n    ]\n  },\n  \"reset\": {\n    \"exceptions\": [],\n    \"errors\": [\n      \"Historical reference flag: FY2027 capex / sales is outside 2.71% to 4.47%. This is an assumption-review alert, not an accounting failure. Cost comparison includes allocated depreciation; observations and normalizations differ.\"\n    ],\n    \"slider_values\": {\n      \"sales_growth\": 0.03,\n      \"cost_ex_da_rate\": 0.713,\n      \"sga_rate\": 0.205,\n      \"capex_rate\": 0.045,\n      \"revolver_capacity\": 4000,\n      \"minimum_cash\": 1000\n    }\n  },\n  \"frozen_output_unchanged\": true\n}\n",
+      "stderr": "2026-10-20 01:34:01.894 WARNING streamlit.runtime.scriptrunner_utils.script_run_context: Thread 'MainThread': missing ScriptRunContext! This warning can be ignored when running in bare mode.\n"
+    }
+  ],
+  "initial_failures": [
+    "Windows Store-based older .venv-cold executable was inaccessible to this desktop process.",
+    "First ensurepip attempt failed using the external temp folder; using project-local TEMP/TMP succeeded.",
+    "Two legacy tests initially failed because they hard-coded the superseded share count and expected no market-price object. Expectations were corrected to the newly verified cover count and unaccepted documented quote. No failed financial result was silently deleted."
+  ]
+}

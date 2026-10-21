@@ -1,0 +1,25 @@
+{
+  "time": "2026-10-20T01:49:37-04:00",
+  "files": [
+    {
+      "file": "docs/Target-Edition-A.pdf",
+      "sha256": "faa2064eda4afa8dcef585bf443b5ca41f9f1f888a8e7474520ab1963cfdccff",
+      "unchanged_from_pre_audit": true
+    },
+    {
+      "file": "docs/Target-Edition-A.md",
+      "sha256": "95349ebfd9137f74043a9b96d938094cc52ae5495702aa94811d7b2433754ff3",
+      "unchanged_from_pre_audit": true
+    },
+    {
+      "file": "docs/peer-policy.md",
+      "sha256": "00a7fae8314f6d989dfd668bab2a4b540b3925a28eb7c33bbe17b3d5d7294b3d",
+      "unchanged_from_pre_audit": true
+    },
+    {
+      "file": "docs/peer-policy-original.md",
+      "sha256": "00a7fae8314f6d989dfd668bab2a4b540b3925a28eb7c33bbe17b3d5d7294b3d",
+      "unchanged_from_pre_audit": true
+    }
+  ]
+}

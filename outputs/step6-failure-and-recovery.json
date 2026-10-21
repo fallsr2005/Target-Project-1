@@ -1,0 +1,89 @@
+{
+  "purpose": "AI-assisted mechanical funding stress, not protected changed-input exercise",
+  "input_changes": {
+    "capex_rate": 0.4,
+    "revolver_capacity_usd_millions": 0
+  },
+  "stress_failed_checks": [
+    {
+      "name": "elapsed estimate funding capacity and minimum cash",
+      "status": "fail",
+      "difference": -12629.211428869197,
+      "tolerance": 1e-06
+    },
+    {
+      "name": "FY2026 future stub funding capacity and minimum cash",
+      "status": "fail",
+      "difference": -34344.4202093791,
+      "tolerance": 1e-06
+    },
+    {
+      "name": "FY2027 funding capacity and minimum cash",
+      "status": "fail",
+      "difference": -73995.93558605958,
+      "tolerance": 1e-06
+    },
+    {
+      "name": "FY2028 funding capacity and minimum cash",
+      "status": "fail",
+      "difference": -115797.352893045,
+      "tolerance": 1e-06
+    },
+    {
+      "name": "FY2029 funding capacity and minimum cash",
+      "status": "fail",
+      "difference": -158046.3055337861,
+      "tolerance": 1e-06
+    },
+    {
+      "name": "FY2030 funding capacity and minimum cash",
+      "status": "fail",
+      "difference": -201376.1699430448,
+      "tolerance": 1e-06
+    },
+    {
+      "name": "FY2031 funding capacity and minimum cash",
+      "status": "fail",
+      "difference": -244451.78932002911,
+      "tolerance": 1e-06
+    }
+  ],
+  "stress_periods": [
+    {
+      "period": "elapsed estimate",
+      "cash": -11629.211428869197,
+      "shortfall": 12629.211428869197
+    },
+    {
+      "period": "FY2026 future stub",
+      "cash": -33344.4202093791,
+      "shortfall": 34344.4202093791
+    },
+    {
+      "period": "FY2027",
+      "cash": -72995.93558605958,
+      "shortfall": 73995.93558605958
+    },
+    {
+      "period": "FY2028",
+      "cash": -114797.352893045,
+      "shortfall": 115797.352893045
+    },
+    {
+      "period": "FY2029",
+      "cash": -157046.3055337861,
+      "shortfall": 158046.3055337861
+    },
+    {
+      "period": "FY2030",
+      "cash": -200376.1699430448,
+      "shortfall": 201376.1699430448
+    },
+    {
+      "period": "FY2031",
+      "cash": -243451.78932002911,
+      "shortfall": 244451.78932002911
+    }
+  ],
+  "base_recovery_failures": []
+}

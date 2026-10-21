@@ -1,0 +1,118 @@
+1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
+q
+.843137 .870588 .894118 RG
+n 42 38 m 570 38 l S
+.27451 .329412 .403922 rg
+BT 1 0 0 1 42 26 Tm /F2+0 7 Tf 8.4 TL (Target | Research evolution) Tj T* ET
+BT 1 0 0 1 566.1069 26 Tm /F2+0 7 Tf 8.4 TL (1) Tj T* ET
+Q
+q
+1 0 0 1 48 723 cm
+q
+.086275 .188235 .278431 rg
+BT 1 0 0 1 0 4 Tm /F3+0 19 Tf 23 TL (Research Evolution - Edition B and comparison) Tj T* ET
+Q
+Q
+q
+1 0 0 1 48 696 cm
+q
+.086275 .188235 .278431 rg
+BT 1 0 0 1 0 3 Tm /F3+0 11 Tf 14 TL (Current record and boundary) Tj T* ET
+Q
+Q
+q
+1 0 0 1 48 614.8 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 66.9 Tm /F2+0 9.3 Tf 12.7 TL (Edition B uses the October 19, 2026, 4 p.m. Eastern valuation cutoff; snapshot target-audit-b7be55e9cbc05931. The) Tj T* (preceding Edition A pages in this PDF are copied unchanged from the existing Target-Edition-A.pdf. The original files and) Tj T* (original peer policy are preserved. This dated addendum does not establish an earlier checkpoint receipt or AI-off authorship.) Tj T* (The Target baseline was prepared with assistance in this conversation; the required AI-use register records that provenance.) Tj T* (Checkpoint receipt and eligibility for the company switch remain unverified. The student has confirmed watch/defer as the) Tj T* (current recommendation. This does not establish an earlier checkpoint receipt or approval of every assumption.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 48 590.8 cm
+q
+.086275 .188235 .278431 rg
+BT 1 0 0 1 0 3 Tm /F3+0 11 Tf 14 TL (Evidence-led comparison) Tj T* ET
+Q
+Q
+q
+1 0 0 1 48 537.4 cm
+q
+BT 1 0 0 1 9 39.3 Tm 12.1 TL 0 0 0 rg /F3+0 9.1 Tf 12.1 TL (Decision) Tj  T* /F3+0 9.1 Tf 12.1 TL (Edition A:) Tj /F2+0 9.1 Tf 12.1 TL ( Proposed watch/defer; no valuation range) Tj  T* /F3+0 9.1 Tf 12.1 TL (Edition B / reason:) Tj /F2+0 9.1 Tf 12.1 TL ( Current recommendation: watch/defer, confirmed by the student; conditional $86.04-$153.12. Agreement) Tj T* (with the initial view is allowed.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 48 528.4 cm
+Q
+q
+1 0 0 1 48 480 cm
+q
+BT 1 0 0 1 9 39.3 Tm 12.1 TL 0 0 0 rg /F3+0 9.1 Tf 12.1 TL (Growth) Tj  T* /F3+0 9.1 Tf 12.1 TL (Edition A:) Tj /F2+0 9.1 Tf 12.1 TL ( 4%, 3%, 3%, 2.5%, 2.5% FY2026-FY2030) Tj  T* /F3+0 9.1 Tf 12.1 TL (Edition B / reason:) Tj /F2+0 9.1 Tf 12.1 TL ( Comparable-week path retained; add FY2031 at 2.5% to supply five full future years plus the) Tj T* (remaining-year stub.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 48 471 cm
+Q
+q
+1 0 0 1 48 422.6 cm
+q
+BT 1 0 0 1 9 39.3 Tm 12.1 TL 0 0 0 rg /F3+0 9.1 Tf 12.1 TL (Margin) Tj  T* /F3+0 9.1 Tf 12.1 TL (Edition A:) Tj /F2+0 9.1 Tf 12.1 TL ( Direct EBIT-margin path 5.0%-5.5%) Tj  T* /F3+0 9.1 Tf 12.1 TL (Edition B / reason:) Tj /F2+0 9.1 Tf 12.1 TL ( Replace independent margin input with merchandise cost, SG) Tj (&) Tj (A and one D) Tj (&) Tj (A total; avoids) Tj T* (double-counting overlapping drivers.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 48 413.6 cm
+Q
+q
+1 0 0 1 48 365.2 cm
+q
+BT 1 0 0 1 9 39.3 Tm 12.1 TL 0 0 0 rg /F3+0 9.1 Tf 12.1 TL (Investment) Tj  T* /F3+0 9.1 Tf 12.1 TL (Edition A:) Tj /F2+0 9.1 Tf 12.1 TL ( Capex 4.5%-3.75%; D) Tj (&) Tj (A 3%) Tj  T* /F3+0 9.1 Tf 12.1 TL (Edition B / reason:) Tj /F2+0 9.1 Tf 12.1 TL ( Retain as assumptions; PP) Tj (&) Tj (E rolls forward. D) Tj (&) Tj (A lives/allocation remain weak proxies. 4.50% capex) Tj T* (exceeds the 4.47% reported historical reference maximum.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 48 356.2 cm
+Q
+q
+1 0 0 1 48 319.9 cm
+q
+BT 1 0 0 1 9 27.2 Tm 12.1 TL 0 0 0 rg /F3+0 9.1 Tf 12.1 TL (WACC) Tj  T* /F3+0 9.1 Tf 12.1 TL (Edition A:) Tj /F2+0 9.1 Tf 12.1 TL ( Rounded 9% placeholder) Tj  T* /F3+0 9.1 Tf 12.1 TL (Edition B / reason:) Tj /F2+0 9.1 Tf 12.1 TL ( 8.09% from 5.09% RF, 4.20% ERP, beta 0.901; debt cost/weights still qualified.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 48 310.9 cm
+Q
+q
+1 0 0 1 48 262.5 cm
+q
+BT 1 0 0 1 9 39.3 Tm 12.1 TL 0 0 0 rg /F3+0 9.1 Tf 12.1 TL (Terminal) Tj  T* /F3+0 9.1 Tf 12.1 TL (Edition A:) Tj /F2+0 9.1 Tf 12.1 TL ( 2% starting growth) Tj  T* /F3+0 9.1 Tf 12.1 TL (Edition B / reason:) Tj /F2+0 9.1 Tf 12.1 TL ( Retain 2%; explicitly fund growth at 12% incremental ROIC, 16.67% reinvestment. Neither return nor) Tj T* (growth is a reported fact.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 48 253.5 cm
+Q
+q
+1 0 0 1 48 205.1 cm
+q
+BT 1 0 0 1 9 39.3 Tm 12.1 TL 0 0 0 rg /F3+0 9.1 Tf 12.1 TL (Seasonality) Tj  T* /F3+0 9.1 Tf 12.1 TL (Edition A:) Tj /F2+0 9.1 Tf 12.1 TL ( 61 inventory / 62 payable days) Tj  T* /F3+0 9.1 Tf 12.1 TL (Edition B / reason:) Tj /F2+0 9.1 Tf 12.1 TL ( Retain year-end turnover assumptions; use prior Q2-Q3 seasonal pattern to estimate October opening) Tj T* (balances instead of interpolating to January.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 48 196.1 cm
+Q
+q
+1 0 0 1 48 147.7 cm
+q
+BT 1 0 0 1 9 39.3 Tm 12.1 TL 0 0 0 rg /F3+0 9.1 Tf 12.1 TL (Normalization) Tj  T* /F3+0 9.1 Tf 12.1 TL (Edition A:) Tj /F2+0 9.1 Tf 12.1 TL ( Do not repeat tariff refund) Tj  T* /F3+0 9.1 Tf 12.1 TL (Edition B / reason:) Tj /F2+0 9.1 Tf 12.1 TL ( Preserve $593m settlement, $250m transformation and $994m refund history; do not automatically) Tj T* (remove recurring transformation costs.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 48 138.7 cm
+Q
+q
+1 0 0 1 48 90.3 cm
+q
+BT 1 0 0 1 9 39.3 Tm 12.1 TL 0 0 0 rg /F3+0 9.1 Tf 12.1 TL (Shares/claims) Tj  T* /F3+0 9.1 Tf 12.1 TL (Edition A:) Tj /F2+0 9.1 Tf 12.1 TL ( Research planned) Tj  T* /F3+0 9.1 Tf 12.1 TL (Edition B / reason:) Tj /F2+0 9.1 Tf 12.1 TL ( Latest reported cover count is August 21, 454.296736m; add 2.2m dilution proxy. Itemized other-claim) Tj T* (adjustment -$306m; cutoff values remain estimates.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 48 81.3 cm
+Q
+ 

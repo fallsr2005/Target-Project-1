@@ -1,0 +1,1008 @@
+{
+  "status": "PROVISIONAL: arithmetic does not establish evidence quality or approval",
+  "units": "USD millions except days and rates",
+  "valuation_timestamp": "2026-10-19T16:00:00-04:00",
+  "periods": [
+    {
+      "period": "elapsed estimate",
+      "start": "2026-08-02",
+      "end": "2026-10-19",
+      "days": 79,
+      "classification": "elapsed unreported estimate",
+      "income_statement": {
+        "sales": 25645.14,
+        "cost_of_sales_including_allocated_da": 18857.153988,
+        "sga": 5022.930239999999,
+        "separate_da": 628.3051019999999,
+        "operating_income": 1136.7506700000026,
+        "operating_margin": 0.04432616355379626,
+        "interest": 137.09811506849314,
+        "tax": 239.91661318356228,
+        "net_income": 759.7359417479472
+      },
+      "cash_flow_statement": {
+        "net_income": 759.7359417479472,
+        "da_addback": 752.4612,
+        "working_capital_cash_change": 507.5855241428569,
+        "operating_cash_flow": 2019.782665890804,
+        "capex": -1124.8668,
+        "investing_cash_flow": -1124.8668,
+        "new_borrowing": 0.0,
+        "debt_repayment": 0,
+        "facility_expiry_repayment": 0,
+        "dividends_paid": -526.97809476,
+        "financing_cash_flow": -526.97809476,
+        "cash_change": 367.9377711308041
+      },
+      "balance_sheet": {
+        "cash": 5778.937771130804,
+        "inventory": 13211.533772714285,
+        "op_other_assets": 1670.5556,
+        "other_current_unclassified": 543.0,
+        "forward_contract": 25,
+        "ppe": 35139.405600000006,
+        "lease_asset": 3587.0,
+        "other_noncurrent_asset": 1953.0,
+        "payables": 13340.008096857142,
+        "op_accrual": 4406.6668,
+        "tax_payable": 440,
+        "dividend_payable": 516,
+        "interest_payable": 138,
+        "other_accrual_unclassified": 1243.0,
+        "lease_current": 401.0,
+        "lease_noncurrent": 3332.0,
+        "deferred_tax": 2504.0,
+        "other_noncurrent_liabilities": 2155.0,
+        "equity": 18075.757846987948,
+        "retained_earnings": 11122.757846987948,
+        "other_equity": 6953.0,
+        "debt_total": 15357.0,
+        "total_assets": 61908.43274384509,
+        "total_liabilities": 43832.67489685714,
+        "balance_difference": 3.637978807091713e-12
+      },
+      "schedules": {
+        "opening_cash": 5411.0,
+        "opening_ppe": 34767.0,
+        "total_da": 752.4612,
+        "da_in_cost": 124.156098,
+        "opening_equity": 17843.0,
+        "opening_debt": 15357.0,
+        "facility_balance": 0.0,
+        "sales_52_week_equivalent": 108971.2,
+        "minimum_cash_shortfall": 0
+      }
+    },
+    {
+      "period": "FY2026 future stub",
+      "start": "2026-10-20",
+      "end": "2027-01-30",
+      "days": 103,
+      "classification": "future provisional forecast",
+      "income_statement": {
+        "sales": 31344.06,
+        "cost_of_sales_including_allocated_da": 23047.632651999997,
+        "sga": 6139.136959999999,
+        "separate_da": 767.928458,
+        "operating_income": 1389.361930000006,
+        "operating_margin": 0.044326163553796344,
+        "interest": 174.65639452054796,
+        "tax": 291.5293285150699,
+        "net_income": 923.176206964388
+      },
+      "cash_flow_statement": {
+        "net_income": 923.176206964388,
+        "da_addback": 919.6748,
+        "working_capital_cash_change": 620.3823072857144,
+        "operating_cash_flow": 2463.2333142501025,
+        "capex": -1374.8372,
+        "investing_cash_flow": -1374.8372,
+        "new_borrowing": 0.0,
+        "debt_repayment": -1000,
+        "facility_expiry_repayment": 0,
+        "dividends_paid": -526.97809476,
+        "financing_cash_flow": -1526.97809476,
+        "cash_change": -438.58198050989745
+      },
+      "balance_sheet": {
+        "cash": 5340.355790620907,
+        "inventory": 13165.741717142855,
+        "op_other_assets": 1634.568,
+        "other_current_unclassified": 543.0,
+        "forward_contract": 25,
+        "ppe": 35594.56800000001,
+        "lease_asset": 3587.0,
+        "other_noncurrent_asset": 1953.0,
+        "payables": 13381.573548571427,
+        "op_accrual": 4903.704,
+        "tax_payable": 440,
+        "dividend_payable": 516,
+        "interest_payable": 138,
+        "other_accrual_unclassified": 1243.0,
+        "lease_current": 401.0,
+        "lease_noncurrent": 3332.0,
+        "deferred_tax": 2504.0,
+        "other_noncurrent_liabilities": 2155.0,
+        "equity": 18471.95595919234,
+        "retained_earnings": 11518.955959192337,
+        "other_equity": 6953.0,
+        "debt_total": 14357.0,
+        "total_assets": 61843.23350776377,
+        "total_liabilities": 43371.27754857142,
+        "balance_difference": 7.275957614183426e-12
+      },
+      "schedules": {
+        "opening_cash": 5778.937771130804,
+        "opening_ppe": 35139.405600000006,
+        "total_da": 919.6748,
+        "da_in_cost": 151.746342,
+        "opening_equity": 18075.757846987948,
+        "opening_debt": 15357.0,
+        "facility_balance": 0.0,
+        "sales_52_week_equivalent": 108971.2,
+        "minimum_cash_shortfall": 0
+      }
+    },
+    {
+      "period": "FY2027",
+      "start": "2027-01-31",
+      "end": "2028-01-29",
+      "days": 364,
+      "classification": "future provisional forecast",
+      "income_statement": {
+        "sales": 112240.336,
+        "cost_of_sales_including_allocated_da": 80582.9492312,
+        "sga": 23009.268879999996,
+        "separate_da": 2811.6204168,
+        "operating_income": 5836.497472000006,
+        "operating_margin": 0.05200000000000006,
+        "interest": 601.3693863013698,
+        "tax": 1256.4307405676727,
+        "net_income": 3978.697345130964
+      },
+      "cash_flow_statement": {
+        "net_income": 3978.697345130964,
+        "da_addback": 3367.21008,
+        "working_capital_cash_change": 103.623977228571,
+        "operating_cash_flow": 7449.531402359535,
+        "capex": -5050.815119999999,
+        "investing_cash_flow": -5050.815119999999,
+        "new_borrowing": 0.0,
+        "debt_repayment": -97,
+        "facility_expiry_repayment": 0,
+        "dividends_paid": -2107.91237904,
+        "financing_cash_flow": -2204.91237904,
+        "cash_change": 193.8039033195355
+      },
+      "balance_sheet": {
+        "cash": 5534.1596939404435,
+        "inventory": 13504.285448085713,
+        "op_other_assets": 1683.60504,
+        "other_current_unclassified": 543.0,
+        "forward_contract": 25,
+        "ppe": 37278.17304000001,
+        "lease_asset": 3587.0,
+        "other_noncurrent_asset": 1953.0,
+        "payables": 13725.667176742856,
+        "op_accrual": 5050.815119999999,
+        "tax_payable": 440,
+        "dividend_payable": 516,
+        "interest_payable": 138,
+        "other_accrual_unclassified": 1243.0,
+        "lease_current": 401.0,
+        "lease_noncurrent": 3332.0,
+        "deferred_tax": 2504.0,
+        "other_noncurrent_liabilities": 2155.0,
+        "equity": 20342.740925283302,
+        "retained_earnings": 13389.740925283302,
+        "other_equity": 6953.0,
+        "debt_total": 14260.0,
+        "total_assets": 64108.223222026165,
+        "total_liabilities": 43765.482296742855,
+        "balance_difference": 7.275957614183426e-12
+      },
+      "schedules": {
+        "opening_cash": 5340.355790620907,
+        "opening_ppe": 35594.56800000001,
+        "total_da": 3367.21008,
+        "da_in_cost": 555.5896632,
+        "opening_equity": 18471.95595919234,
+        "opening_debt": 14357.0,
+        "facility_balance": 0.0,
+        "sales_52_week_equivalent": 112240.336,
+        "minimum_cash_shortfall": 0
+      }
+    },
+    {
+      "period": "FY2028",
+      "start": "2028-01-30",
+      "end": "2029-02-03",
+      "days": 371,
+      "classification": "future provisional forecast",
+      "income_statement": {
+        "sales": 117830.76812,
+        "cost_of_sales_including_allocated_da": 84478.76920363399,
+        "sga": 24037.476696479996,
+        "separate_da": 2951.6607414059995,
+        "operating_income": 6362.86147848001,
+        "operating_margin": 0.05400000000000009,
+        "interest": 602.9415767123288,
+        "tax": 1382.3807764242433,
+        "net_income": 4377.539125343437
+      },
+      "cash_flow_statement": {
+        "net_income": 4377.539125343437,
+        "da_addback": 3534.9230436,
+        "working_capital_cash_change": 107.340151111144,
+        "operating_cash_flow": 8019.802320054581,
+        "capex": -4713.2307248,
+        "investing_cash_flow": -4713.2307248,
+        "new_borrowing": 0.0,
+        "debt_repayment": -581,
+        "facility_expiry_repayment": 0,
+        "dividends_paid": -2107.91237904,
+        "financing_cash_flow": -2688.91237904,
+        "cash_change": 617.6592162145816
+      },
+      "balance_sheet": {
+        "cash": 6151.818910155024,
+        "inventory": 13890.040219465425,
+        "op_other_assets": 1734.1131911999998,
+        "other_current_unclassified": 543.0,
+        "forward_contract": 25,
+        "ppe": 38456.48072120001,
+        "lease_asset": 3587.0,
+        "other_noncurrent_asset": 1953.0,
+        "payables": 14117.745796833711,
+        "op_accrual": 5202.3395736,
+        "tax_payable": 440,
+        "dividend_payable": 516,
+        "interest_payable": 138,
+        "other_accrual_unclassified": 1243.0,
+        "lease_current": 401.0,
+        "lease_noncurrent": 3332.0,
+        "deferred_tax": 2504.0,
+        "other_noncurrent_liabilities": 2155.0,
+        "equity": 22612.367671586737,
+        "retained_earnings": 15659.367671586737,
+        "other_equity": 6953.0,
+        "debt_total": 13679.0,
+        "total_assets": 66340.45304202045,
+        "total_liabilities": 43728.08537043371,
+        "balance_difference": 3.637978807091713e-12
+      },
+      "schedules": {
+        "opening_cash": 5534.1596939404435,
+        "opening_ppe": 37278.17304000001,
+        "total_da": 3534.9230436,
+        "da_in_cost": 583.262302194,
+        "opening_equity": 20342.740925283302,
+        "opening_debt": 14260.0,
+        "facility_balance": 0.0,
+        "sales_52_week_equivalent": 115607.54608,
+        "minimum_cash_shortfall": 0
+      }
+    },
+    {
+      "period": "FY2029",
+      "start": "2029-02-04",
+      "end": "2030-02-02",
+      "days": 364,
+      "classification": "future provisional forecast",
+      "income_statement": {
+        "sales": 118497.73473199998,
+        "cost_of_sales_including_allocated_da": 84838.45318137539,
+        "sga": 24055.040150596,
+        "separate_da": 2968.3682550365993,
+        "operating_income": 6635.873144991998,
+        "operating_margin": 0.05599999999999999,
+        "interest": 568.7036273972602,
+        "tax": 1456.120684222737,
+        "net_income": 4611.048833372
+      },
+      "cash_flow_statement": {
+        "net_income": 4611.048833372,
+        "da_addback": 3554.9320419599994,
+        "working_capital_cash_change": 92.07275576692018,
+        "operating_cash_flow": 8258.05363109892,
+        "capex": -4739.909389279999,
+        "investing_cash_flow": -4739.909389279999,
+        "new_borrowing": 0.0,
+        "debt_repayment": -1000,
+        "facility_expiry_repayment": 0,
+        "dividends_paid": -2107.91237904,
+        "financing_cash_flow": -3107.91237904,
+        "cash_change": 410.23186277892
+      },
+      "balance_sheet": {
+        "cash": 6562.050772933945,
+        "inventory": 14217.433088087633,
+        "op_other_assets": 1777.4660209799997,
+        "other_current_unclassified": 543.0,
+        "forward_contract": 25,
+        "ppe": 39641.45806852001,
+        "lease_asset": 3587.0,
+        "other_noncurrent_asset": 1953.0,
+        "payables": 14450.50576166284,
+        "op_accrual": 5332.398062939999,
+        "tax_payable": 440,
+        "dividend_payable": 516,
+        "interest_payable": 138,
+        "other_accrual_unclassified": 1243.0,
+        "lease_current": 401.0,
+        "lease_noncurrent": 3332.0,
+        "deferred_tax": 2504.0,
+        "other_noncurrent_liabilities": 2155.0,
+        "equity": 25115.50412591874,
+        "retained_earnings": 18162.50412591874,
+        "other_equity": 6953.0,
+        "debt_total": 12679.0,
+        "total_assets": 68306.40795052159,
+        "total_liabilities": 43190.903824602836,
+        "balance_difference": 1.8189894035458565e-11
+      },
+      "schedules": {
+        "opening_cash": 6151.818910155024,
+        "opening_ppe": 38456.48072120001,
+        "total_da": 3554.9320419599994,
+        "da_in_cost": 586.5637869233999,
+        "opening_equity": 22612.367671586737,
+        "opening_debt": 13679.0,
+        "facility_balance": 0.0,
+        "sales_52_week_equivalent": 118497.73473199998,
+        "minimum_cash_shortfall": 0
+      }
+    },
+    {
+      "period": "FY2030",
+      "start": "2030-02-03",
+      "end": "2031-02-01",
+      "days": 364,
+      "classification": "future provisional forecast",
+      "income_statement": {
+        "sales": 121460.17810029998,
+        "cost_of_sales_including_allocated_da": 86837.95433280946,
+        "sga": 24656.416154360897,
+        "separate_da": 3042.577461412514,
+        "operating_income": 6923.230151717108,
+        "operating_margin": 0.05700000000000008,
+        "interest": 536.4572164383562,
+        "tax": 1532.8255044669004,
+        "net_income": 4853.9474308118515
+      },
+      "cash_flow_statement": {
+        "net_income": 4853.9474308118515,
+        "da_addback": 3643.805343008999,
+        "working_capital_cash_change": 94.36643608041231,
+        "operating_cash_flow": 8592.119209901262,
+        "capex": -4554.756678761249,
+        "investing_cash_flow": -4554.756678761249,
+        "new_borrowing": 0.0,
+        "debt_repayment": -1230,
+        "facility_expiry_repayment": 0,
+        "dividends_paid": -2107.91237904,
+        "financing_cash_flow": -3337.91237904,
+        "cash_change": 699.4501521000138
+      },
+      "balance_sheet": {
+        "cash": 7261.500925033958,
+        "inventory": 14552.514325003782,
+        "op_other_assets": 1821.9026715044995,
+        "other_current_unclassified": 543.0,
+        "forward_contract": 25,
+        "ppe": 40552.409404272265,
+        "lease_asset": 3587.0,
+        "other_noncurrent_asset": 1953.0,
+        "payables": 14791.080133610401,
+        "op_accrual": 5465.708014513499,
+        "tax_payable": 440,
+        "dividend_payable": 516,
+        "interest_payable": 138,
+        "other_accrual_unclassified": 1243.0,
+        "lease_current": 401.0,
+        "lease_noncurrent": 3332.0,
+        "deferred_tax": 2504.0,
+        "other_noncurrent_liabilities": 2155.0,
+        "equity": 27861.53917769059,
+        "retained_earnings": 20908.53917769059,
+        "other_equity": 6953.0,
+        "debt_total": 11449.0,
+        "total_assets": 70296.3273258145,
+        "total_liabilities": 42434.7881481239,
+        "balance_difference": 1.4551915228366852e-11
+      },
+      "schedules": {
+        "opening_cash": 6562.050772933945,
+        "opening_ppe": 39641.45806852001,
+        "total_da": 3643.805343008999,
+        "da_in_cost": 601.2278815964848,
+        "opening_equity": 25115.50412591874,
+        "opening_debt": 12679.0,
+        "facility_balance": 0.0,
+        "sales_52_week_equivalent": 121460.17810029998,
+        "minimum_cash_shortfall": 0
+      }
+    },
+    {
+      "period": "FY2031",
+      "start": "2031-02-02",
+      "end": "2032-01-31",
+      "days": 364,
+      "classification": "future provisional forecast",
+      "income_statement": {
+        "sales": 124496.68255280747,
+        "cost_of_sales_including_allocated_da": 89008.90319112969,
+        "sga": 25272.826558219916,
+        "separate_da": 3118.6418979478267,
+        "operating_income": 7096.310905510035,
+        "operating_margin": 0.05700000000000007,
+        "interest": 518.6710794520548,
+        "tax": 1578.6335582539152,
+        "net_income": 4999.006267804065
+      },
+      "cash_flow_statement": {
+        "net_income": 4999.006267804065,
+        "da_addback": 3734.9004765842237,
+        "working_capital_cash_change": 97.05927879038904,
+        "operating_cash_flow": 8830.966023178678,
+        "capex": -4668.62559573028,
+        "investing_cash_flow": -4668.62559573028,
+        "new_borrowing": 0.0,
+        "debt_repayment": 0,
+        "facility_expiry_repayment": -0.0,
+        "dividends_paid": -2107.91237904,
+        "financing_cash_flow": -2107.91237904,
+        "cash_change": 2054.4280484083984
+      },
+      "balance_sheet": {
+        "cash": 9315.928973442358,
+        "inventory": 14916.327183128877,
+        "op_other_assets": 1867.4502382921119,
+        "other_current_unclassified": 543.0,
+        "forward_contract": 25,
+        "ppe": 41486.13452341832,
+        "lease_asset": 3587.0,
+        "other_noncurrent_asset": 1953.0,
+        "payables": 15160.85713695066,
+        "op_accrual": 5602.350714876336,
+        "tax_payable": 440,
+        "dividend_payable": 516,
+        "interest_payable": 138,
+        "other_accrual_unclassified": 1243.0,
+        "lease_current": 401.0,
+        "lease_noncurrent": 3332.0,
+        "deferred_tax": 2504.0,
+        "other_noncurrent_liabilities": 2155.0,
+        "equity": 30752.63306645465,
+        "retained_earnings": 23799.63306645465,
+        "other_equity": 6953.0,
+        "debt_total": 11449.0,
+        "total_assets": 73693.84091828167,
+        "total_liabilities": 42941.207851827,
+        "balance_difference": 1.8189894035458565e-11
+      },
+      "schedules": {
+        "opening_cash": 7261.500925033958,
+        "opening_ppe": 40552.409404272265,
+        "total_da": 3734.9004765842237,
+        "da_in_cost": 616.2585786363969,
+        "opening_equity": 27861.53917769059,
+        "opening_debt": 11449.0,
+        "facility_balance": 0.0,
+        "sales_52_week_equivalent": 124496.68255280747,
+        "minimum_cash_shortfall": 0
+      }
+    }
+  ],
+  "checks": [
+    {
+      "name": "Input unit definitions",
+      "difference": 0,
+      "tolerance": 0,
+      "status": "pass"
+    },
+    {
+      "name": "August reported balance",
+      "difference": 0.0,
+      "tolerance": 1e-06,
+      "status": "pass"
+    },
+    {
+      "name": "August other assets classification",
+      "difference": 0.0,
+      "tolerance": 1e-06,
+      "status": "pass"
+    },
+    {
+      "name": "August accrual classification",
+      "difference": 0.0,
+      "tolerance": 1e-06,
+      "status": "pass"
+    },
+    {
+      "name": "FY2025 normalization rounded bridge",
+      "difference": -1,
+      "tolerance": 1.0,
+      "status": "pass"
+    },
+    {
+      "name": "Prior 56 historical checks",
+      "difference": 0,
+      "tolerance": 0,
+      "status": "pass"
+    },
+    {
+      "name": "elapsed estimate balance sheet",
+      "difference": 3.637978807091713e-12,
+      "tolerance": 1e-06,
+      "status": "pass"
+    },
+    {
+      "name": "elapsed estimate cash movement",
+      "difference": 2.2737367544323206e-13,
+      "tolerance": 1e-06,
+      "status": "pass"
+    },
+    {
+      "name": "elapsed estimate PPE roll-forward",
+      "difference": 5.4569682106375694e-12,
+      "tolerance": 1e-06,
+      "status": "pass"
+    },
+    {
+      "name": "elapsed estimate debt roll-forward",
+      "difference": 0.0,
+      "tolerance": 1e-06,
+      "status": "pass"
+    },
+    {
+      "name": "elapsed estimate retained earnings roll-forward",
+      "difference": 9.094947017729282e-13,
+      "tolerance": 1e-06,
+      "status": "pass"
+    },
+    {
+      "name": "elapsed estimate equity components",
+      "difference": 0.0,
+      "tolerance": 1e-06,
+      "status": "pass"
+    },
+    {
+      "name": "elapsed estimate depreciation allocated once",
+      "difference": -5.684341886080801e-13,
+      "tolerance": 1e-06,
+      "status": "pass"
+    },
+    {
+      "name": "elapsed estimate asset feasibility",
+      "status": "pass",
+      "difference": 752.4612,
+      "tolerance": 0
+    },
+    {
+      "name": "elapsed estimate funding capacity and minimum cash",
+      "status": "pass",
+      "difference": 4778.937771130804,
+      "tolerance": 1e-06
+    },
+    {
+      "name": "elapsed estimate fiscal period length",
+      "status": "pass",
+      "difference": 79,
+      "tolerance": 0
+    },
+    {
+      "name": "elapsed estimate sales and expense signs",
+      "status": "pass",
+      "difference": 137.09811506849314,
+      "tolerance": 0
+    },
+    {
+      "name": "FY2026 future stub balance sheet",
+      "difference": 7.275957614183426e-12,
+      "tolerance": 1e-06,
+      "status": "pass"
+    },
+    {
+      "name": "FY2026 future stub cash movement",
+      "difference": 2.2737367544323206e-13,
+      "tolerance": 1e-06,
+      "status": "pass"
+    },
+    {
+      "name": "FY2026 future stub PPE roll-forward",
+      "difference": 1.1368683772161603e-12,
+      "tolerance": 1e-06,
+      "status": "pass"
+    },
+    {
+      "name": "FY2026 future stub debt roll-forward",
+      "difference": 0.0,
+      "tolerance": 1e-06,
+      "status": "pass"
+    },
+    {
+      "name": "FY2026 future stub retained earnings roll-forward",
+      "difference": 9.094947017729282e-13,
+      "tolerance": 1e-06,
+      "status": "pass"
+    },
+    {
+      "name": "FY2026 future stub equity components",
+      "difference": 1.8189894035458565e-12,
+      "tolerance": 1e-06,
+      "status": "pass"
+    },
+    {
+      "name": "FY2026 future stub depreciation allocated once",
+      "difference": -1.4779288903810084e-12,
+      "tolerance": 1e-06,
+      "status": "pass"
+    },
+    {
+      "name": "FY2026 future stub asset feasibility",
+      "status": "pass",
+      "difference": 919.6748,
+      "tolerance": 0
+    },
+    {
+      "name": "FY2026 future stub funding capacity and minimum cash",
+      "status": "pass",
+      "difference": 4340.355790620907,
+      "tolerance": 1e-06
+    },
+    {
+      "name": "FY2026 future stub fiscal period length",
+      "status": "pass",
+      "difference": 103,
+      "tolerance": 0
+    },
+    {
+      "name": "FY2026 future stub sales and expense signs",
+      "status": "pass",
+      "difference": 174.65639452054796,
+      "tolerance": 0
+    },
+    {
+      "name": "FY2027 balance sheet",
+      "difference": 7.275957614183426e-12,
+      "tolerance": 1e-06,
+      "status": "pass"
+    },
+    {
+      "name": "FY2027 cash movement",
+      "difference": 9.094947017729282e-13,
+      "tolerance": 1e-06,
+      "status": "pass"
+    },
+    {
+      "name": "FY2027 PPE roll-forward",
+      "difference": 2.7284841053187847e-12,
+      "tolerance": 1e-06,
+      "status": "pass"
+    },
+    {
+      "name": "FY2027 debt roll-forward",
+      "difference": 0.0,
+      "tolerance": 1e-06,
+      "status": "pass"
+    },
+    {
+      "name": "FY2027 retained earnings roll-forward",
+      "difference": 9.094947017729282e-13,
+      "tolerance": 1e-06,
+      "status": "pass"
+    },
+    {
+      "name": "FY2027 equity components",
+      "difference": 0.0,
+      "tolerance": 1e-06,
+      "status": "pass"
+    },
+    {
+      "name": "FY2027 depreciation allocated once",
+      "difference": -6.821210263296962e-12,
+      "tolerance": 1e-06,
+      "status": "pass"
+    },
+    {
+      "name": "FY2027 asset feasibility",
+      "status": "pass",
+      "difference": 3367.21008,
+      "tolerance": 0
+    },
+    {
+      "name": "FY2027 funding capacity and minimum cash",
+      "status": "pass",
+      "difference": 4534.1596939404435,
+      "tolerance": 1e-06
+    },
+    {
+      "name": "FY2027 fiscal period length",
+      "status": "pass",
+      "difference": 364,
+      "tolerance": 0
+    },
+    {
+      "name": "FY2027 sales and expense signs",
+      "status": "pass",
+      "difference": 601.3693863013698,
+      "tolerance": 0
+    },
+    {
+      "name": "FY2028 balance sheet",
+      "difference": 3.637978807091713e-12,
+      "tolerance": 1e-06,
+      "status": "pass"
+    },
+    {
+      "name": "FY2028 cash movement",
+      "difference": -9.094947017729282e-13,
+      "tolerance": 1e-06,
+      "status": "pass"
+    },
+    {
+      "name": "FY2028 PPE roll-forward",
+      "difference": 0.0,
+      "tolerance": 1e-06,
+      "status": "pass"
+    },
+    {
+      "name": "FY2028 debt roll-forward",
+      "difference": 0.0,
+      "tolerance": 1e-06,
+      "status": "pass"
+    },
+    {
+      "name": "FY2028 retained earnings roll-forward",
+      "difference": -2.7284841053187847e-12,
+      "tolerance": 1e-06,
+      "status": "pass"
+    },
+    {
+      "name": "FY2028 equity components",
+      "difference": 0.0,
+      "tolerance": 1e-06,
+      "status": "pass"
+    },
+    {
+      "name": "FY2028 depreciation allocated once",
+      "difference": -5.9117155615240335e-12,
+      "tolerance": 1e-06,
+      "status": "pass"
+    },
+    {
+      "name": "FY2028 asset feasibility",
+      "status": "pass",
+      "difference": 3534.9230436,
+      "tolerance": 0
+    },
+    {
+      "name": "FY2028 funding capacity and minimum cash",
+      "status": "pass",
+      "difference": 5151.818910155024,
+      "tolerance": 1e-06
+    },
+    {
+      "name": "FY2028 fiscal period length",
+      "status": "pass",
+      "difference": 371,
+      "tolerance": 0
+    },
+    {
+      "name": "FY2028 sales and expense signs",
+      "status": "pass",
+      "difference": 602.9415767123288,
+      "tolerance": 0
+    },
+    {
+      "name": "FY2029 balance sheet",
+      "difference": 1.8189894035458565e-11,
+      "tolerance": 1e-06,
+      "status": "pass"
+    },
+    {
+      "name": "FY2029 cash movement",
+      "difference": 9.094947017729282e-13,
+      "tolerance": 1e-06,
+      "status": "pass"
+    },
+    {
+      "name": "FY2029 PPE roll-forward",
+      "difference": 4.092726157978177e-12,
+      "tolerance": 1e-06,
+      "status": "pass"
+    },
+    {
+      "name": "FY2029 debt roll-forward",
+      "difference": 0.0,
+      "tolerance": 1e-06,
+      "status": "pass"
+    },
+    {
+      "name": "FY2029 retained earnings roll-forward",
+      "difference": 9.094947017729282e-13,
+      "tolerance": 1e-06,
+      "status": "pass"
+    },
+    {
+      "name": "FY2029 equity components",
+      "difference": 0.0,
+      "tolerance": 1e-06,
+      "status": "pass"
+    },
+    {
+      "name": "FY2029 depreciation allocated once",
+      "difference": 5.002220859751105e-12,
+      "tolerance": 1e-06,
+      "status": "pass"
+    },
+    {
+      "name": "FY2029 asset feasibility",
+      "status": "pass",
+      "difference": 3554.9320419599994,
+      "tolerance": 0
+    },
+    {
+      "name": "FY2029 funding capacity and minimum cash",
+      "status": "pass",
+      "difference": 5562.050772933945,
+      "tolerance": 1e-06
+    },
+    {
+      "name": "FY2029 fiscal period length",
+      "status": "pass",
+      "difference": 364,
+      "tolerance": 0
+    },
+    {
+      "name": "FY2029 sales and expense signs",
+      "status": "pass",
+      "difference": 568.7036273972602,
+      "tolerance": 0
+    },
+    {
+      "name": "FY2030 balance sheet",
+      "difference": 1.4551915228366852e-11,
+      "tolerance": 1e-06,
+      "status": "pass"
+    },
+    {
+      "name": "FY2030 cash movement",
+      "difference": -9.094947017729282e-13,
+      "tolerance": 1e-06,
+      "status": "pass"
+    },
+    {
+      "name": "FY2030 PPE roll-forward",
+      "difference": 2.2737367544323206e-12,
+      "tolerance": 1e-06,
+      "status": "pass"
+    },
+    {
+      "name": "FY2030 debt roll-forward",
+      "difference": 0.0,
+      "tolerance": 1e-06,
+      "status": "pass"
+    },
+    {
+      "name": "FY2030 retained earnings roll-forward",
+      "difference": -9.094947017729282e-13,
+      "tolerance": 1e-06,
+      "status": "pass"
+    },
+    {
+      "name": "FY2030 equity components",
+      "difference": 0.0,
+      "tolerance": 1e-06,
+      "status": "pass"
+    },
+    {
+      "name": "FY2030 depreciation allocated once",
+      "difference": -3.183231456205249e-12,
+      "tolerance": 1e-06,
+      "status": "pass"
+    },
+    {
+      "name": "FY2030 asset feasibility",
+      "status": "pass",
+      "difference": 3643.805343008999,
+      "tolerance": 0
+    },
+    {
+      "name": "FY2030 funding capacity and minimum cash",
+      "status": "pass",
+      "difference": 6261.500925033958,
+      "tolerance": 1e-06
+    },
+    {
+      "name": "FY2030 fiscal period length",
+      "status": "pass",
+      "difference": 364,
+      "tolerance": 0
+    },
+    {
+      "name": "FY2030 sales and expense signs",
+      "status": "pass",
+      "difference": 536.4572164383562,
+      "tolerance": 0
+    },
+    {
+      "name": "FY2031 balance sheet",
+      "difference": 1.8189894035458565e-11,
+      "tolerance": 1e-06,
+      "status": "pass"
+    },
+    {
+      "name": "FY2031 cash movement",
+      "difference": 1.8189894035458565e-12,
+      "tolerance": 1e-06,
+      "status": "pass"
+    },
+    {
+      "name": "FY2031 PPE roll-forward",
+      "difference": -3.637978807091713e-12,
+      "tolerance": 1e-06,
+      "status": "pass"
+    },
+    {
+      "name": "FY2031 debt roll-forward",
+      "difference": 0.0,
+      "tolerance": 1e-06,
+      "status": "pass"
+    },
+    {
+      "name": "FY2031 retained earnings roll-forward",
+      "difference": -2.7284841053187847e-12,
+      "tolerance": 1e-06,
+      "status": "pass"
+    },
+    {
+      "name": "FY2031 equity components",
+      "difference": 0.0,
+      "tolerance": 1e-06,
+      "status": "pass"
+    },
+    {
+      "name": "FY2031 depreciation allocated once",
+      "difference": -4.547473508864641e-12,
+      "tolerance": 1e-06,
+      "status": "pass"
+    },
+    {
+      "name": "FY2031 asset feasibility",
+      "status": "pass",
+      "difference": 3734.9004765842237,
+      "tolerance": 0
+    },
+    {
+      "name": "FY2031 funding capacity and minimum cash",
+      "status": "pass",
+      "difference": 8315.928973442358,
+      "tolerance": 1e-06
+    },
+    {
+      "name": "FY2031 fiscal period length",
+      "status": "pass",
+      "difference": 364,
+      "tolerance": 0
+    },
+    {
+      "name": "FY2031 sales and expense signs",
+      "status": "pass",
+      "difference": 518.6710794520548,
+      "tolerance": 0
+    }
+  ],
+  "evidence_warnings": [
+    "Official price unresolved and not used.",
+    "August current-balance components are estimated; unclassified remainders held constant.",
+    "August-to-October values are estimated, not reported.",
+    "Depreciation allocation and sales-based proxy are unverified.",
+    "Debt cohorts, maturity timing and finance-lease cash payments are approximations; FY2031 thereafter maturity unknown.",
+    "Operating lease balances, tax balances, noncurrent assets and liabilities and unclassified current balances are held constant.",
+    "Repurchases, share compensation, issuance, net other income, impairment and disposal assumed zero for draft, not verified absence.",
+    "Dividend continuation and fixed dividend payable are approximations.",
+    "Student source check and assumption approval remain pending."
+  ]
+}

@@ -1,0 +1,51 @@
+{
+  "assembled_at": "2026-10-20T03:46:31-04:00",
+  "classification": "User-supplied corrected before/reset-base screenshots",
+  "source_version": "target-audit-b7be55e9cbc05931",
+  "observed_from_user_images": {
+    "sales_growth_FY2027": 0.03,
+    "value_per_share_displayed": 120.79,
+    "value_per_share_table": 120.793,
+    "FY2031_operating_profit_m": 7096.3109,
+    "FY2031_fcff_m": 4556.5304
+  },
+  "saved_base_reference": {
+    "value_per_share": 120.79298719273514,
+    "FY2031_operating_profit_m": 7096.310905510035,
+    "FY2031_fcff_m": 4556.530447831959
+  },
+  "selected_displayed_results_match_saved_base_within_rounding": true,
+  "limits": "Original images copied unchanged. Only visible selected values compared. Not proof of all hidden inputs/checks or a complete immutable code/input snapshot. No protected prediction, change-run result, pre-run timestamp or exercise completion generated. Assembly time is not screenshot capture time. Earlier mismatched screenshots remain preserved separately.",
+  "files": [
+    {
+      "file": "01-Base-Inputs.png",
+      "source": "C:\\Users\\rocco\\AppData\\Local\\Temp\\codex-clipboard-d9ea35c5-e688-412c-9f69-89fa5c7e8ca9.png",
+      "sha256": "1dd6104749aca3411fc6ac347749b78438a8b9ec5230f8c06283d6fe5dc58c18"
+    },
+    {
+      "file": "02-Base-Valuation.png",
+      "source": "C:\\Users\\rocco\\AppData\\Local\\Temp\\codex-clipboard-f3e6e210-c5c6-4642-a270-b5ff608ab9a1.png",
+      "sha256": "54a04105c9b9ee5954d79bc16ee62e02ec5f7a9cebd42da148a17e1a9dbb6295"
+    },
+    {
+      "file": "03-Base-FCFF.png",
+      "source": "C:\\Users\\rocco\\AppData\\Local\\Temp\\codex-clipboard-34090578-d595-4201-9f70-9e2e5f0fee02.png",
+      "sha256": "c7d24c6e97395ce755404b03e56cdc1e3be16f5aae6a0e93afc21832c0e535ef"
+    },
+    {
+      "file": "04-Base-Income-Statement.png",
+      "source": "C:\\Users\\rocco\\AppData\\Local\\Temp\\codex-clipboard-9c86ac38-1b6c-4a5f-8376-1d215a6155c0.png",
+      "sha256": "c7c33919378571ce36fa7fd41e4f134e85463ea9c8caafc9cd85aeacd5beabcb"
+    },
+    {
+      "file": "05-Base-Checks.png",
+      "source": "C:\\Users\\rocco\\AppData\\Local\\Temp\\codex-clipboard-fa7ac57d-249c-4782-80b0-5b69ba9b239b.png",
+      "sha256": "51682d1cf4c156cd4ba61a142f466ff951eb711baeb4b02f4577495c0415fe09"
+    },
+    {
+      "file": "06-Base-Course-Answer-Checks.png",
+      "source": "C:\\Users\\rocco\\AppData\\Local\\Temp\\codex-clipboard-92c1933b-656a-441b-9df5-b1b461b2703f.png",
+      "sha256": "1be73a5b996f5759553a6fd0595261c3bfb20a2c59f4b2f23fd8098615ad11d6"
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "organized_at": "2026-10-20T17:04:18-04:00",
+  "main_project": "C:\\Users\\rocco\\OneDrive\\Documents\\FIN_43900\\target-finance-ai-project",
+  "upload_folders": [
+    "data",
+    "docs",
+    "outputs",
+    "tests",
+    "course-materials"
+  ],
+  "local_recordings": "recordings/",
+  "local_temporary_files": ".local/",
+  "supplied_original_videos_preserved": true,
+  "model_source_unchanged": true,
+  "remote_changes_made": false
+}

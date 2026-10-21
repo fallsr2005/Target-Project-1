@@ -1,0 +1,18 @@
+{
+  "source_version": "target-audit-b7be55e9cbc05931",
+  "student_source_check": "confirmed by student report; assisted wording disclosed",
+  "ai_disposition": "correction accepted; cutoff/dilution use qualified",
+  "conditional_policy": "accepted",
+  "financial_results_unchanged": true,
+  "model_checks": {
+    "pass": 94,
+    "fail": 0
+  },
+  "entry_screen": 96.63438975418812,
+  "remaining": [
+    "protected pre-run prediction/execution",
+    "actual credited partner-feedback evidence",
+    "Edition A receipt/switch evidence",
+    "recordings/transcripts/repository/video access"
+  ]
+}

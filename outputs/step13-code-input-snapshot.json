@@ -1,0 +1,42 @@
+﻿{
+    "snapshot_id":  "target-step13-2026-10-19-provisional",
+    "created_local":  "2026-10-19 23:48:15 -04:00",
+    "files":  [
+                  {
+                      "path":  "financial_engine.py",
+                      "sha256":  "4C2F5EE62ECE0AFDBFEDC32661EE18C446A4C61FE0ECA2F31ECB8186988E3F23"
+                  },
+                  {
+                      "path":  "valuation_engine.py",
+                      "sha256":  "AF3203CC6384D56049E2A2B778C2C2EE532AD1F4A38ECE36FAC53864FAFE69B1"
+                  },
+                  {
+                      "path":  "app.py",
+                      "sha256":  "0C096D3E6197EA419553AFF206CD267477E101E0A55245809CE29D32A62FA501"
+                  },
+                  {
+                      "path":  "analysis.py",
+                      "sha256":  "373EC712A5B0AB9D70B5ADB1F9DC65C8E7A5BE11B807814CF130D4A5370D26DC"
+                  },
+                  {
+                      "path":  "data/model-inputs-step6.json",
+                      "sha256":  "29563D458C7749687CB4F6651A1A1E2E284D10C84DD03C61C13AD1FC835A2E6C"
+                  },
+                  {
+                      "path":  "data/model-inputs-step7.json",
+                      "sha256":  "24110FD0A72FF21891887A5C4A80A4258C57852B4E17542769BD4EB07BA537E9"
+                  },
+                  {
+                      "path":  "data/historical-reported.json",
+                      "sha256":  "1F9055BF9BBEC486CC5E19928C0438120C7F709C7BC0399C126F95847564984D"
+                  },
+                  {
+                      "path":  "data/supplemental-evidence.json",
+                      "sha256":  "981652D0131C5B6116FC067B1298F2DB7CCDCC1382BB436331497F885830B8CE"
+                  },
+                  {
+                      "path":  "docs/peer-policy-original.md",
+                      "sha256":  "00A7FAE8314F6D989DFD668BAB2A4B540B3925A28EB7C33BBE17B3D5D7294B3D"
+                  }
+              ]
+}

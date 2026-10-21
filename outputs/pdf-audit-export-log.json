@@ -1,0 +1,41 @@
+{
+  "export_time": "2026-10-20T06:29:41.545865-04:00",
+  "source_version": "target-audit-b7be55e9cbc05931",
+  "files": [
+    {
+      "file": "Research-Evolution.pdf",
+      "pages": 4,
+      "sha256": "e315f6ffa6edaa9fa452066965c4e4128c304ca87476dd8b670951a95a776655",
+      "current_figures_verified": true
+    },
+    {
+      "file": "Validation-and-AI-Use.pdf",
+      "pages": 6,
+      "sha256": "937ff7bf40f12448d4d5a8827c3a9c7ddb68f27a55bee715f146e9cf98bf1347",
+      "current_figures_verified": true,
+      "recording_status_updated": true
+    }
+  ],
+  "edition_a_preserved": true,
+  "manifest_columns_preserved": [
+    "item",
+    "required",
+    "location_or_url",
+    "title",
+    "duration_or_as_of",
+    "timestamp_index",
+    "access_checked",
+    "frozen_or_commit_id",
+    "notes"
+  ],
+  "manifest_rows": 12,
+  "visual_review": "All six current validation pages rendered and inspected; text is readable with no clipping, overlap or blank pages. Unchanged research pages were inspected during the preceding export.",
+  "changed_input_evidence_attached": true,
+  "model_rerun": false,
+  "source_hashes_unchanged": true,
+  "embedded_evidence_verified": true,
+  "original_prediction_archive_unchanged": true,
+  "manifest_real_urls_preserved": true,
+  "protected_exercise_complete": false,
+  "external_upload_performed": false
+}

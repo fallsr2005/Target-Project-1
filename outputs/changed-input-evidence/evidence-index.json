@@ -1,0 +1,94 @@
+{
+  "assembled_at": "2026-10-20T04:02:34-04:00",
+  "status": "Changed-run screenshots received; reset evidence and student actual-result explanation/decision still pending",
+  "student_selected_input": {
+    "name": "FY2027 sales growth",
+    "old": 0.03,
+    "new": 0.07,
+    "units": "annual growth decimal",
+    "selection_source": "Direct user messages; no assistant-operated slider change"
+  },
+  "observed_from_screenshots": {
+    "before": {
+      "FY2031_operating_profit_m": 7096.3109,
+      "FY2031_fcff_m": 4556.5304,
+      "value_per_share_table": 120.793,
+      "value_per_share_displayed": 120.79
+    },
+    "after": {
+      "FY2031_operating_profit_m": 7371.8958,
+      "FY2031_fcff_m": 4733.4831,
+      "value_per_share_table": 126.5772,
+      "value_per_share_displayed": 126.58
+    }
+  },
+  "metric_clarification": {
+    "student_response_verbatim": "Operating profit, as originally written",
+    "timing": "Received after changed-run screenshots; preserved as separate clarification, original prediction not revised"
+  },
+  "unit_clarification": {
+    "reported_by_student": "Intended magnitudes are1billion for financial amounts and5USD for estimated value per share; original metric confirmed operating profit.",
+    "timing": "Units confirmed in the message accompanying changed-run evidence; not backdated as a new pre-run statement"
+  },
+  "visible_checks": "The displayed FY2031 rows show pass. Screenshots do not independently certify every undisplayed check or hidden input. Course fixture screenshots are separate benchmark evidence.",
+  "prediction_archive": {
+    "file": "Target-Student-Prediction-and-Base-20261020-035512.zip",
+    "sha256": "636616b02d0444f397dbce978a015199b040fe9875abca98ccd058ba18cbe89e",
+    "original_unchanged": true
+  },
+  "pending": [
+    "Student reset/restored-base screenshots",
+    "Student own actual-result comparison and explanation of any prediction difference",
+    "Student own actual decision after reviewing results",
+    "Actual run/reset timestamps if required; archive receipt times are not invented execution times",
+    "Full-precision input evidence if needed to establish only one independent input changed"
+  ],
+  "limits": "Clerical preservation and transcription only. No changed model run, slider operation, generated prediction, assistant interpretation for the protected exercise or AI-off completion certification. Existing project recommendation remains watch/defer pending actual student evaluation.",
+  "files": [
+    {
+      "file": "after/01-After-Inputs-007.png",
+      "source": "C:\\Users\\rocco\\AppData\\Local\\Temp\\codex-clipboard-25c89341-abd6-4e8a-bda9-91e36230820d.png",
+      "sha256": "fe950bd0f6ea1c27e3faf0e8e4efb4692a24c5efa670f315f504b84aac909750"
+    },
+    {
+      "file": "after/02-After-Income-Statement.png",
+      "source": "C:\\Users\\rocco\\AppData\\Local\\Temp\\codex-clipboard-9ce7a92e-b48d-468f-813a-191bea2dd841.png",
+      "sha256": "d703c8d76db5196e3c756794b314b1c44c62eaa8c264743bb1bc85e265b24550"
+    },
+    {
+      "file": "after/03-After-Valuation.png",
+      "source": "C:\\Users\\rocco\\AppData\\Local\\Temp\\codex-clipboard-e372e4c9-4040-45cb-b8ad-f29e775a8009.png",
+      "sha256": "a845ff56ab488b456eaec868422d9b9687b9bc318cecec005d131bc1f452d8d3"
+    },
+    {
+      "file": "after/04-After-FCFF.png",
+      "source": "C:\\Users\\rocco\\AppData\\Local\\Temp\\codex-clipboard-5fa21651-87fe-48c0-9ff8-d8b48c5b2926.png",
+      "sha256": "ccfa944e994ab154b9fcf635f92a66dfbc5df7c895213d7a2199cfb590819d1f"
+    },
+    {
+      "file": "after/05-After-Checks.png",
+      "source": "C:\\Users\\rocco\\AppData\\Local\\Temp\\codex-clipboard-16d30f29-2d4e-4f47-90bf-819885520eba.png",
+      "sha256": "ac33f93f641b581fbec4a040c5f960453e72620e774470096e2ba12d4d01f44e"
+    },
+    {
+      "file": "after/06-After-Course-Checks.png",
+      "source": "C:\\Users\\rocco\\AppData\\Local\\Temp\\codex-clipboard-fd5bac3e-5577-4e04-bc12-12d4f68abb20.png",
+      "sha256": "7cecfeff16885a9db6929db3587e133ac615b23bfa5fc4d1941f141ee8503635"
+    },
+    {
+      "file": "after/07-After-Course-Checks.png",
+      "source": "C:\\Users\\rocco\\AppData\\Local\\Temp\\codex-clipboard-0686c63c-5ec5-4bc0-bdd9-6af05a81f0de.png",
+      "sha256": "7cecfeff16885a9db6929db3587e133ac615b23bfa5fc4d1941f141ee8503635"
+    },
+    {
+      "file": "after/08-After-Course-Checks.png",
+      "source": "C:\\Users\\rocco\\AppData\\Local\\Temp\\codex-clipboard-eb86c089-d40e-4dd0-b940-89973af1aad2.png",
+      "sha256": "7cecfeff16885a9db6929db3587e133ac615b23bfa5fc4d1941f141ee8503635"
+    },
+    {
+      "file": "after/09-After-Course-Checks.png",
+      "source": "C:\\Users\\rocco\\AppData\\Local\\Temp\\codex-clipboard-fc7615cc-3dd5-4001-997e-d4ec421081c2.png",
+      "sha256": "7cecfeff16885a9db6929db3587e133ac615b23bfa5fc4d1941f141ee8503635"
+    }
+  ]
+}

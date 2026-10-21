@@ -1,0 +1,21 @@
+{
+  "time_local": "2026-10-20T18:23:04.602859-04:00",
+  "operator": "Codex assistant",
+  "scope": "New follow-up replay; not evidence of reset immediately after the original student test.",
+  "changed": {
+    "growth": 0.07,
+    "valuation": [
+      "$126.58"
+    ]
+  },
+  "reset": {
+    "growth": 0.03,
+    "valuation": [
+      "$120.79"
+    ],
+    "errors": [
+      "Historical reference flag: FY2027 capex / sales is outside 2.71% to 4.47%. This is an assumption-review alert, not an accounting failure. Cost comparison includes allocated depreciation; observations and normalizations differ."
+    ],
+    "exceptions": []
+  }
+}
