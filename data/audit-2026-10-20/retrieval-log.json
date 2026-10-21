@@ -1,0 +1,65 @@
+[
+  {
+    "file": "submissions-WMT.json",
+    "url": "https://data.sec.gov/submissions/CIK0000104169.json",
+    "status": "downloaded",
+    "bytes": 158859,
+    "sha256": "d11f4d0ddeddf3a4ea5c5f0fc079a3f9e5306924549b52a98517b0065dcc571c"
+  },
+  {
+    "file": "submissions-COST.json",
+    "url": "https://data.sec.gov/submissions/CIK0000909832.json",
+    "status": "downloaded",
+    "bytes": 158362,
+    "sha256": "ddbc474ee1b766ecc36ba39759b1e2910135401dc12c08e93f034c65fc9c15d1"
+  },
+  {
+    "file": "facts-WMT.json",
+    "url": "https://data.sec.gov/api/xbrl/companyfacts/CIK0000104169.json",
+    "status": "downloaded",
+    "bytes": 3770257,
+    "sha256": "54ec3fbf36dc203dd00a0333396b3df2b6695ecdf6cbb19b6ec41b053d86b517"
+  },
+  {
+    "file": "prices-TGT.json",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/TGT?period1=1634515200&period2=1792454400&interval=1d&events=history&includeAdjustedClose=true",
+    "status": "downloaded",
+    "bytes": 136547,
+    "sha256": "20bd10682c0019a1ccfd93777a3f50d05ae338a8a12f4d98e0c2992b4c7b1363"
+  },
+  {
+    "file": "prices-WMT.json",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/WMT?period1=1634515200&period2=1792454400&interval=1d&events=history&includeAdjustedClose=true",
+    "status": "downloaded",
+    "bytes": 138833,
+    "sha256": "3a3916f62d575907da95934a0d8e4427d30a072acce45d74c7dfb139a8ad1aa2"
+  },
+  {
+    "file": "prices-COST.json",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/COST?period1=1634515200&period2=1792454400&interval=1d&events=history&includeAdjustedClose=true",
+    "status": "downloaded",
+    "bytes": 128643,
+    "sha256": "96aeb26d32338a3102bd3034def72bbdc22cc5aec4ff07f6e840bf785b35aaea"
+  },
+  {
+    "file": "prices-SPY.json",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/SPY?period1=1634515200&period2=1792454400&interval=1d&events=history&includeAdjustedClose=true",
+    "status": "downloaded",
+    "bytes": 136431,
+    "sha256": "4e68ac723b956081eca0e27439895b8a89ef599593352fdc1ec0b36a7a3b1f48"
+  },
+  {
+    "file": "facts-COST.json",
+    "url": "https://data.sec.gov/api/xbrl/companyfacts/CIK0000909832.json",
+    "status": "downloaded",
+    "bytes": 3694553,
+    "sha256": "b675ced201b27ede2b0d26ca6fd873befe96a1afa9679339a2d0b964187dcdff"
+  },
+  {
+    "file": "facts-TGT.json",
+    "url": "https://data.sec.gov/api/xbrl/companyfacts/CIK0000027419.json",
+    "status": "downloaded",
+    "bytes": 3761536,
+    "sha256": "eb15a2cd524e99ff27675db78840d039ec4a68b9cc2dcb10accbcb299933a487"
+  }
+]

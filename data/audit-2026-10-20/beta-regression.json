@@ -1,0 +1,15 @@
+{
+  "beta": 0.9008291102522065,
+  "observations": 260,
+  "r_squared": 0.18142317831303933,
+  "frequency": "weekly Friday close; last complete week October 16, 2026",
+  "dependent": "TGT adjusted-close simple total-return proxy",
+  "independent": "SPY adjusted-close simple total-return proxy",
+  "intercept_weekly": -0.0024532787231228747,
+  "method": "OLS with intercept, sample covariance / sample variance; all return dates before cutoff",
+  "source_files": [
+    "prices-TGT.json",
+    "prices-SPY.json"
+  ],
+  "limitation": "SPY is a broad-market ETF proxy; historical beta is noisy and not a forecast guarantee"
+}

@@ -1,0 +1,146 @@
+{
+  "status": "Conditional estimates accepted for use by student; economic estimation risks and protected validation remain",
+  "as_of": "2026-10-19T16:00:00-04:00",
+  "risk_free": {
+    "value": 0.0509,
+    "unit": "annual decimal yield",
+    "source_id": "W01",
+    "status": "prior-business-day Treasury par-yield proxy"
+  },
+  "equity_risk_premium": {
+    "value": 0.042,
+    "unit": "annual decimal",
+    "source_id": "W02",
+    "status": "October 1 estimate; cutoff publication time not archived"
+  },
+  "equity_beta": {
+    "value": 0.9008291102522065,
+    "unit": "levered beta",
+    "source_id": "data/audit-2026-10-20/beta-regression.json",
+    "status": "OLS on 260 weekly dividend/split-adjusted returns versus SPY; five-year window through October 16"
+  },
+  "new_debt_cost": {
+    "value": 0.06,
+    "unit": "annual pretax decimal yield",
+    "source_id": "W04",
+    "status": "assumed marginal borrowing cost, not observed yield"
+  },
+  "tax_shield_rate": {
+    "value": 0.24,
+    "unit": "decimal",
+    "source_id": "W05",
+    "status": "provisional full deductibility assumption"
+  },
+  "equity_weight": {
+    "value": 0.8193212209822804,
+    "unit": "fraction",
+    "source_id": "W06",
+    "status": "provider Close times latest reported basic shares; debt carrying-value proxy"
+  },
+  "debt_weight": {
+    "value": 0.18067877901771956,
+    "unit": "fraction",
+    "source_id": "W06",
+    "status": "August total interest-bearing debt including finance leases / proxy capitalization"
+  },
+  "terminal_growth": {
+    "value": 0.02,
+    "unit": "annual decimal",
+    "source_id": "W07",
+    "status": "provisional"
+  },
+  "terminal_incremental_roic": {
+    "value": 0.12,
+    "unit": "after-tax annual return on incremental capital",
+    "source_id": "W08",
+    "status": "provisional; not a measured historical ROIC"
+  },
+  "incremental_dilution": {
+    "value": 2.2,
+    "unit": "million shares",
+    "source_id": "W09",
+    "status": "Q2 EPS weighted-average difference used only as provisional proxy"
+  },
+  "other_claims_and_nonoperating_assets": {
+    "value": -306,
+    "unit": "USD millions",
+    "source_id": "docs/audit-financial-conventions.md",
+    "status": "itemized conditional carrying-value bridge; estimates require student review"
+  },
+  "market_price": {
+    "value": 153.29,
+    "unit": "USD per share",
+    "source_url": "https://query1.finance.yahoo.com/v8/finance/chart/TGT",
+    "definition": "provider-reported daily Close; split basis checked; not official auction verification",
+    "timestamp": "2026-10-19T16:00:00-04:00",
+    "accepted_by_student": true,
+    "calculation_basis": "conditional_provider_close",
+    "status": "Accepted for conditional class-model use under student-approved assumptions; provider daily Close, not official auction verification"
+  },
+  "bridge_claim_items": [
+    {
+      "name": "Company-owned life insurance",
+      "signed_amount": 600,
+      "unit": "USD millions",
+      "source": "https://www.sec.gov/Archives/edgar/data/27419/000002741926000016/tgt-20260131.htm",
+      "locator": "FY2025 10-K Note 13",
+      "classification": "reported historical amount; cutoff carrying estimate",
+      "judgment": "January carrying value used as cutoff estimate; operating forecast excludes its investment returns"
+    },
+    {
+      "name": "Prepaid forward asset",
+      "signed_amount": 25,
+      "unit": "USD millions",
+      "source": "https://www.sec.gov/Archives/edgar/data/27419/000002741926000042/tgt-20260801.htm",
+      "locator": "Q2 FY2026 10-Q Note 5",
+      "classification": "reported historical amount; cutoff carrying estimate",
+      "judgment": "August fair-value asset; financing-linked deferred-compensation hedge"
+    },
+    {
+      "name": "Deferred compensation",
+      "signed_amount": -650,
+      "unit": "USD millions",
+      "source": "https://www.sec.gov/Archives/edgar/data/27419/000002741926000016/tgt-20260131.htm",
+      "locator": "FY2025 10-K Notes 21 and 24",
+      "classification": "reported historical amount; cutoff carrying estimate",
+      "judgment": "January claim estimate; cash settlement of opening earned compensation not separately forecast"
+    },
+    {
+      "name": "Unfunded nonqualified/international pensions",
+      "signed_amount": -37,
+      "unit": "USD millions",
+      "source": "https://www.sec.gov/Archives/edgar/data/27419/000002741926000016/tgt-20260131.htm",
+      "locator": "FY2025 10-K Note 25",
+      "classification": "reported historical amount; cutoff carrying estimate",
+      "judgment": "January shortfall, pretax carrying proxy; full deduction conservative to assumed tax shield"
+    },
+    {
+      "name": "Net interest-rate swap liability",
+      "signed_amount": -106,
+      "unit": "USD millions",
+      "source": "https://www.sec.gov/Archives/edgar/data/27419/000002741926000042/tgt-20260801.htm",
+      "locator": "Q2 FY2026 10-Q Notes 5 and 8",
+      "classification": "reported historical amount; cutoff carrying estimate",
+      "judgment": "August derivative liability separate from carrying debt; no duplicate derivative cash flow in FCFF"
+    },
+    {
+      "name": "Accrued interest",
+      "signed_amount": -138,
+      "unit": "USD millions",
+      "source": "https://www.sec.gov/Archives/edgar/data/27419/000002741926000016/tgt-20260131.htm",
+      "locator": "FY2025 10-K Note 15",
+      "classification": "reported historical amount; cutoff carrying estimate",
+      "judgment": "January estimate for opening accrued financing interest; future interest excluded from FCFF"
+    }
+  ],
+  "bridge_classification_notes": [
+    "Goodwill, PP&E and residual operating assets remain in operating enterprise value; not added again.",
+    "Operating leases remain in EBIT and FCFF; operating lease assets/liabilities are not separately bridged. Finance leases are included in debt once.",
+    "Qualified pension surplus of 231 is not treated as freely distributable excess cash; no separate addition under restricted-surplus convention.",
+    "Operating payables, employee/insurance reserves, deferred occupancy and operating deferred taxes remain embedded in continuing operating economics; not an extra financing deduction.",
+    "Dividends payable are distributions to the same common owners; not an additional non-common claim in this cum-distribution equity value.",
+    "No preferred equity or noncontrolling interest is shown in Target consolidated statements; zero separate claim is an evidenced classification, not an unexplained missing value.",
+    "The bridge is specified under explicit carrying-value/classification assumptions; unreported cutoff balances, award dilution and fair-value differences remain estimation risks.",
+    "Current/noncurrent income-tax accruals are treated as continuing operating tax float under the constant-balance/cash-operating-tax convention. Do not deduct them again as financing debt. A separate 780 immediate-settlement stress can test cessation of that float; it is not the base convention."
+  ]
+}

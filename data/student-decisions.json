@@ -1,0 +1,91 @@
+{
+  "recommendation": {
+    "status": "confirmed_by_student",
+    "proposal": "watch/defer",
+    "approved_action": "watch/defer",
+    "confirmed_on": "2026-10-20",
+    "source": "Direct user instruction in this conversation: say that I want to watch/defer.",
+    "scope": "Recommendation only; does not approve every model assumption, market-price convention, monitoring threshold or validation task."
+  },
+  "source_check": {
+    "status": "confirmed_by_student_report",
+    "reported_at": "2026-10-20T02:24:18-04:00",
+    "source_url": "https://www.sec.gov/Archives/edgar/data/27419/000002741926000042/tgt-20260801.htm",
+    "locator": "Form 10-Q cover page",
+    "reported_share_count": 454296736,
+    "reported_share_date": "2026-08-21",
+    "definition": "point-in-time common shares outstanding, not diluted weighted-average shares",
+    "student_response_verbatim": "The cover reports 454,296,736 common shares outstanding as of August 21, 2026. I accept the correction from the older August 1 count because August 21 is the more recent disclosed date. However, I would qualify its use in the valuation: it is not an exact October 19 count, and it is not a diluted share count. The model’s additional dilution remains an estimate. This small correction does not change my watch/defer recommendation.",
+    "reading_time": "not separately provided; reported_at is receipt time, not an invented source-access timestamp",
+    "drafting_assistance": "Student submitted the assisted example wording as the response; source finding and disposition are recorded as reported, not as unassisted authorship."
+  },
+  "ai_output_review": {
+    "status": "accepted_correction_and_qualified_use",
+    "reported_at": "2026-10-20T02:24:18-04:00",
+    "output": "Earlier model used August 1 common shares as valuation base although August 21 cover shares were available. The older amount was valid for its date, not fabricated.",
+    "evidence": "https://www.sec.gov/Archives/edgar/data/27419/000002741926000042/tgt-20260801.htm cover; prior model/source ledger preserved in audit backup",
+    "disposition": "Accept newer reported basic count; qualify exact October count and award dilution",
+    "isolated_effect": "Approximately -$0.0014/share holding equity fixed; rounded current value remains $120.79",
+    "recommendation_effect": "watch/defer unchanged",
+    "student_response_verbatim": "The cover reports 454,296,736 common shares outstanding as of August 21, 2026. I accept the correction from the older August 1 count because August 21 is the more recent disclosed date. However, I would qualify its use in the valuation: it is not an exact October 19 count, and it is not a diluted share count. The model’s additional dilution remains an estimate. This small correction does not change my watch/defer recommendation.",
+    "scope": "This is not the protected AI-off changed-input exercise."
+  },
+  "assumptions": {
+    "status": "accepted_for_conditional_use",
+    "reported_at": "2026-10-20T02:24:18-04:00",
+    "student_response_verbatim": "Keep the conditional assumptions and accept the proposed policy",
+    "scope": "Existing source-check worksheet assumptions and disclosed conventions retained for the class model; approval is not independent verification of every estimate or statistical validation of bounds."
+  },
+  "monitoring_policy": {
+    "status": "accepted_by_student",
+    "reported_at": "2026-10-20T02:24:18-04:00",
+    "owner": "student analyst",
+    "review_cadence": "within five business days of each quarterly earnings release",
+    "rules": [
+      {
+        "metric": "reported comparable-sales growth",
+        "condition": "non-positive for two consecutive reports",
+        "window": "within five business days of each quarterly release; additionally on any source/accounting failure",
+        "owner": "student analyst",
+        "response": "revisit recovery growth and watch/defer recommendation",
+        "student_approved": true
+      },
+      {
+        "metric": "recurring operating margin after a disclosed normalization bridge",
+        "condition": "below 4.5% for two consecutive quarters",
+        "window": "within five business days of each quarterly release; additionally on any source/accounting failure",
+        "owner": "student analyst",
+        "response": "rerun downside case and reconsider initiation eligibility",
+        "student_approved": true
+      },
+      {
+        "metric": "inventory growth versus sales growth in matching seasonal periods",
+        "condition": "inventory growth exceeds sales growth by over 5 percentage points for two consecutive quarters",
+        "window": "within five business days of each quarterly release; additionally on any source/accounting failure",
+        "owner": "student analyst",
+        "response": "review markdown exposure, turnover assumptions and liquidity",
+        "student_approved": true
+      },
+      {
+        "metric": "required accounting/source checks",
+        "condition": "any required reconciliation fails or a load-bearing source cannot be reproduced",
+        "window": "within five business days of each quarterly release; additionally on any source/accounting failure",
+        "owner": "student analyst",
+        "response": "stop reliance on valuation until corrected",
+        "student_approved": true
+      }
+    ]
+  },
+  "entry_policy": {
+    "status": "accepted_by_student",
+    "reported_at": "2026-10-20T02:24:18-04:00",
+    "discount_to_current_base": 0.2,
+    "conditions": "Consider initiation only after validation is complete, operating evidence supports the thesis and no unresolved monitoring trigger remains. Price alone is not an automatic purchase. Recalculate with each updated base value.",
+    "risk": "Entry screen may exceed the low operating case; not protection against every downside scenario."
+  },
+  "market_price_convention": {
+    "status": "accepted_for_conditional_use",
+    "reported_at": "2026-10-20T02:24:18-04:00",
+    "definition": "153.29 provider daily Close as disclosed in the accepted conditional-assumption worksheet; not verified official closing-auction print"
+  }
+}

@@ -1,0 +1,221 @@
+{
+  "status": "Conditional estimates accepted for use by student; economic estimation risks and protected validation remain",
+  "units": "financial values USD millions; share counts millions; rates decimals; time calendar days",
+  "as_of": "2026-10-19T16:00:00-04:00",
+  "source": "data/historical-reported.json; docs/step-6-model-notes.md",
+  "drivers": {
+    "sales_growth": {
+      "value": [
+        0.04,
+        0.03,
+        0.03,
+        0.025,
+        0.025,
+        0.025
+      ],
+      "unit": "annual growth, 52-week equivalent",
+      "source": "Step 5; FY2028 revised to 52-week-equivalent growth",
+      "status": "provisional"
+    },
+    "cost_ex_da_rate": {
+      "value": [
+        0.716,
+        0.713,
+        0.712,
+        0.711,
+        0.71,
+        0.71
+      ],
+      "unit": "share of sales",
+      "source": "Step 5 assumption",
+      "status": "provisional"
+    },
+    "sga_rate": {
+      "value": [
+        0.206,
+        0.205,
+        0.204,
+        0.203,
+        0.203,
+        0.203
+      ],
+      "unit": "share of sales",
+      "source": "Step 5; FY2025 adjusted 10-K p.33",
+      "status": "provisional"
+    },
+    "capex_rate": {
+      "value": [
+        0.045,
+        0.045,
+        0.04,
+        0.04,
+        0.0375,
+        0.0375
+      ],
+      "unit": "share of sales",
+      "source": "Step 5",
+      "status": "provisional"
+    },
+    "da_rate": {
+      "value": [
+        0.03,
+        0.03,
+        0.03,
+        0.03,
+        0.03,
+        0.03
+      ],
+      "unit": "share of sales",
+      "source": "Step 5; FY2025 cash-flow D&A",
+      "status": "provisional proxy"
+    },
+    "da_in_cost_fraction": {
+      "value": 0.165,
+      "unit": "fraction of total depreciation",
+      "source": "Step 5; difference not verified as allocation",
+      "status": "unverified proxy"
+    },
+    "tax_rate": {
+      "value": 0.24,
+      "unit": "fraction of positive pretax earnings",
+      "source": "Step 5",
+      "status": "provisional; no immediate loss benefit"
+    },
+    "inventory_days": {
+      "value": 61,
+      "unit": "days of annualized cost of sales",
+      "source": "Step 5",
+      "status": "provisional"
+    },
+    "payable_days": {
+      "value": 62,
+      "unit": "days of annualized cost of sales",
+      "source": "Step 5",
+      "status": "provisional"
+    },
+    "other_operating_assets_rate": {
+      "value": 0.015,
+      "unit": "share of 52-week-equivalent sales",
+      "source": "Step 5; classification unresolved",
+      "status": "provisional proxy"
+    },
+    "operating_accruals_rate": {
+      "value": 0.045,
+      "unit": "share of 52-week-equivalent sales",
+      "source": "Step 5; classification unresolved",
+      "status": "provisional proxy"
+    },
+    "elapsed_sales_share_remaining_year": {
+      "value": 0.3936918742295337,
+      "unit": "share of FY2026 sales after reported H1",
+      "source": "Prior FY2025 Q3 sales / H2 sales, scaled 79/91 through quarter; audit-2026-10-20 facts-TGT.json",
+      "status": "seasonal proxy; not current reported interval"
+    },
+    "elapsed_other_flow_share": {
+      "value": 0.4340659340659341,
+      "unit": "share of unreported FY2026 flow after H1",
+      "source": "79 calendar days elapsed out of 182 unreported days; D&A/capex timing proxy",
+      "status": "forecast allocation assumption"
+    },
+    "minimum_cash": {
+      "value": 1000,
+      "unit": "USD millions",
+      "source": "Step 5",
+      "status": "provisional, not established requirement"
+    },
+    "revolver_capacity": {
+      "value": 4000,
+      "unit": "USD millions",
+      "source": "Q2 FY2026 10-Q liquidity; expires August 2031",
+      "status": "limit sourced; actual available capacity at cutoff unverified"
+    },
+    "new_borrowing_rate": {
+      "value": 0.05,
+      "unit": "annual rate on drawn new borrowing only",
+      "source": "Step 5",
+      "status": "provisional"
+    },
+    "quarterly_dividend": {
+      "value": 1.16,
+      "unit": "USD per share per quarter",
+      "source": "September 23 2026 declaration for December; later quarters assumed",
+      "status": "one declared, future continuation provisional"
+    },
+    "other_oca_operating_aug": {
+      "value": 1700,
+      "unit": "USD millions",
+      "source": "Step 6 split of August total; not published breakdown",
+      "status": "estimate"
+    },
+    "operating_accrual_aug": {
+      "value": 4000,
+      "unit": "USD millions",
+      "source": "Step 6 split of August total informed by FY2025 note 15; not August reported detail",
+      "status": "estimate"
+    },
+    "income_tax_payable_aug": {
+      "value": 440,
+      "unit": "USD millions",
+      "source": "FY2025 note 15 held as placeholder for undisclosed August value",
+      "status": "estimate"
+    },
+    "dividend_payable_aug": {
+      "value": 516,
+      "unit": "USD millions",
+      "source": "FY2025 note 15 held as placeholder for undisclosed August value",
+      "status": "estimate"
+    },
+    "interest_payable_aug": {
+      "value": 138,
+      "unit": "USD millions",
+      "source": "FY2025 note 15 held as placeholder for undisclosed August value",
+      "status": "estimate"
+    },
+    "forward_contract_aug": {
+      "value": 25,
+      "unit": "USD millions",
+      "source": "Q2 FY2026 10-Q note 5",
+      "status": "reported fact"
+    }
+  },
+  "maturities_nominal": {
+    "values": [
+      1000,
+      97,
+      581,
+      1000,
+      1230,
+      0
+    ],
+    "unit": "USD millions FY2026 to FY2031",
+    "source": "FY2025 10-K note 17; FY2026 remainder after $1000 April 2026 repayment in Q2 10-Q note 8; maturity timing allocation assumption",
+    "status": "nominal schedule; exact intra-year dates and FY2031 thereafter amount unresolved"
+  },
+  "shares_outstanding": {
+    "value": 454.296736,
+    "unit": "million basic shares",
+    "as_of": "2026-08-21",
+    "source": "Q2 FY2026 10-Q cover, filed August 28",
+    "status": "latest reported cover count; cutoff changes assumed zero, not exact October count"
+  },
+  "cutoff_seasonality": {
+    "inventory_factor": 1.135803564496989,
+    "payables_factor": 1.1280637159662037,
+    "basis": "Prior FY2025 Q2-to-Q3 balance ratios; interpolate 79/91 days into analogous quarter; an estimated seasonal pattern, not observed October balances",
+    "prior_inventory": [
+      12881.0,
+      14896.0
+    ],
+    "prior_payables": [
+      12019.0,
+      13792.0
+    ],
+    "source": "SEC companyfacts, FY2025 Q3 10-Q accession 0000027419-25-000126"
+  },
+  "finance_lease_principal": {
+    "annual_value": 136,
+    "unit": "USD millions",
+    "source": "August current debt 1136 less remaining 1000 bond cohort; recurring annual lease principal approximation, not a contractual schedule",
+    "status": "forecast policy; annual 136 held constant, no new finance leases"
+  }
+}
